@@ -18,6 +18,8 @@ void insertList_byPos(int p,Node *newNode,List *L);     //* hàm chèn một nod
 void inputList(int n,List *L);                          //* hàm thêm n node vào trong danh sách
 void deleteList_byValue(int x,List *L);                 //* hàm xoá node chứa x trong danh sách
 void deleteList_byPos(int p,List *L);                   //* hàm xoá node vị trí  p trong danh sách
+int Find_Max(List L);                                   //* hàm tìm số nhỏ nhất trong danh sách
+int Find_Min(List L);                                   //* hàm tìm số lớn nhất trong danh sách
 
 void makeNullList(List *L){
     L->Head = NULL;
@@ -121,6 +123,29 @@ void deleteList_byPos(int p,List *L){
         }
         i++;
         temp = temp->Next;
+    }   
+}
+int Find_Max(List L){
+    Node *temp=L.Head;
+    int max=temp->data;
+    while (temp!=NULL) {
+        if(max<temp->data){
+            max=temp->data;
+        }
+        temp=temp->Next;
     }
-    
+    free(temp);
+    return max;
+}
+int Find_Min(List L){
+    Node *temp=L.Head;
+    int min=temp->data;
+    while (temp!=NULL) {
+        if(min>temp->data){
+            min=temp->data;
+        }
+        temp=temp->Next;
+    }
+    free(temp);
+    return min;
 }
