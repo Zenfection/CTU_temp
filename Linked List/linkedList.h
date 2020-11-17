@@ -20,7 +20,8 @@ void deleteList_byValue(int x,List *L);                 //* hàm xoá node chứ
 void deleteList_byPos(int p,List *L);                   //* hàm xoá node vị trí  p trong danh sách
 int Find_Max(List L);                                   //* hàm tìm số nhỏ nhất trong danh sách
 int Find_Min(List L);                                   //* hàm tìm số lớn nhất trong danh sách
-int Search_Value_List(int x,List L);                  //* hàm tìm vị trí node chứa x
+int Search_Value_List(int x,List L);                    //* hàm tìm vị trí node chứa x
+
 void makeNullList(List *L){
     L->Head = NULL;
     L->Tail = NULL;
