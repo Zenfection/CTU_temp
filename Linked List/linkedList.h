@@ -20,7 +20,7 @@ void deleteList_byValue(int x,List *L);                 //* hàm xoá node chứ
 void deleteList_byPos(int p,List *L);                   //* hàm xoá node vị trí  p trong danh sách
 int Find_Max(List L);                                   //* hàm tìm số nhỏ nhất trong danh sách
 int Find_Min(List L);                                   //* hàm tìm số lớn nhất trong danh sách
-
+int Search_Value_List(int x,List L);                  //* hàm tìm vị trí node chứa x
 void makeNullList(List *L){
     L->Head = NULL;
     L->Tail = NULL;
@@ -95,6 +95,22 @@ void inputList(int n,List *L){
         temp = createNode(x);
         insertList_byPos(i,temp,L);
     }
+}
+int Search_Value_List(int x,List L){
+    Node *temp = L.Head;
+    int i = 0;
+    while (temp != NULL){
+        if(temp->data = x){
+            free(temp);
+            return i;
+        }
+        else{
+            i++;
+        }
+        temp = temp->Next
+    }
+    free(temp);
+    return -1;
 }
 void deleteList_byValue(int x,List *L){
     Node *prev = NULL;
