@@ -9,12 +9,12 @@ typedef struct{
     Node *Tail;
     int Size;
 }List;
-void makeNullList(List *L);                        //* hàm tạo danh sách rỗng
-void displayList(List L);                          //* hàm hiện thị danh sách
-Node *createNode(int data);                        //* tạo một node với phần tử 
-void insertList_Frist(Node *newNode,List *L);      //* thêm một node vào đầu danh sách
-void insertList_End(Node *newNode,List *L);        //* thêm một node vào cuối danh sách
-void insertList_byPos(int p,Node *newNode,List *L);//* hàm chèn một node vào vị trí p trong danh sách
+void makeNullList(List *L);                             //* hàm tạo danh sách rỗng
+void displayList(List L);                               //* hàm hiện thị danh sách
+Node *createNode(int data);                             //* tạo một node với phần tử 
+void insertList_Frist(Node *newNode,List *L);           //* thêm một node vào đầu danh sách
+void insertList_End(Node *newNode,List *L);             //* thêm một node vào cuối danh sách
+void insertList_byPos(int p,Node *newNode,List *L);     //* hàm chèn một node vào vị trí p trong danh sách
 
 void makeNullList(List *L){
     L->Head = NULL;
