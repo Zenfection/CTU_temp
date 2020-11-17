@@ -16,6 +16,7 @@ void insertList_Frist(Node *newNode,List *L);           //* thêm một node và
 void insertList_End(Node *newNode,List *L);             //* thêm một node vào cuối danh sách
 void insertList_byPos(int p,Node *newNode,List *L);     //* hàm chèn một node vào vị trí p trong danh sách
 void inputList(int n,List *L);                          //* hàm thêm n node vào trong danh sách
+
 void makeNullList(List *L){
     L->Head = NULL;
     L->Tail = NULL;
