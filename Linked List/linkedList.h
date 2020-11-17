@@ -15,7 +15,7 @@ Node *createNode(int data);                             //* tạo một node v�
 void insertList_Frist(Node *newNode,List *L);           //* thêm một node vào đầu danh sách
 void insertList_End(Node *newNode,List *L);             //* thêm một node vào cuối danh sách
 void insertList_byPos(int p,Node *newNode,List *L);     //* hàm chèn một node vào vị trí p trong danh sách
-
+void inputList(int n,List *L);                          //* hàm thêm n node vào trong danh sách
 void makeNullList(List *L){
     L->Head = NULL;
     L->Tail = NULL;
@@ -55,7 +55,8 @@ void insertList_End(Node *newNode,List *L){
     }
     else{
         L->Tail->Next = newNode;
-        newNode->Next = NULL; 
+        L->Tail=newNode;
+        newNode->Next = NULL;
     }
     L->Size++;
 }
@@ -79,5 +80,14 @@ void insertList_byPos(int p,Node *newNode,List *L){
             i++;
             temp = temp->Next;
         }
+    }
+}
+void inputList(int n,List *L){
+    int x;
+    Node *temp;
+    for (int i = 0; i < n; i++){
+        scanf("%d",&x);
+        temp = createNode(x);
+        insertList_byPos(i,temp,L);
     }
 }
