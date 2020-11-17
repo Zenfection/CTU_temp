@@ -18,6 +18,7 @@ void insertList_byPos(int p,Node *newNode,List *L);     //* hàm chèn một nod
 void inputList(int n,List *L);                          //* hàm thêm n node vào trong danh sách
 void deleteList_byValue(int x,List *L);                 //* hàm xoá node chứa x trong danh sách
 void deleteList_byPos(int p,List *L);                   //* hàm xoá node vị trí  p trong danh sách
+
 void makeNullList(List *L){
     L->Head = NULL;
     L->Tail = NULL;
