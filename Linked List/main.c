@@ -1,8 +1,9 @@
 #include <stdio.h>
-#include "arraylist.h"
+#include "linkedList.h"
 int main(int argc, char const *argv[]){
     List L;
-    InputList(4,&L);
+    makeNullList(&L);
+    
     displayList(L);
     return 0;
 }
