@@ -16,7 +16,8 @@ void insertList_Frist(Node *newNode,List *L);           //* thêm một node và
 void insertList_End(Node *newNode,List *L);             //* thêm một node vào cuối danh sách
 void insertList_byPos(int p,Node *newNode,List *L);     //* hàm chèn một node vào vị trí p trong danh sách
 void inputList(int n,List *L);                          //* hàm thêm n node vào trong danh sách
-
+void deleteList_byValue(int x,List *L);                 //* hàm xoá node chứa x trong danh sách
+void deleteList_byPos(int p,List *L);                   //* hàm xoá node vị trí  p trong danh sách
 void makeNullList(List *L){
     L->Head = NULL;
     L->Tail = NULL;
@@ -91,4 +92,34 @@ void inputList(int n,List *L){
         temp = createNode(x);
         insertList_byPos(i,temp,L);
     }
+}
+void deleteList_byValue(int x,List *L){
+    Node *prev = NULL;
+    Node *temp = L->Head;
+    while (temp != NULL){
+        if(temp->data == x){
+            if (prev==NULL) {
+                L->Head=temp->Next;
+            }
+            else{
+                prev->Next=temp->Next;
+            }
+            L->Size--;
+            return;
+        }
+        prev = temp;
+        temp = temp->Next;
+    }  
+}
+void deleteList_byPos(int p,List *L){
+    int i = 0;
+    Node *temp = L->Head;
+    while (temp != NULL){
+        if(i == p){
+            deleteList_byValue(temp->data,L);
+        }
+        i++;
+        temp = temp->Next;
+    }
+    
 }
