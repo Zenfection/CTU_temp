@@ -9,18 +9,21 @@ typedef struct{
     Node *Tail;
     int Size;
 }List;
-void makeNullList(List *L);                             //* hàm tạo danh sách rỗng
-void displayList(List L);                               //* hàm hiện thị danh sách
-Node *createNode(int data);                             //* tạo một node với phần tử 
-void insertList_Frist(Node *newNode,List *L);           //* thêm một node vào đầu danh sách
-void insertList_End(Node *newNode,List *L);             //* thêm một node vào cuối danh sách
-void insertList_byPos(int p,Node *newNode,List *L);     //* hàm chèn một node vào vị trí p trong danh sách
-void inputList(int n,List *L);                          //* hàm thêm n node vào trong danh sách
-void deleteList_byValue(int x,List *L);                 //* hàm xoá node chứa x trong danh sách
-void deleteList_byPos(int p,List *L);                   //* hàm xoá node vị trí  p trong danh sách
-int Find_Max(List L);                                   //* hàm tìm số nhỏ nhất trong danh sách
-int Find_Min(List L);                                   //* hàm tìm số lớn nhất trong danh sách
-int Search_Value_List(int x,List L);                    //* hàm tìm vị trí node chứa x
+void makeNullList(List *L);                            //* tạo danh sách rỗng
+void displayList(List L);                              //* hiện thị danh sách
+Node *createNode(int data);                            //* tạo một node với phần tử 
+void insertList_Frist(Node *newNode,List *L);          //* thêm một node vào đầu danh sách
+void insertList_End(Node *newNode,List *L);            //* thêm một node vào cuối danh sách
+void insertList_byPos(int p,Node *newNode,List *L);    //* chèn một node vào vị trí p trong danh sách
+void inputList(int n,List *L);                         //* hàm thêm n node vào trong danh sách
+int memberList(int x,List L);                          //* kiểm tra x có trong danh sách 
+int locateList(int x,List L);                          //* tìm vị trí node chứa x         
+void deleteList_byValue(int x,List *L);                //* xoá node chứa x trong danh sách
+void deleteList_byPos(int p,List *L);                  //* xoá node vị trí  p trong danh sách
+void deleteList_byNode(Node* newNode,List *L);         //* xoá một node trong danh sách
+void optimizeList(List *L);                            //* tối ưu danh sách (1 2 1 -> 1 2)
+int Find_Max(List L);                                  //* tìm số nhỏ nhất trong danh sách
+int Find_Min(List L);                                  //* tìm số lớn nhất trong danh sách
 
 void makeNullList(List *L){
     L->Head = NULL;
@@ -88,16 +91,17 @@ void insertList_byPos(int p,Node *newNode,List *L){
         }
     }
 }
-void inputList(int n,List *L){
-    int x;
-    Node *temp;
-    for (int i = 0; i < n; i++){
-        scanf("%d",&x);
-        temp = createNode(x);
-        insertList_byPos(i,temp,L);
-    }
+int memberList(int x,List L){
+    Node *temp = L.Head;
+    while (temp != NULL){
+        if(temp->data == x){
+            return 1;
+        }
+        temp = temp->Next;
+    } 
+    return 0;
 }
-int Search_Value_List(int x,List L){
+int locateList(int x,List L){
     Node *temp = L.Head;
     int i = 0;
     while (temp != NULL){
@@ -108,10 +112,19 @@ int Search_Value_List(int x,List L){
         else{
             i++;
         }
-        temp = temp->Next
+        temp = temp->Next;
     }
     free(temp);
     return -1;
+}
+void inputList(int n,List *L){
+    int x;
+    Node *temp;
+    for (int i = 0; i < n; i++){
+        scanf("%d",&x);
+        temp = createNode(x);
+        insertList_byPos(i,temp,L);
+    }
 }
 void deleteList_byValue(int x,List *L){
     Node *prev = NULL;
@@ -131,6 +144,17 @@ void deleteList_byValue(int x,List *L){
         temp = temp->Next;
     }  
 }
+void deleteList_byNode(Node* newNode,List *L){
+    int i = 0;
+    Node *temp = L->Head;
+    while (temp != NULL){
+        if(newNode == temp){
+            deleteList_byPos(i,L);
+        }
+        i++;
+        temp = temp->Next;
+    }
+}
 void deleteList_byPos(int p,List *L){
     int i = 0;
     Node *temp = L->Head;
@@ -141,6 +165,20 @@ void deleteList_byPos(int p,List *L){
         i++;
         temp = temp->Next;
     }   
+}
+void optimizeList(List *L){
+    Node *temp1 = L->Head;
+    Node *temp2 = NULL;
+    while (temp1->Next != NULL){
+        temp2 = temp1->Next;
+        while (temp2 != NULL){
+            if(temp1->data == temp2->data){
+                deleteList_byNode(temp2,L);
+            }
+            temp2 = temp2->Next;
+        }
+        temp1 = temp1->Next;
+    }
 }
 int Find_Max(List L){
     Node *temp=L.Head;
