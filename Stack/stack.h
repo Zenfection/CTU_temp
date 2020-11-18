@@ -15,6 +15,9 @@ int memberStack(int x,Stack S);             //* kiểm tra x có trong ngăn x�
 void optimizeStack(Stack *S);               //* tối ưu ngăn xếp (1 2 1 -> 1 2)
 void changeStack(Stack S1,Stack *S);        //* chuyển ngăn xếp qua ngăn xếp mới
 void mergeList(Stack S1,Stack S2,Stack *S); //* gộp 2 ngăn xếp thành 1 ngăn xếp   
+void filter_evenNumber(Stack S1,Stack *S);  //* lọc phần tử chẳn qua ngăn xếp mới
+void filter_oddNumber(Stack S1,Stack *S);   //* lọc phần tử lẻ qua ngăn xếp mới 
+double averageStack(Stack S);               //* tính trung bình cộng phần tử trong ngăn xếp
 
 void makeNullStack(Stack *S){
     S->Top = Max_length;
@@ -89,4 +92,37 @@ void changeStack(Stack S1,Stack *S){
 void mergeList(Stack S1,Stack S2,Stack *S){
     changeStack(S1,S);
     changeStack(S2,S);
+}
+void filter_evenNumber(Stack S1,Stack *S){
+    int j = S->Top - 1;
+    int size = Max_length - S1.Top;
+    for(int i = 0 ; i < size ; i++){
+        if(S1.Elements[j] % 2 == 0){
+            insertStack(S1.Elements[j],S->Top - 1,S);
+        }
+        j--;
+    }
+   
+}
+void filter_oddNumber(Stack S1,Stack *S){
+    int j = S->Top - 1;
+    int size = Max_length - S1.Top;
+    for (int i = 0; i < size; i++){
+        if(S1.Elements[j] % 2 != 0){
+            insertStack(S1.Elements[j],S->Top - 1,S);
+        }
+        j--;
+    }   
+}
+double averageStack(Stack S){
+    int size = Max_length - S.Top;
+    double sum = 0;
+    double result;
+    int j = S.Top;
+    for (int i = 0; i < size; i++){
+        sum += S.Elements[j];
+        j++;
+    }
+    result = sum / size;
+    return result;
 }
