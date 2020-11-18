@@ -16,7 +16,7 @@ void insertList(int x,int p,List *L);       //* hàm thêm x tại vị trí p t
 void mergeList(List L1,List L2,List *L);    //* gộp 2 danh sách vào 1 danh sách
 void filter_evenNumber(List L1, List *L);   //* lọc phần tử chẳn qua 1 danh sách
 void filter_oddNumber(List L1, List *L);    //* lọc phần tử lẻ qua 1 danh sách
-double averageList(List L);                 //* tính tổng các phần tử trong danh sách
+double averageList(List L);                 //* tính trung bình các phần tử trong danh sách
 
 void makeNullList(List *L){
     L->Size = 0;
