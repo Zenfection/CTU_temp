@@ -24,6 +24,7 @@ void deleteList_byNode(Node* newNode,List *L);         //* xoá một node trong
 void optimizeList(List *L);                            //* tối ưu danh sách (1 2 1 -> 1 2)
 int Find_Max(List L);                                  //* tìm số nhỏ nhất trong danh sách
 int Find_Min(List L);                                  //* tìm số lớn nhất trong danh sách
+void mergeList(List L1,List L2,List *L);               //* hàm gộp 2 danh sách thành 1 danh sách
 
 void makeNullList(List *L){
     L->Head = NULL;
