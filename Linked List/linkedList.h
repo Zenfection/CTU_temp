@@ -26,6 +26,7 @@ int Find_Max(List L);                                  //* tìm số nhỏ nhấ
 int Find_Min(List L);                                  //* tìm số lớn nhất trong danh sách
 void filter_evenNumber(List L1, List *L);              //* lọc chẳn qua danh sách mới
 void filter_oddNumber(List L1, List *L);               //* lọc lẻ qua danh sách mới
+double averageList(List L);                            //* tính trung bình các phần tử trong DS
 void changeList(List L1,List *L);                      //* chuyển danh sách 1 qua danh sách 2
 void mergeList(List L1,List L2,List *L);               //* gộp 2 danh sách thành 1 danh sách
 
@@ -238,6 +239,15 @@ void filter_oddNumber(List L1, List *L){
         i++;
         temp = temp->Next;
     }
+}
+double averageList(List L){
+    Node *temp = L.Head;
+    double result = 0;
+    while (temp != NULL){
+        result += temp->data;
+        temp = temp->Next;
+    }
+    return result/L.Size; 
 }
 void changeList(List L1,List *L){
     Node *temp = L1.Head;
