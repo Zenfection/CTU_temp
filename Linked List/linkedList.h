@@ -10,7 +10,7 @@ typedef struct{
     int Size;
 }List;
 void makeNullList(List *L);                            //* tạo danh sách rỗng
-void displayList(List L);                              //* hiện thị danh sách
+void displayList(List L);                              //* hiển thị danh sách
 Node *createNode(int data);                            //* tạo một node với phần tử 
 void insertList_Frist(Node *newNode,List *L);          //* thêm một node vào đầu danh sách
 void insertList_End(Node *newNode,List *L);            //* thêm một node vào cuối danh sách
@@ -24,7 +24,10 @@ void deleteList_byNode(Node* newNode,List *L);         //* xoá một node trong
 void optimizeList(List *L);                            //* tối ưu danh sách (1 2 1 -> 1 2)
 int Find_Max(List L);                                  //* tìm số nhỏ nhất trong danh sách
 int Find_Min(List L);                                  //* tìm số lớn nhất trong danh sách
-void mergeList(List L1,List L2,List *L);               //* hàm gộp 2 danh sách thành 1 danh sách
+void filter_evenNumber(List L1, List *L);              //* lọc chẳn qua danh sách mới
+void filter_oddNumber(List L1, List *L);               //* lọc lẻ qua danh sách mới
+void changeList(List L1,List *L);                      //* chuyển danh sách 1 qua danh sách 2
+void mergeList(List L1,List L2,List *L);               //* gộp 2 danh sách thành 1 danh sách
 
 void makeNullList(List *L){
     L->Head = NULL;
@@ -128,22 +131,18 @@ void inputList(int n,List *L){
     }
 }
 void deleteList_byValue(int x,List *L){
-    Node *prev = NULL;
     Node *temp = L->Head;
+    int i = 0;
     while (temp != NULL){
         if(temp->data == x){
-            if (prev==NULL) {
-                L->Head=temp->Next;
-            }
-            else{
-                prev->Next=temp->Next;
-            }
-            L->Size--;
-            return;
+            deleteList_byPos(i,L);
         }
-        prev = temp;
+        else{
+            i++;
+        }
         temp = temp->Next;
-    }  
+    }
+    
 }
 void deleteList_byNode(Node* newNode,List *L){
     int i = 0;
@@ -152,7 +151,9 @@ void deleteList_byNode(Node* newNode,List *L){
         if(newNode == temp){
             deleteList_byPos(i,L);
         }
-        i++;
+        else{
+            i++;
+        }
         temp = temp->Next;
     }
 }
@@ -215,4 +216,40 @@ int Find_Min(List L){
     }
     free(temp);
     return min;
+}
+void filter_evenNumber(List L1, List *L){
+    Node *temp = L1.Head;
+    int i = L->Size;
+    while (temp != NULL){
+        if(temp->data % 2 == 0){
+            insertList_byPos(i,createNode(temp->data),L);
+        }
+        i++;
+        temp = temp->Next;
+    }
+}
+void filter_oddNumber(List L1, List *L){
+    Node *temp = L1.Head;
+    int i = L->Size;
+    while (temp != NULL){
+        if(temp->data % 2 != 0){
+            insertList_byPos(i,createNode(temp->data),L);
+        }
+        i++;
+        temp = temp->Next;
+    }
+}
+void changeList(List L1,List *L){
+    Node *temp = L1.Head;
+    int i = L->Size;
+    while (temp != NULL){
+        insertList_byPos(i,createNode(temp->data),L);
+        i++;
+        temp = temp->Next;
+    }
+    
+}
+void mergeList(List L1,List L2,List *L){
+    changeList(L1,L);
+    changeList(L2,L);
 }
