@@ -9,7 +9,7 @@ void displayStack(Stack S);                 //* hiển thị ngăn xếp
 void inputStack(int n,Stack *S);            //* thêm n phần tử vào ngăn xếp
 void insertStack(int x,int p,Stack *L);     //* thêm x tại vị trí p vào ngăn xếp
 void deleleStack_byPos(int p,Stack *S);     //* xoá tại vị trí p trong ngăn xếp
-void deleteStack_byID(int x,Stack *S);      //* xoá phần tử x trong ngăn xếp
+void deleteStack_byValue(int x,Stack *S);      //* xoá phần tử x trong ngăn xếp
 int locateStack(int x,Stack S);             //* trả về vị trí đầu tiên của x trong ngăn xếp
 int memberStack(int x,Stack S);             //* kiểm tra x có trong ngăn xếp
 void optimizeStack(Stack *S);               //* tối ưu ngăn xếp (1 2 1 -> 1 2)
@@ -43,7 +43,7 @@ void deleleStack_byPos(int p,Stack *S){
     }
     S->Top++;
 }
-void deleteStack_byID(int x,Stack *S){
+void deleteStack_byValue(int x,Stack *S){
     for(int i = S->Top ; i < Max_length ; i++){
         if(S->Elements[i] == x){
             deleleStack_byPos(i,S);
