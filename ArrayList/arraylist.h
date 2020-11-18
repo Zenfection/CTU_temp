@@ -9,8 +9,8 @@ void displayList(List L);                   //* hàm hiện thị danh sách
 void InputList(int n,List *L);              //* hàm thêm n phần tử vào danh sách 
 void deleteListbyID(int x, List *L);        //* hàm xoá phần tử x trong danh sách
 void deleteListbyPos(int p,List *L);        //* hàm xoá vị trí p trong danh sách
-int memberList(int x,List L);               //* hàm kiểm tra x có trong danh sách
 int locateList(int x,List L);               //* hàm trả về vị trí đầu tiên của x trong danh sách
+int memberList(int x,List L);               //* hàm kiểm tra x có trong danh sách
 void optimizeList(List *L);                 //* hàm tối ưu danh sách (1 2 1 -> 1 2)
 void insertList(int x,int p,List *L);       //* hàm thêm x tại vị trí p trong danh sách
 void mergeList(List L1,List L2,List *L);    //* gộp 2 danh sách vào 1 danh sách
@@ -46,11 +46,9 @@ void InputList(int n,List *L){
         L->Size++;
     }
 }
-int member(int x,List L){
-    for(int i = 0; i < L.Size; i++){
-        if(L.Elements[i] == x){
-            return 1;
-        }
+int memberList(int x,List L){
+    if(locateList(x,L) != 1){
+        return 1;
     }
     return 0;
 }
@@ -78,13 +76,20 @@ void insertList(int x,int p,List *L){
     }
 }
 void optimizeList(List *L){
-    for(int i = 0; i < L->Size - 1; i++){
-        for(int j=i+1 ;j < L->Size;j++){
+    int  i = 0;
+    int j;
+    while (i != L->Size){
+        j = i + 1;
+        while (j != L->Size){
             if(L->Elements[i] == L->Elements[j]){
                 deleteListbyPos(j,L);
             }
+            else{
+                j++;
+            }
         }
-    }
+        i++;
+    }  
 }
 void mergeList(List L1,List L2,List *L){
     for(int i = 0 ; i < L1.Size ; i++){
