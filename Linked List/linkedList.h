@@ -156,13 +156,24 @@ void deleteList_byNode(Node* newNode,List *L){
     }
 }
 void deleteList_byPos(int p,List *L){
-    int i = 0;
     Node *temp = L->Head;
-    while (temp != NULL){
-        if(i == p){
-            deleteList_byValue(temp->data,L);
+    Node *prev = NULL;
+    int i = 0;
+    while (temp != NULL) {
+        if(p == i){
+            if (prev==NULL) {
+                L->Head=temp->Next;
+            }
+            else{
+                prev->Next=temp->Next;
+            }
+            L->Size--;
+            return;
         }
-        i++;
+        else{
+            i++;
+        }
+        prev = temp;
         temp = temp->Next;
     }   
 }
