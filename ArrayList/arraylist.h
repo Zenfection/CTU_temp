@@ -13,6 +13,7 @@ int locateList(int x,List L);               //* hàm trả về vị trí đầu
 int memberList(int x,List L);               //* hàm kiểm tra x có trong danh sách
 void optimizeList(List *L);                 //* hàm tối ưu danh sách (1 2 1 -> 1 2)
 void insertList(int x,int p,List *L);       //* hàm thêm x tại vị trí p trong danh sách
+void changeList(List L1,List *L);           //* hàm chuyển 1 danh sách qua danh sách mới
 void mergeList(List L1,List L2,List *L);    //* gộp 2 danh sách vào 1 danh sách
 void filter_evenNumber(List L1, List *L);   //* lọc phần tử chẳn qua 1 danh sách
 void filter_oddNumber(List L1, List *L);    //* lọc phần tử lẻ qua 1 danh sách
@@ -91,13 +92,14 @@ void optimizeList(List *L){
         i++;
     }  
 }
-void mergeList(List L1,List L2,List *L){
+void changeList(List L1,List *L){
     for(int i = 0 ; i < L1.Size ; i++){
-        insertList(L1.Elements[i],i,L);
+        insertList(L1.Elements[i],L->Size,L);
     }
-    for(int i = 0 ; i < L2.Size ; i++){
-        insertList(L2.Elements[i],i+L1.Size,L);
-    }
+}
+void mergeList(List L1,List L2,List *L){
+    changeList(L1,L);
+    changeList(L2,L);
 }
 void filter_evenNumber(List L1,List *L){
     int k = 0;

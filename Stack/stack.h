@@ -7,11 +7,14 @@ typedef struct{
 void makeNullStack(Stack *S);               //* tạo ngăn xếp rỗng
 void displayStack(Stack S);                 //* hiển thị ngăn xếp
 void inputStack(int n,Stack *S);            //* thêm n phần tử vào ngăn xếp
+void insertStack(int x,int p,Stack *L);     //* thêm x tại vị trí p vào ngăn xếp
 void deleleStack_byPos(int p,Stack *S);     //* xoá tại vị trí p trong ngăn xếp
 void deleteStack_byID(int x,Stack *S);      //* xoá phần tử x trong ngăn xếp
 int locateStack(int x,Stack S);             //* trả về vị trí đầu tiên của x trong ngăn xếp
 int memberStack(int x,Stack S);             //* kiểm tra x có trong ngăn xếp
-void optimizeStack(Stack *S);                //* tối ưu ngăn xếp (1 2 1 -> 1 2)
+void optimizeStack(Stack *S);               //* tối ưu ngăn xếp (1 2 1 -> 1 2)
+void changeStack(Stack S1,Stack *S);        //* chuyển ngăn xếp qua ngăn xếp mới
+void mergeList(Stack S1,Stack S2,Stack *S); //* gộp 2 ngăn xếp thành 1 ngăn xếp   
 
 void makeNullStack(Stack *S){
     S->Top = Max_length;
@@ -26,6 +29,10 @@ void inputStack(int n,Stack *S){
         scanf("%d",&S->Elements[S->Top-1]);
         S->Top--;
     }
+}
+void insertStack(int x,int p,Stack *L){
+    L->Elements[p] = x;
+    L->Top--;
 }
 void deleleStack_byPos(int p,Stack *S){
     for(int i = p; i > S->Top; i--){
@@ -69,4 +76,17 @@ void optimizeStack(Stack *S){
         }
         i--;
     }
+}
+void changeStack(Stack S1,Stack *S){
+    int size = Max_length;
+    int i = Max_length - S1.Top;
+    while (i > 0){
+        insertStack(S1.Elements[size - 1],S->Top - 1,S);
+        size--;
+        i--;
+    }
+}
+void mergeList(Stack S1,Stack S2,Stack *S){
+    changeStack(S1,S);
+    changeStack(S2,S);
 }
