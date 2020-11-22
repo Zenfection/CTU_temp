@@ -6,6 +6,8 @@ void insertionSort(List *L);                //Sắp xếp chèn
 void heaplify(int i,int n,List *L);         //Biến mảng thành cây nhị phân heap
 void heapSort(List *L);                     //Sắp xếp cây nhị phân
 void shellSort(List *L);                    //Sắp xếp shell (cải tiến sắp xếp chèn)
+void quickSort(List *L);
+void mergeSort(List *L);
 
 void swap(int *a,int *b){
     int temp = *a;
