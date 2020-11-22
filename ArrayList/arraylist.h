@@ -1,9 +1,6 @@
 #include <stdio.h>
-#define Max_length 50
-typedef struct{
-    int Elements[Max_length];
-    int Size;
-}List;
+#include "declare.h"
+
 void makeNullList(List *L);                 //* hàm tạo danh sách rỗng
 void displayList(List L);                   //* hàm hiện thị danh sách
 void InputList(int n,List *L);              //* hàm thêm n phần tử vào danh sách 
