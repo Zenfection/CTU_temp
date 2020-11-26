@@ -9,6 +9,7 @@ typedef struct{
     Node *Tail;
     int Size;
 }List;
+
 void makeNullList(List *L);                            //* tạo danh sách rỗng
 void displayList(List L);                              //* hiển thị danh sách
 Node *createNode(int data);                            //* tạo một node với phần tử 
@@ -41,7 +42,7 @@ void displayList(List L){
         printf("%d ",temp->data);
         temp = temp->Next;
     }
-    free(temp);
+    printf("\n");
     printf("Size = %d",L.Size);
     printf("\n");
 }
