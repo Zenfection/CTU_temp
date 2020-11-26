@@ -5,5 +5,8 @@
 int main(int argc, char const *argv[]){
     List L;
     makeNullList(&L);
+    inputList(5,&L);
+    insertionSort(&L);
+    displayList(L);
     return 0;
 }

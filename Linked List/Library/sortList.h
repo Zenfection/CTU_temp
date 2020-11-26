@@ -1,7 +1,6 @@
 void swap(int *a,int *b);                             //* hoán vị 2 số
-void interchangeSort(List *L);                        //* Sắp xếp trực tiếp
-void selectionSort(List *L);                          //* Sắp xếp chọn
 void bubbleSort(List *L);                             //* Sắp xếp nổi bọt
+void selectionSort(List *L);                          //* Sắp xếp chọn
 void insertionSort(List *L);                          //* Sắp xếp chèn
 void heaplify(int i,int n,List *L);                   //* Biến mảng thành cây nhị phân heap
 void heapSort(List *L);                               //* Sắp xếp cây nhị phân
@@ -15,7 +14,7 @@ void swap(int *a,int *b){
     *a = *b;
     *b = temp;
 }
-void interchangeSort(List *L){
+void bubbleSort(List *L){
     Node *temp1  = L->Head;
     Node *temp2 = NULL;
     while (temp1 != NULL){
@@ -29,5 +28,24 @@ void interchangeSort(List *L){
             }
         }
         temp1 = temp1->Next;
+    }
+}
+void selectionSort(List *L){
+    Node *i = L->Head;
+    Node *j;
+    Node *min;
+    while (i != NULL){
+        min = i;
+        j = i->Next;
+        while (j != NULL){
+            if(min->data > j->data){
+                min = j;
+            }
+            j = j->Next;
+        }
+        if(min != i){
+            swap(&min->data,&i->data);
+        }
+        i = i->Next;
     }
 }
