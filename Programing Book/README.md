@@ -10,23 +10,23 @@
 6. ![a](https://raw.githubusercontent.com/Zenfection/Image/master/2020/08/23-23-50-44-icons8_c_sharp_logo_48px.png)  [C#](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/C%23.pdf)
 7. ![a](https://raw.githubusercontent.com/Zenfection/Image/master/2020/08/23-23-51-15-icons8_c%2B%2B_48px_2.png) [C++](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/C%2B%2B.pdf)
 8. ![icons8-css3.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-41-12-icons8-css3.png)  [CSS](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/CSS.pdf)
-9. DotNet Framework
-10. Entity Framework
-11. Excel VBA
-12. ![icons8-git.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-41-28-icons8-git.png) Git
-13. Haskell
-14. Hibernate
+9. [DotNet Framework](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/DotNET%20Framework.pdf)
+10. [Entity Framework](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/Entity%20Framework.pdf)
+11. [Excel VBA](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/ExcelVBA.pdf)
+12. ![icons8-git.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-41-28-icons8-git.png) [Git](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/Git.pdf)
+13. [Haskell](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/Haskell.pdf)
+14. [Hibernate](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/Hibernate.pdf)
 15. ![icons8-html_5.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-42-11-icons8-html_5.png) 
-    - HTML5
-    - HTML5 Canvas
-16. ![a](https://raw.githubusercontent.com/Zenfection/Image/master/2020/08/23-23-55-08-icons8_apple_logo_40px.png) iOS
-17. ![a](https://raw.githubusercontent.com/Zenfection/Image/master/2020/08/23-23-56-37-icons8_java_48px.png) Java
-18. ![icons8-javascript.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-44-33-icons8-javascript.png) Javascript
+    - [HTML5](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/HTML5.pdf)
+    - [HTML5 Canvas](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/HTML5%20Canvas.pdf)
+16. ![a](https://raw.githubusercontent.com/Zenfection/Image/master/2020/08/23-23-55-08-icons8_apple_logo_40px.png) [iOS](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/iOS.pdf)
+17. ![a](https://raw.githubusercontent.com/Zenfection/Image/master/2020/08/23-23-56-37-icons8_java_48px.png) [Java](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/Java.pdf)
+18. ![icons8-javascript.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-44-33-icons8-javascript.png) [Javascript](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/JavaScript.pdf)
 19. Jquery
-20. ![icons8-kotlin.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-44-55-icons8-kotlin.png) Kotlin
-21. Latex
-22. ![icons8-linux.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-45-10-icons8-linux.png) Linux
-23. ![icons8-matlab.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-45-19-icons8-matlab.png) MatLab
+20. ![icons8-kotlin.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-44-55-icons8-kotlin.png) [Kotlin](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/Kotlin.pdf)
+21. [Latex](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/LaTeX.pdf)
+22. ![icons8-linux.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-45-10-icons8-linux.png) [Linux](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/Linux.pdf)
+23. ![icons8-matlab.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-45-19-icons8-matlab.png) [MatLab](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/MATLAB.pdf)
 24. Microsoft SQL
 25. ![icons8-mongodb.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-45-50-icons8-mongodb.png) MongoDB
 26. MySQL
@@ -47,7 +47,5 @@
 39. VBA
 40. Visual Basic NET
 41. Xaramin Form
-
-
 
 1. 12
