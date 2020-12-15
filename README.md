@@ -1,4 +1,6 @@
-# <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-03-42-ZenCTU.png" title="" alt="ZenCTU.png" width="178"> Đây là Project về các tài nguyên cho từng học phần trong ngành Công nghệ thông tin trong Đại học Cần Thơ (CTU)
+# <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-03-42-ZenCTU.png" title="" alt="ZenCTU.png" width="517">
+
+# Đây là Project về các tài nguyên cho từng học phần trong ngành Công nghệ thông tin trong Đại học Cần Thơ (CTU)
 
 | Ý tưởng | Người làm    | Cộng tác                |
 | ------- | ------------ | ----------------------- |
@@ -6,8 +8,8 @@
 
 # ![Cloud Library.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-31-38-Cloud%20Library.png)Tài nguyên
 
-- ![E Book.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-32-56-E%20Book.png) [**Programing Book**](https://zenfection.github.io/CTU/Programing%20Book/): Đây là Nguồn sách hỗ trợ mọi ngôn ngữ và hầu như mọi thứ trong IT, tất cả đều cập nhật ở mức độ hiện đại dễ hiểu đầy đủ và dĩ nhiên là tiếng anh (Hỗ trợ bởi [**GoalKicker**](https://goalkicker.com) )
-- ![Browse Courses.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-35-55-Browse%20Courses.png) [**Zen Course**](https://zenfection.github.io/Course/) : Tổng hợp các kháo học tiếng việt về lập trình cho các bạn có đầy đủ mọi thứ căn bản cho các bạn trong suốt quá trình học, để chi tiết hơn vui lòng chọn học phần cụ thể mà bạn muốn, **DÙNG TRONG MỤC ĐÍCH HỌC TẬP**
+- ![E Book.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-32-56-E%20Book.png) [**Programing Book**](https://zenfection.github.io/CTU/Programing%20Book/): Đây là nguồn sách hỗ trợ mọi ngôn ngữ và hầu như mọi thứ trong IT, tất cả đều cập nhật ở mức độ hiện đại dễ hiểu đầy đủ và dĩ nhiên là tiếng anh (Hỗ trợ bởi [**GoalKicker**](https://goalkicker.com) )
+- ![Browse Courses.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-35-55-Browse%20Courses.png) [**Zen Course**](https://zenfection.github.io/Course/) : Tổng hợp các khoá học tiếng việt về lập trình cho các bạn có đầy đủ mọi thứ căn bản cho các bạn trong suốt quá trình học, để chi tiết hơn vui lòng chọn học phần cụ thể mà bạn muốn, **DÙNG TRONG MỤC ĐÍCH HỌC TẬP**
 - ![icons8-linux.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-45-10-icons8-linux.png) [**Linux for babies**](https://github.com/Zenfection/Linux-for-babies) : Đây là Series do chính tay mình viết về học Linux, các bạn hoàn toàn có thể tham khảo cũng như ủng hộ mình để hoàn thành series này sớm nhất
 
 ## <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/11/06-20-18-29-icons8-list.png" title="" alt="icons8-list.png" width="50"> Danh sách học phần
