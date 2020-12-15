@@ -10,13 +10,13 @@
 
 ## ![Math.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-03-58-Math.png) Toán
 
-- TN001- Vi - Tích phân A1
+- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-17-34-FI_839897809_asaArtwork_featured1.jpg" title="" alt="FI_839897809_asaArtwork_featured1.jpg" width="50"> TN001- Vi - Tích phân A1
 
-- TN002 - Vi - Tích phân A2
+- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-17-43-multivariable_calculus.png-ac2283-128c.png" title="" alt="multivariable_calculus.png-ac2283-128c.png" width="50"> TN002 - Vi - Tích phân A2
 
-- TN010 - Xác suất thống kê
+- ![icons8-histogram.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-18-20-icons8-histogram.png) TN010 - Xác suất thống kê
 
-- TN012 - Đại số tuyến tính và hình học
+- <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-20-05-1200px-Linear_subspaces_with_shading.svg.png" alt="1200px-Linear_subspaces_with_shading.svg.png" width="59"> TN012 - Đại số tuyến tính và hình học
 
 - ![toanroirac - 01.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-13-07-toanroirac%20-%2001.png)   CT172-Toán rời rạc
 
