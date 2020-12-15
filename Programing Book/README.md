@@ -21,30 +21,34 @@
 15. ![a](https://raw.githubusercontent.com/Zenfection/Image/master/2020/08/23-23-55-08-icons8_apple_logo_40px.png) [iOS](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/iOS.pdf)
 16. ![a](https://raw.githubusercontent.com/Zenfection/Image/master/2020/08/23-23-56-37-icons8_java_48px.png) [Java](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/Java.pdf)
 17. ![icons8-javascript.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-44-33-icons8-javascript.png) [Javascript](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/JavaScript.pdf)
-18. ![70142 - 01.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-05-37-70142%20-%2001.png) Jquery
+18. ![70142 - 01.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-05-37-70142%20-%2001.png) [Jquery](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/jQuery.pdf)
 19. ![icons8-kotlin.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-44-55-icons8-kotlin.png) [Kotlin](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/Kotlin.pdf)
 20. [Latex](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/LaTeX.pdf)
 21. ![icons8-linux.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-45-10-icons8-linux.png) [Linux](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/Linux.pdf)
 22. ![icons8-matlab.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-45-19-icons8-matlab.png) [MatLab](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/MATLAB.pdf)
-23. ![sql-4-190807.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-06-20-sql-4-190807.png) Microsoft SQL
-24. ![icons8-mongodb.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-45-50-icons8-mongodb.png) MongoDB
-25. <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-07-53-1200px-MySQL.svg_.png" alt="1200px-MySQL.svg_.png" width="61"> MySQL
-26. ![icons8-nodejs.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-46-01-icons8-nodejs.png) NodeJS
-27.  ![icons8-postgresql.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-08-53-icons8-postgresql.png)  PostgreSQL
-28. ![icons8-powershell.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-46-24-icons8-powershell.png) Powershell
-29. ![icons8-python.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-46-42-icons8-python.png) Python
-30. ![icons8-r.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-13-26-icons8-r.png) R
-31.  ![icons8-react.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-09-25-icons8-react.png)
-    - React Native
-    - ReactJS
-32. ![icons8-ruby_programming_language.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-47-12-icons8-ruby_programming_language.png) 
-    - Ruby
-    - Ruby On Rails
-33. ![icons8-spring_logo.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-47-35-icons8-spring_logo.png) Spring Framework
-34. ![icons8-database_administrator.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-10-24-icons8-database_administrator.png) SQL
-35. ![icons8-swift.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-47-47-icons8-swift.png) Swift
-36. ![icons8-typescript.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-10-50-icons8-typescript.png) TypeScript
-37. ![icons8-microsoft_excel_2019.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-11-33-icons8-microsoft_excel_2019.png)
-    - VBA
-    - [Excel VBA](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/ExcelVBA.pdf)Visual Basic NET
-38. ![icons8-xamarin.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-13-09-icons8-xamarin.png) Xamarin Form
+23. ![sql-4-190807.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-06-20-sql-4-190807.png) [Microsoft SQL](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/MicrosoftSQL%20Server.pdf)
+24. ![icons8-mongodb.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-45-50-icons8-mongodb.png) [MongoDB](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/MongoDB.pdf)
+25. <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-07-53-1200px-MySQL.svg_.png" alt="1200px-MySQL.svg_.png" width="61"> [MySQL](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/MySQL.pdf)
+26. ![icons8-nodejs.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-46-01-icons8-nodejs.png) [NodeJS](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/NodeJS.pdf)
+27. ![obj-c.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-19-51-obj-c.png) [Objective-C](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/ObjectiveC.pdf)
+28. <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-20-52-header_camel.png" title="" alt="header_camel.png" width="50"> [Perl](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/Perl.pdf)
+29. <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-21-28-1200px-PHP-logo.svg.png" alt="1200px-PHP-logo.svg.png" width="50"> [PHP](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/PHP.pdf)
+30. ![icons8-postgresql.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-08-53-icons8-postgresql.png)  [PostgreSQL](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/PostgreSQL.pdf)
+31. ![icons8-powershell.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-46-24-icons8-powershell.png) [Powershell](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/PowerShell.pdf)
+32. ![icons8-python.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-46-42-icons8-python.png) [Python](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/Python.pdf)
+33. ![icons8-r.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-13-26-icons8-r.png) [R](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/R.pdf)
+34. ![icons8-react.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-09-25-icons8-react.png)
+    - [React Native](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/React%20Native.pdf)
+    - [ReactJS](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/ReactJS.pdf)
+35. ![icons8-ruby_programming_language.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-47-12-icons8-ruby_programming_language.png) 
+    - [Ruby](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/Ruby.pdf)
+    - [Ruby On Rails](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/Ruby%20On%20Rails.pdf)
+36. ![icons8-spring_logo.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-47-35-icons8-spring_logo.png) [Spring Framework](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/Spring%20Framework%20.pdf)
+37. ![icons8-database_administrator.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-10-24-icons8-database_administrator.png) [SQL](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/SQL.pdf)
+38. ![icons8-swift.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-47-47-icons8-swift.png) [Swift](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/Swift.pdf)
+39. ![icons8-typescript.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-10-50-icons8-typescript.png) [TypeScript](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/TypeScript.pdf)
+40. ![icons8-microsoft_excel_2019.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-11-33-icons8-microsoft_excel_2019.png)
+    - [VBA](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/VBA.pdf)
+    - [Excel VBA](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/ExcelVBA.pdf)
+41. ![1200px-VB.NET_Logo.svg - 01.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-24-58-1200px-VB.NET_Logo.svg%20-%2001.png) [Visual Basic NET](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/VisualBasic_NET.pdf)
+42. ![icons8xamarinpng](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-13-09-icons8-xamarin.png) [Xamarin Form](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/Xamarin%20Forms.pdf)
