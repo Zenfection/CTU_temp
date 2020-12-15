@@ -9,5 +9,5 @@
 - ![toanroirac - 01.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-13-07-toanroirac%20-%2001.png) CT172-Toán rời rạc
 -  ![cautrucdulieu.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-15-54-cautrucdulieu.png) CT177-Cấu trúc dữ liệu
 - ![os.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-16-57-os.png) CT178-Nguyên lý hệ điều hành
-- ![web-basic.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-19-46-web-basic.png) CT188-Nhập môn lập trình Web
+- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-20-56-building_website%20-%2001.png" title="" alt="building_website - 01.png" width="54"> CT188-Nhập môn lập trình Web
 - 
