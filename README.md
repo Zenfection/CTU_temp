@@ -4,9 +4,7 @@
 | ------- | ------------ |
 | Kiệt    | cũng là Kiệt |
 
-## <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/11/06-20-18-29-icons8-list.png" title="" alt="icons8-list.png" width="50"> Danh sách:
+## <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/11/06-20-18-29-icons8-list.png" title="" alt="icons8-list.png" width="50"> Danh sách học phần
 
-- Danh sách đặc
-- [Danh sách Liên kết]([Danh sách Liên kết: | CTU](https://zenfection.github.io/CTU/Linked%20List/))
-
-# 
+- CT177-Cấu trúc dữ liệu
+- 
