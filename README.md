@@ -6,29 +6,33 @@
 
 # ![Cloud Library.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-31-38-Cloud%20Library.png)Tài nguyên
 
+- ![E Book.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-32-56-E%20Book.png) [**Programing Book**](https://zenfection.github.io/CTU/Programing%20Book/): Đây là Nguồn sách hỗ trợ mọi ngôn ngữ và hầu như mọi thứ trong IT, tất cả đều cập nhật ở mức độ hiện đại dễ hiểu đầy đủ và dĩ nhiên là tiếng anh (Hỗ trợ bởi [**GoalKicker**](https://goalkicker.com) )
+- ![Browse Courses.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-35-55-Browse%20Courses.png) [**Zen Course**](https://zenfection.github.io/Course/) : Tổng hợp các kháo học tiếng việt về lập trình cho các bạn có đầy đủ mọi thứ căn bản cho các bạn trong suốt quá trình học, để chi tiết hơn vui lòng chọn học phần cụ thể mà bạn muốn, **DÙNG TRONG MỤC ĐÍCH HỌC TẬP**
+- ![icons8-linux.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-45-10-icons8-linux.png) [**Linux for babies**](https://github.com/Zenfection/Linux-for-babies) : Đây là Series do chính tay mình viết về học Linux, các bạn hoàn toàn có thể tham khảo cũng như ủng hộ mình để hoàn thành series này sớm nhất
+
 ## <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/11/06-20-18-29-icons8-list.png" title="" alt="icons8-list.png" width="50"> Danh sách học phần
 
 ## ![Math.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-03-58-Math.png) Toán
 
-- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-17-34-FI_839897809_asaArtwork_featured1.jpg" title="" alt="FI_839897809_asaArtwork_featured1.jpg" width="50"> TN001- Vi - Tích phân A1
+- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-17-34-FI_839897809_asaArtwork_featured1.jpg" title="" alt="FI_839897809_asaArtwork_featured1.jpg" width="50"> [TN001- Vi - Tích phân A1](https://zenfection.github.io/CTU/TN001-Vi%20tích%20phân%20A1/)
 
-- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-17-43-multivariable_calculus.png-ac2283-128c.png" title="" alt="multivariable_calculus.png-ac2283-128c.png" width="50"> TN002 - Vi - Tích phân A2
+- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-17-43-multivariable_calculus.png-ac2283-128c.png" title="" alt="multivariable_calculus.png-ac2283-128c.png" width="50"> [TN002 - Vi - Tích phân A2](https://zenfection.github.io/CTU/TN002-Vi%20tích%20phân%20A2/)
 
-- ![icons8-histogram.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-18-20-icons8-histogram.png) TN010 - Xác suất thống kê
+- ![icons8-histogram.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-18-20-icons8-histogram.png) [TN010 - Xác suất thống kê](https://zenfection.github.io/CTU/TN010-Xác%20suất%20thống%20kê/)
 
-- <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-20-05-1200px-Linear_subspaces_with_shading.svg.png" alt="1200px-Linear_subspaces_with_shading.svg.png" width="59"> TN012 - Đại số tuyến tính và hình học
+- <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-20-05-1200px-Linear_subspaces_with_shading.svg.png" alt="1200px-Linear_subspaces_with_shading.svg.png" width="59"> [TN012 - Đại số tuyến tính và hình học](https://zenfection.github.io/CTU/TN012-Đại%20số%20tuyến%20tính%20và%20hình%20học/)
 
-- ![toanroirac - 01.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-13-07-toanroirac%20-%2001.png)   CT172-Toán rời rạc
+- ![toanroirac - 01.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-13-07-toanroirac%20-%2001.png)   [CT172-Toán rời rạc](https://zenfection.github.io/CTU/CT172-Toàn%20rời%20rạc/)
 
 ## ![Code Learning.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-04-39-Code%20Learning.png)Lập trình căn bản
 
-- ![icons8-c_programming.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-40-39-icons8-c_programming.png) CT101 - Lập trình căn bản A
+- ![icons8-c_programming.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-40-39-icons8-c_programming.png) [CT101 - Lập trình căn bản A](https://zenfection.github.io/CTU/CT101-Lập%20trình%20căn%20bản%20A/)
 
-- ![cautrucdulieu.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-15-54-cautrucdulieu.png)   CT177-Cấu trúc dữ liệu
+- ![cautrucdulieu.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-15-54-cautrucdulieu.png)   [CT177-Cấu trúc dữ liệu](https://zenfection.github.io/CTU/CT177-Cấu%20trúc%20dữ%20liệu/)
 
-- ![os.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-16-57-os.png)     CT178-Nguyên lý hệ điều hành
+- ![os.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-16-57-os.png)     [CT178-Nguyên lý hệ điều hành](https://zenfection.github.io/CTU/CT178-Nguyên%20lý%20hệ%20điều%20hành/)
 
-- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-22-31-building_website.png" title="" alt="building_website.png" width="59"> CT188-Nhập môn lập trình Web
+- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-22-31-building_website.png" title="" alt="building_website.png" width="59"> [CT188-Nhập môn lập trình Web](https://zenfection.github.io/CTU/CT188-Nhập%20Môn%20lập%20trình%20Web/)
 
 ## ![Browse Courses.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-05-50-Browse%20Courses.png) Lý thuyết IT
 
