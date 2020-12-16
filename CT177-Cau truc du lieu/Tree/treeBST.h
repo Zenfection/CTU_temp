@@ -124,44 +124,42 @@ Tree searchNode(int x,Tree root){
         return NULL;
     }
 }
-void searchStandFor(Tree *p,Tree *q){
-    Tree temp1 = *p;
-    Tree temp2 = *q;
-    if(temp2->Left != NULL){
-        searchStandFor(&temp1,&temp2->Left);
+void searchStandFor(Tree *node1,Tree *node2){
+    if((*node2)->Left != NULL){
+        searchStandFor(&(*node1),&(*node2)->Left);
     }
     else{
-        temp1->data = temp2->data;
-        temp1 = temp2;
-        temp2 = temp2->Right;
+        (*node1)->data = (*node2)->data;
+        (*node1) = (*node2);
+        (*node2) = (*node2)->Right;
     }
 }
 int deleteNode(int x,Tree *root){
     Tree temp = *root;
-    if(root == NULL){
+    if(temp == NULL){
         return 0;
     }
     if(temp->data > x){
-        return deleteTree(x,&temp->Left);
+        return deleteNode(x,&temp->Left);
     }
-    if(temp->data < x){
-        return deleteTree(x,&temp->Right);
-    }
-    Tree p = *root;
-    if(temp->Left == NULL){
-        temp = temp->Right;
+    else if(temp->data < x){
+        return deleteNode(x,&temp->Right);
     }
     else{
-        if(temp->Right == NULL)
-            temp = temp->Left;
-        else
-            searchStandFor(&p,&temp->Right);
-    }
-    if(p->Right ->Right != NULL){
-        p->Right = p->Right->Right;
-    }
-    else{
-        p->Right = NULL;
+        Tree p = *root;
+        if(temp->Left == NULL){
+            temp = temp->Right;
+        }
+        else{
+            if(temp->Right == NULL){
+                temp = temp->Left;
+            }
+            else{
+                searchStandFor(&p,&(*root)->Right);
+            }
+        }
+        p = NULL;
+        *root = temp;
     }
     return 1;
 }
