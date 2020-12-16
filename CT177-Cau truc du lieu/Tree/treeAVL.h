@@ -30,29 +30,29 @@ void makeNullAVLTree(AVLTree *root){
     (*root) = NULL;
 }
 int insertAVLNode(int x,AVLTree *root){
-    AVLTree T = *root;
+    AVLTree T = (*root);
     int res;
     if(T != NULL){
         if(T->data == x)
             return 0;
         else if(T->data > x){
-            res = insertAVLNode(x,&T->Left);
+            res = insertAVLNode(x,&(*root)->Left);
             if(res < 2)
                 return res;
             switch (T->balFactor){
-            case RH: T->balFactor = RH; return 1; break;
-            case EH: T->balFactor = LH; return 2; break;
-            case LH: balanceLeft(&T);   return 1; break;
+                case RH: T->balFactor = RH;     return 1; break;
+                case EH: T->balFactor = LH;     return 2; break;
+                case LH: balanceLeft(&(*root)); return 1; break;
             }
         }
         else{
-            res = insertAVLNode(x,&T->Right);
+            res = insertAVLNode(x,&(*root)->Right);
             if(res < 2)
                 return res;
             switch (T->balFactor){
-            case LH: T->balFactor = EH; return 1; break;
-            case EH: T->balFactor = RH; return 2; break;
-            case RH: balanceRight(&T);  return 1; break;
+                case LH: T->balFactor = EH;      return 1; break;
+                case EH: T->balFactor = RH;      return 2; break;
+                case RH: balanceRight(&(*root)); return 1; break;
             }
         }
     }
@@ -113,7 +113,7 @@ void rorateLL(AVLTree *root){
         case LH: T->balFactor = EH; T1->balFactor = EH; break;
         case EH: T->balFactor = LH; T1->balFactor = RH; break;
     }
-    T = T1;
+    (*root) = T1;
 }
 void rorateLR(AVLTree *root){
     AVLTree T = *root;
@@ -131,7 +131,7 @@ void rorateLR(AVLTree *root){
         case RH: T->balFactor = EH; T1->balFactor = LH; break;
     }
     T2->balFactor = EH;
-    T = T2;
+    (*root) = T2;
 }
 void rorateRR(AVLTree *root){
     //* Right-Right => quay trái 
@@ -145,7 +145,7 @@ void rorateRR(AVLTree *root){
         case RH: T->balFactor = EH; T1->balFactor = EH; break;
         case EH: T->balFactor = RH; T1->balFactor = LH; break;
     }
-    T = T1;
+    (*root) = T1;
 }
 void rorateRL(AVLTree *root){
     AVLTree T = *root;
@@ -163,16 +163,16 @@ void rorateRL(AVLTree *root){
         case LH: T->balFactor = EH; T1->balFactor = RH; break;
     }
     T2->balFactor = EH;
-    T = T2;
+    (*root) = T2;
 }
 int balanceLeft(AVLTree *root){
     AVLTree T = *root;
     AVLTree T1 = T->Left;
     
     switch (T1->balFactor){
-        case LH: rorateLL(&T); return 2; break;
-        case EH: rorateLL(&T); return 1; break;
-        case RH: rorateLR(&T); return 2; break;
+        case LH: rorateLL(&(*root)); return 2; break;
+        case EH: rorateLL(&(*root)); return 1; break;
+        case RH: rorateLR(&(*root)); return 2; break;
     }
     return 0;
 }
@@ -181,9 +181,9 @@ int balanceRight(AVLTree *root){
     AVLTree T1 = T->Right;
 
     switch (T1->balFactor){
-        case LH: rorateRL(&T); return 2; break;
-        case EH: rorateRR(&T); return 1; break;
-        case RH: rorateRR(&T); return 2; break;
+        case LH: rorateRL(&(*root)); return 2; break;
+        case EH: rorateRR(&(*root)); return 1; break;
+        case RH: rorateRR(&(*root)); return 2; break;
     }
     return 0;
 }
