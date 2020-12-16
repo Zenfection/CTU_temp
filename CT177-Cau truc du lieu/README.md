@@ -5,6 +5,9 @@
 Để học được học phần này bạn ít nhất phải có kiến thức của học phần sau :
 
 - ![icons8cprogrammingpng](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-40-39-icons8-c_programming.png) [CT101 - Lập trình căn bản A](https://zenfection.github.io/CTU/CT101-Lap%20trinh%20can%20ban%20A/)
+- ![icons8-bug.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/17-00-22-00-icons8-bug.png)Biết các kỹ năng debug (`khuyên dùng Vscode`) --- Guide 
+  
+  
 
 ---
 
@@ -46,7 +49,7 @@
 
 ## ![Community.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/16-23-32-26-Community.png) Nếu góp ý của bạn đều giúp ích cho cộng đồng của mình rất nhiều
 
-#### <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/17-00-06-15-24%20Support.png" title="" alt="24 Support.png" width="50"> [Báo lỗi sai](https://forms.gle/pSEXEHXYFkAjRXDSA) || [Đóng góp tài nguyên](https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSPFqzlSXfwlPbNMlhrXBNDcckJQlXDrTBrLDFXKxSlpTPHKrRvhvZmLWdLHtLfXWcNWGNPC) || [Liên hệ góp ý trực tiếp](https://www.messenger.com/t/zenfection)
+#### <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/17-00-06-15-24%20Support.png" title="" alt="24 Support.png" width="50"> |[Báo lỗi sai](https://forms.gle/pSEXEHXYFkAjRXDSA) || [Đóng góp tài nguyên](https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSPFqzlSXfwlPbNMlhrXBNDcckJQlXDrTBrLDFXKxSlpTPHKrRvhvZmLWdLHtLfXWcNWGNPC) || [Liên hệ góp ý trực tiếp](https://www.messenger.com/t/zenfection)|
 
 > **`Báo lỗi sai`** : 🦈 Nếu bạn cảm thấy những lỗi sai nào đó của mình, thì hãy báo cho mình mà đừng ngại, nếu được thì cứ trực tiếp nhắn
 > 
