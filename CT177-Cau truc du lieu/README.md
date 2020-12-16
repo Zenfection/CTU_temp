@@ -46,11 +46,13 @@
 
 ## ![Community.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/16-23-32-26-Community.png) Nếu góp ý của bạn đều giúp ích cho cộng đồng của mình rất nhiều
 
-| [Báo lỗi sai](https://forms.gle/pSEXEHXYFkAjRXDSA) | Đóng góp tài nguyên | Liên hệ góp ý trực tiếp | (͡ ° ͜ʖ ͡ °) |
-| -------------------------------------------------- | ------------------- | ----------------------- | ------------ |
+| [Báo lỗi sai](https://forms.gle/pSEXEHXYFkAjRXDSA) | [Đóng góp tài nguyên](https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSPFqzlSXfwlPbNMlhrXBNDcckJQlXDrTBrLDFXKxSlpTPHKrRvhvZmLWdLHtLfXWcNWGNPC) | [Liên hệ góp ý trực tiếp](https://www.messenger.com/t/zenfection) | (͡ ° ͜ʖ ͡ °) |
+| -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ------------ |
 
-> **`Báo lỗi sai`** : Nếu bạn cảm thấy những lỗi sai nào đó của mình, thì hãy báo cho mình mà đừng ngại, nếu được thì cứ trực tiếp nhắn 
+> **`Báo lỗi sai`** : 🦈 Nếu bạn cảm thấy những lỗi sai nào đó của mình, thì hãy báo cho mình mà đừng ngại, nếu được thì cứ trực tiếp nhắn 
 > 
-> **`Đóng góp tài nguyên`** : Nếu bạn có bất kỳ tài nguyên gì đừng ngại mà hãy đóng góp cho các cộng đồng, để làm source mạnh mẽ cho các sinh viên sau này nhé
+> **`Đóng góp tài nguyên`** : Nếu bạn có bất kỳ tài nguyên gì đừng ngại mà hãy đóng góp cho các cộng đồng, để làm source mạnh mẽ cho các sinh viên sau này nhé , hãy viết theo mẫu dưới đây nha, nếu cảm thấy phiền cứ liên hệ trực tiếp🐲
+> 
+> <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/16-23-48-42-A%CC%89nh%20chu%CC%A3p%20Ma%CC%80n%20hi%CC%80nh%202020-12-16%20lu%CC%81c%2023.48.31.png" title="" alt="Ảnh chụp Màn hình 2020-12-16 lúc 23.48.31.png" width="424">
 > 
 > **`Liên hệ trực tiếp`** : 😇😇😇 bạn cứ thoải mái nha, đường link dẫn vào Facebook của mình và bạn có thể thoải mái trò chuyện, nếu mình biết gì mình sẽ giúp đỡ các bạn
