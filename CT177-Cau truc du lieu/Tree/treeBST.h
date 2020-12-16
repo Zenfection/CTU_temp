@@ -13,10 +13,16 @@ Tree createTree();                          //* tạo Tree
 void NLR(Tree root);                        //* duyệt tiền tự
 void LNR(Tree root);                        //* duyệt trung tự
 void LRN(Tree root);                        //* duyệt hậu tự
+void LNRtoArray(int *i,int M[],Tree root);  //* duyệt trung tự vào 1 mảng
+int getHeight(Tree root);                   //* chiều cao của 1 cây
+void printPath(int x,Tree root);            //* in đường đi của cây
+Tree rightSibling(int x,Tree root);         //* xác định nút anh em ruột
+Tree searchNode(int x,Tree root);           //* tìm 1 node trong cây
 Tree minNode(Tree root);                    //* node nhỏ nhất trong root
 Tree maxNode(Tree root);                    //* node lớn nhất trong root
 Tree getPrevious(int x,Tree root);          //* node phía trước khi duyệt trung tự
-void searchStandFor(Tree *p,Tree *q);       //*
+Tree getNext(int x,Tree root);              //* node phía sau khi duyệt trung tự
+void searchStandFor(Tree *node1,Tree *node2);
 int deleteNode(int x,Tree *root);           //* xoá 1 node trong root
 
 
@@ -109,7 +115,14 @@ Tree getPrevious(int x,Tree root){
     }
     return NULL;
 }
-
+void LNRtoArray(int *i,int M[],Tree root){
+    if(root != NULL){
+        LNRtoArray(&*i,M,root->Left);
+        M[*i] = root->data;
+        *i = *i + 1;
+        LNRtoArray(&*i,M,root->Right);
+    }
+}
 Tree searchNode(int x,Tree root){
     if(root != NULL){
         if(root->data == x){
@@ -123,6 +136,20 @@ Tree searchNode(int x,Tree root){
     else{
         return NULL;
     }
+}
+Tree getNext(int x,Tree root){
+    int n = 0;
+    int M[50];
+    int pos;
+    LNRtoArray(&n,M,root);
+    for (int i = 0; i < n; i++){
+        if(x == M[i]){
+            pos = i;
+            break;
+        }
+    }
+    Tree result = searchNode(M[pos+1],root);
+    return result;
 }
 void searchStandFor(Tree *node1,Tree *node2){
     if((*node2)->Left != NULL){
@@ -162,4 +189,53 @@ int deleteNode(int x,Tree *root){
         *root = temp;
     }
     return 1;
+}
+Tree rightSibling(int x,Tree root){
+    Tree temp = NULL;
+    while (root != NULL){
+        if(root->data > x){
+            temp = root->Right;
+            root = root->Left;
+        }
+        else if(root->data < x){
+            temp = root->Left;
+            root = root->Right;
+        }
+        else{
+            // root->data == x
+            return temp;
+        }
+    }
+    return NULL;
+}
+int getHeight(Tree root){
+    if(root == NULL){
+        return -1;
+    }
+    else{
+        int heightLeft = getHeight(root->Left);
+        int heightRight = getHeight(root->Right);
+        if(heightLeft > heightRight)
+            return heightLeft+1;
+        else
+            return heightRight+1;
+    }
+}
+void printPath(int x,Tree root){
+    while (root != NULL){
+        if(root->data > x){
+            printf("%d ",root->data);
+            root = root->Left;
+        }
+        else if(root->data < x){
+            printf("%d ", root->data);
+            root = root->Right;
+        }
+        else{
+            //root->data == x
+            printf("%d -> Tim thay",root->data);
+            return;
+        }
+    }  
+    printf(" -> Khong thay");
 }
