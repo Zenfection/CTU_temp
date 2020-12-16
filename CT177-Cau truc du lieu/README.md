@@ -46,8 +46,8 @@
 
 ## ![Community.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/16-23-32-26-Community.png) Nếu góp ý của bạn đều giúp ích cho cộng đồng của mình rất nhiều
 
-| [Báo lỗi sai](https://forms.gle/pSEXEHXYFkAjRXDSA) | [Đóng góp tài nguyên](https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSPFqzlSXfwlPbNMlhrXBNDcckJQlXDrTBrLDFXKxSlpTPHKrRvhvZmLWdLHtLfXWcNWGNPC) | [Liên hệ góp ý trực tiếp](https://www.messenger.com/t/zenfection) |     |
-| -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | --- |
+| [Báo lỗi sai](https://forms.gle/pSEXEHXYFkAjRXDSA) | [Đóng góp tài nguyên](https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSPFqzlSXfwlPbNMlhrXBNDcckJQlXDrTBrLDFXKxSlpTPHKrRvhvZmLWdLHtLfXWcNWGNPC) | [Liên hệ góp ý trực tiếp](https://www.messenger.com/t/zenfection) | (͡ ° ͜ʖ ͡ °) |
+| -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ------------ |
 
 
 
