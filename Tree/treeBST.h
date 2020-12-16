@@ -2,8 +2,8 @@
 #include <stdlib.h>
 struct Node{
     int data;
-    struct Node *left;
-    struct Node *right;
+    struct Node *Left;
+    struct Node *Right;
 };
 typedef struct Node *Tree;
 
@@ -21,10 +21,10 @@ void makeNullTree(Tree *root){
 void insertTree(int x,Tree *root){
     Tree temp = *root;
     if(temp == NULL){
-        temp = malloc(sizeof(Tree));
+        temp = (struct Node*)malloc(sizeof(struct Node));
         temp->data = x;
-        temp->left = NULL;
-        temp->right = NULL;
+        temp->Left = NULL;
+        temp->Right = NULL;
         *root = temp;
     }
     else{
@@ -32,10 +32,10 @@ void insertTree(int x,Tree *root){
             return;
         }
         else if(temp->data > x){
-            insertTree(x,&temp->left);
+            insertTree(x,&temp->Left);
         }
         else{
-            insertTree(x,&temp->right);
+            insertTree(x,&temp->Right);
         }
     }
 }
@@ -54,21 +54,21 @@ Tree createTree(){
 void NLR(Tree root){
     if(root != NULL){
         printf("%d ",root->data);
-        NLR(root->left);
-        NLR(root->right);
+        NLR(root->Left);
+        NLR(root->Right);
     }
 }
 void LNR(Tree root){
     if(root != NULL){
-        LNR(root->left);
+        LNR(root->Left);
         printf("%d ",root->data);
-        LNR(root->right);
+        LNR(root->Right);
     }
 }
 void LRN(Tree root){
     if(root != NULL){
-        LRN(root->left);
-        LRN(root->right);
+        LRN(root->Left);
+        LRN(root->Right);
         printf("%d ",root->data);
     }
 }
@@ -76,12 +76,12 @@ void LRN(Tree root){
 Tree getPrevious(int x,Tree root){
     Tree t;
     if(root != NULL){
-        getPrevious(x,root->left);
+        getPrevious(x,root->Left);
         t = root;
         if(t->data == x){
             return t;
         }
-        getPrevious(x,root->right);
+        getPrevious(x,root->Right);
     }
 }
 
@@ -91,33 +91,24 @@ Tree searchNode(int x,Tree root){
             return root;
         }
         else if(root->data > x)
-            return searchNode(x,root->left);
+            return searchNode(x,root->Left);
         else
-            return searchNode(x,root->right);
+            return searchNode(x,root->Right);
     }
     else{
         return NULL;
     }
 }
-void freeTree(Tree *root){
-    Tree temp = *root;
-    if(temp == NULL){
-        return;
-    }
-    freeTree(&temp->left);
-    freeTree(&temp->right);
-    free(temp);
-}
 void searchStandFor(Tree *p,Tree *q){
     Tree temp1 = *p;
     Tree temp2 = *q;
-    if(temp2->left != NULL){
-        searchStandFor(&temp1,&temp2->left);
+    if(temp2->Left != NULL){
+        searchStandFor(&temp1,&temp2->Left);
     }
     else{
         temp1->data = temp2->data;
         temp1 = temp2;
-        temp2 = temp2->right;
+        temp2 = temp2->Right;
     }
 }
 int deleteTree(int x,Tree *root){
@@ -126,26 +117,26 @@ int deleteTree(int x,Tree *root){
         return 0;
     }
     if(temp->data > x){
-        return deleteTree(x,&temp->left);
+        return deleteTree(x,&temp->Left);
     }
     if(temp->data < x){
-        return deleteTree(x,&temp->right);
+        return deleteTree(x,&temp->Right);
     }
     Tree p = *root;
-    if(temp->left == NULL){
-        temp = temp->right;
+    if(temp->Left == NULL){
+        temp = temp->Right;
     }
     else{
-        if(temp->right == NULL)
-            temp = temp->left;
+        if(temp->Right == NULL)
+            temp = temp->Left;
         else
-            searchStandFor(&p,&temp->right);
+            searchStandFor(&p,&temp->Right);
     }
-    if(p->right ->right != NULL){
-        p->right = p->right->right;
+    if(p->Right ->Right != NULL){
+        p->Right = p->Right->Right;
     }
     else{
-        p->right = NULL;
+        p->Right = NULL;
     }
     return 1;
 }
