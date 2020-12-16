@@ -8,17 +8,23 @@ struct Node{
 typedef struct Node *Tree;
 
 void makeNullTree(Tree *root);              //* tạo rỗng Tree
-void insertTree(int x,Tree *root);          //* chèn node vào Tree
+void insertNode(int x,Tree *root);          //* chèn node vào Tree
 Tree createTree();                          //* tạo Tree
 void NLR(Tree root);                        //* duyệt tiền tự
 void LNR(Tree root);                        //* duyệt trung tự
 void LRN(Tree root);                        //* duyệt hậu tự
+Tree minNode(Tree root);                    //* node nhỏ nhất trong root
+Tree maxNode(Tree root);                    //* node lớn nhất trong root
+Tree getPrevious(int x,Tree root);          //* node phía trước khi duyệt trung tự
+void searchStandFor(Tree *p,Tree *q);       //*
+int deleteNode(int x,Tree *root);           //* xoá 1 node trong root
+
 
 
 void makeNullTree(Tree *root){
     (*root) = NULL;
 }
-void insertTree(int x,Tree *root){
+void insertNode(int x,Tree *root){
     Tree temp = *root;
     if(temp == NULL){
         temp = (struct Node*)malloc(sizeof(struct Node));
@@ -32,10 +38,10 @@ void insertTree(int x,Tree *root){
             return;
         }
         else if(temp->data > x){
-            insertTree(x,&temp->Left);
+            insertNode(x,&temp->Left);
         }
         else{
-            insertTree(x,&temp->Right);
+            insertNode(x,&temp->Right);
         }
     }
 }
@@ -47,7 +53,7 @@ Tree createTree(){
     int x;
     for (int i = 0; i < n; i++){
         scanf("%d",&x);
-        insertTree(x,&root);
+        insertNode(x,&root);
     }
     return root;
 }
@@ -72,17 +78,36 @@ void LRN(Tree root){
         printf("%d ",root->data);
     }
 }
-
-Tree getPrevious(int x,Tree root){
-    Tree t;
-    if(root != NULL){
-        getPrevious(x,root->Left);
-        t = root;
-        if(t->data == x){
-            return t;
-        }
-        getPrevious(x,root->Right);
+Tree minNode(Tree root){
+    while (root->Left != NULL){
+        root = root->Left;
     }
+    return root;
+}
+Tree maxNode(Tree root){
+    while (root->Right != NULL){
+        root = root->Right;
+    }
+    return root;
+}
+Tree getPrevious(int x,Tree root){
+    Tree prevNode = NULL;
+    while (root != NULL){
+        if(root->data > x){
+            root = root->Left;
+        }
+        else if(root->data < x){
+            prevNode = root;
+            root = root->Right;
+        }
+        else if(root->Left == NULL){
+            return prevNode;
+        }
+        else{
+            return maxNode(root->Left);
+        }
+    }
+    return NULL;
 }
 
 Tree searchNode(int x,Tree root){
@@ -111,7 +136,7 @@ void searchStandFor(Tree *p,Tree *q){
         temp2 = temp2->Right;
     }
 }
-int deleteTree(int x,Tree *root){
+int deleteNode(int x,Tree *root){
     Tree temp = *root;
     if(root == NULL){
         return 0;
