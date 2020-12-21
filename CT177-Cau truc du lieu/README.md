@@ -5,9 +5,7 @@
 Để học được học phần này bạn ít nhất phải có kiến thức của học phần sau :
 
 - ![icons8cprogrammingpng](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-40-39-icons8-c_programming.png) [CT101 - Lập trình căn bản A](https://zenfection.github.io/CTU/CT101-Lap%20trinh%20can%20ban%20A/)
-- ![icons8-bug.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/17-00-22-00-icons8-bug.png)Biết các kỹ năng debug (`khuyên dùng Vscode`) --- Guide 
-  
-  
+- ![icons8-bug.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/17-00-22-00-icons8-bug.png)Biết các kỹ năng [debug ](https://viblo.asia/p/gioi-thieu-ve-debug-DzVkpoKZenW)(`khuyên dùng Vscode`) --- [Guide](https://zenfection.github.io/Source/Vscode/)
 
 ---
 
