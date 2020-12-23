@@ -52,7 +52,13 @@
 
 - ![icons8-sorting.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/17-00-27-47-icons8-sorting.png)**8 giải thuật sắp xếp** ==> [Video : 8 tới 18 (*bỏ 13*)](https://drive.google.com/drive/folders/1YcUgdWSo9GjHm8j1644oPv5nUhj1tNKB?usp=sharing)
 
+---
+
 ## ![Community.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/16-23-32-26-Community.png) Nếu góp ý của bạn đều giúp ích cho cộng đồng của mình rất nhiều
+
+| <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/17-00-06-15-24%20Support.png" title="" alt="24 Support.png" width="50"> Báo lỗi sai | Đóng góp tài nguyên                   | Liên hệ trực tiếp                                   |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | --------------------------------------------------- |
+| [Google Form](https://forms.gle/pSEXEHXYFkAjRXDSA)                                                                                                              | Gửi Email : `kietgolx65234@gmail.com` | [Messenger](https://www.messenger.com/t/zenfection) |
 
 #### <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/17-00-06-15-24%20Support.png" title="" alt="24 Support.png" width="50"> |[Báo lỗi sai](https://forms.gle/pSEXEHXYFkAjRXDSA) || [Đóng góp tài nguyên](https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSPFqzlSXfwlPbNMlhrXBNDcckJQlXDrTBrLDFXKxSlpTPHKrRvhvZmLWdLHtLfXWcNWGNPC) || [Liên hệ góp ý trực tiếp](https://www.messenger.com/t/zenfection)|
 
