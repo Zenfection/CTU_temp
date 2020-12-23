@@ -12,14 +12,14 @@
 ## <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-31-38-Cloud%20Library.png" alt="Cloud Librarypng" width="50">Tài nguyên học tập
 
 1. **Sách/PDF**
-   - <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/16-22-48-56-CTU%20book.png" alt="CTU book.png" width="67"> [Tài liệu CTU](https://github.com/Zenfection/CTU/tree/main/CT177-Cau%20truc%20du%20lieu/Tài%20liệu) (`khuyên dùng`)
-   - <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/16-22-54-28-AlgorithmsGrow.png" title="" alt="AlgorithmsGrow.png" width="50">  [Tài liệu nghiên cứu](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/Algorithms.pdf) (`Tiếng anh` + `khó`)
+   - [<img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/16-22-48-56-CTU%20book.png" alt="CTU book.png" width="67">](https://github.com/Zenfection/CTU/tree/main/CT177-Cau%20truc%20du%20lieu/Tài%20liệu) [Tài liệu CTU](https://github.com/Zenfection/CTU/tree/main/CT177-Cau%20truc%20du%20lieu/Tài%20liệu) (`khuyên dùng`)
+   - [<img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/16-22-54-28-AlgorithmsGrow.png" title="" alt="AlgorithmsGrow.png" width="50">](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/Algorithms.pdf)  [Tài liệu nghiên cứu](https://github.com/Zenfection/CTU/blob/main/Programing%20Book/Algorithms.pdf) (`Tiếng anh` + `khó`)
 2. **Khoá học / Course**
    - [Cấu trúc dữ liệu và giải thuật kinh điển](https://drive.google.com/drive/folders/1YcUgdWSo9GjHm8j1644oPv5nUhj1tNKB?usp=sharing) (`khuyên dùng`)
    - [Cấu trúc dữ liệu và giải thuật-TDT](https://drive.google.com/drive/folders/1WHad8E9veuGBA4qItcOdZm1D5MG1ZiAr?usp=sharing) 
 3. **Web tham khảo**
-   - <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/16-23-01-32-University_of_San_Francisco_logo.png" title="" alt="University_of_San_Francisco_logo.png" width="50"> [Data Structure Visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) : Mô phỏng quá trình thực thi cấu trúc dữ liệu một cách trực quan nhất
-   - <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/16-23-00-16-logo-272-90.png" title="" alt="logo-272-90.png" width="73"> [Lập trình không khó](https://nguyenvanhieu.vn/ctdl-gt/) : Web tham khảo được việt hoá từ trang [GeeksforGeeks](https://www.geeksforgeeks.org) (*trang web dạy thuật toán phổ biến top thế giới*)
+   - [<img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/16-23-01-32-University_of_San_Francisco_logo.png" title="" alt="University_of_San_Francisco_logo.png" width="40">](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) [Data Structure Visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) : Mô phỏng quá trình thực thi cấu trúc dữ liệu một cách trực quan nhất
+   - [<img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/16-23-00-16-logo-272-90.png" title="" alt="logo-272-90.png" width="73">](https://nguyenvanhieu.vn/ctdl-gt/) [Lập trình không khó](https://nguyenvanhieu.vn/ctdl-gt/) : Web tham khảo được việt hoá từ trang [GeeksforGeeks](https://www.geeksforgeeks.org) (*trang web dạy thuật toán phổ biến top thế giới*)
 
 ---
 
@@ -27,7 +27,7 @@
 
        **CHƯƠNG 1: CÁC KIỂU DỮ LIỆU CƠ BẢN**
 
-- ![icons8-list.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/16-23-16-31-icons8-list.png) Danh sách đặc (*Array List*) : [source code](https://github.com/Zenfection/CTU/tree/main/CT177-Cau%20truc%20du%20lieu/Source/ArrayList) [![icons8-laptop_coding.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-20-08-09-icons8-laptop_coding.png)](https://github.com/Zenfection/CTU/tree/main/CT177-Cau%20truc%20du%20lieu/Source/ArrayList
+- ![icons8-list.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/16-23-16-31-icons8-list.png) Danh sách đặc (*Array List*) : [source code](https://github.com/Zenfection/CTU/tree/main/CT177-Cau%20truc%20du%20lieu/Source/ArrayList) [![icons8-laptop_coding.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-20-08-09-icons8-laptop_coding.png)](https://github.com/Zenfection/CTU/tree/main/CT177-Cau%20truc%20du%20lieu/Source/ArrayList)
 
 - ![icons8-link.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/16-23-16-51-icons8-link.png) Danh sách liên kết (*Linked List*) : [source code](https://github.com/Zenfection/CTU/tree/main/CT177-Cau%20truc%20du%20lieu/Source/Linked%20List) [![icons8-laptop_coding.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-20-08-09-icons8-laptop_coding.png)](https://github.com/Zenfection/CTU/tree/main/CT177-Cau%20truc%20du%20lieu/Source/Linked%20List)
 
