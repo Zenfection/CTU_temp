@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-03-42-ZenCTU.png" title="" alt="ZenCTU.png" width="520">
+# <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-23-40-07-ctufish.png" alt="ctufish.png" width="165"><img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-23-42-50-zenctulogo.png" alt="zenctulogo.png" width="453">
 
 # Đây là Project về các tài nguyên cho từng học phần trong ngành Công nghệ thông tin trong Đại học Cần Thơ (CTU)
 
