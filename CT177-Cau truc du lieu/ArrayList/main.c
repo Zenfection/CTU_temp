@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include "./Library/arrayList.h"
-#include "./Library/sortList.h"
-#include "./Library/searchList.h"
-//#include "./Library/studentList.h"
+//#include "arrayList.h"
+//#include "sortList.h"
+//#include "searchList.h"
+//#include "studentList.h"
 int main(int argc, char const *argv[]){
     
     return 0;
