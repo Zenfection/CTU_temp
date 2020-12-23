@@ -8,24 +8,28 @@
 
 ---
 
-## Tài nguyên học tập
+## ![Cloud Librarypng](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-31-38-Cloud%20Library.png) Tài nguyên học tập
 
-1. ![icons8knowledgesharingpng](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-21-53-25-icons8-knowledge_sharing.png) **Minimap** : Lý thuyết do chính mình biên soạn dựa trên khoá học bên dưới
-2. ![icons8coursepng](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-21-54-39-icons8-course.png) **Course** : [Giải tích 1](https://drive.google.com/drive/folders/1mT2icDFnbTzyd2I3wKXz8Za9dg_mlgRK?usp=sharing) (`Lê Bá Trần Phương-Hocmai`)
+1. ![icons8knowledgesharingpng](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-21-53-25-icons8-knowledge_sharing.png) **[Minimap]()** : Lý thuyết do chính mình biên soạn dựa trên khoá học bên dưới
+2. ![icons8coursepng](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-21-54-39-icons8-course.png) **Course** : [Giải tích 2](https://drive.google.com/drive/folders/1aeb1qNgoSmhFM4cbleMvc_MxUO8vxI1H?usp=sharing) (`Lê Bá Trần Phương-Hocmai`)
 3. **Web tham khảo**
-   - ![eurekapng](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-21-57-18-eureka.png) [Eureka! Uni - YouTube](https://www.youtube.com/c/EurekaUni/playlists?view=50&sort=dd&shelf_id=2)
+   - ![icons8-youtube.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-22-09-55-icons8-youtube.png) [Eureka! Uni](https://www.youtube.com/c/EurekaUni/playlists?view=50&sort=dd&shelf_id=2) : Trang content về Toán cao cấp cực hay nha 😇😇😇
 
 ---
 
-## Mục lục (Dựa trên học phần CTU)
+## ![SHOPING LIST.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-21-11-49-SHOPING%20LIST.png)Mục lục (Dựa trên học phần CTU)
+
+comming soon
 
 ---
 
-## Học thêm (*tuỳ bạn*)
+## ![Blended Learningpng](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/17-00-24-28-Blended%20Learning.png)Học thêm (*tuỳ bạn*)
+
+comming soon
 
 ---
 
-## Nếu góp ý của bạn đều giúp ích cho cộng đồng của mình rất nhiều
+## ![Community.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/16-23-32-26-Community.png) Nếu góp ý của bạn đều giúp ích cho cộng đồng của mình rất nhiều
 
 | ![googleformslogo2BA8295903seeklogocom  01png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-21-03-42-google-forms-logo-2BA8295903-seeklogo.com%20-%2001.png) Báo lỗi sai | ![icons8newcontactpng](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-21-05-27-icons8-new_contact.png) Đóng góp tài nguyên | ![24 Supportpng](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-20-55-28-24%20Support.png) Liên hệ trực tiếp |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |

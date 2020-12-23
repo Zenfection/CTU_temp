@@ -4,7 +4,7 @@
 
 ![icons8-user_manual.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-22-00-06-icons8-user_manual.png) Để học được học phần này bạn ít nhất phải có kiến thức của học phần sau :
 
-- Tạm kiến thức toán lớp 12 cụ thể là : `giới hạn``tích phân`, `đạo hàm` 
+- Tạm kiến thức toán lớp 12 cụ thể là : `giới hạn`,`tích phân`, `đạo hàm` 
 
 ---
 
@@ -13,15 +13,19 @@
 1. ![icons8-knowledge_sharing.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-21-53-25-icons8-knowledge_sharing.png) **Minimap** : Lý thuyết do chính mình biên soạn dựa trên khoá học bên dưới
 2. ![icons8-course.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-21-54-39-icons8-course.png) **Course** : [Giải tích 1](https://drive.google.com/drive/folders/1mT2icDFnbTzyd2I3wKXz8Za9dg_mlgRK?usp=sharing) (`Lê Bá Trần Phương-Hocmai`)
 3. **Web tham khảo**
-   - ![eureka.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-21-57-18-eureka.png) [Eureka! Uni - YouTube](https://www.youtube.com/c/EurekaUni/playlists?view=50&sort=dd&shelf_id=2)
+   - ![icons8-youtube.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-22-09-55-icons8-youtube.png) [Eureka! Uni](https://www.youtube.com/c/EurekaUni/playlists?view=50&sort=dd&shelf_id=2) : Trang content về Toán cao cấp cực hay nha 😇😇😇
 
 ---
 
 ## ![SHOPING LIST.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-21-11-49-SHOPING%20LIST.png) Mục lục (Dựa trên học phần CTU)
 
+comming soon
+
 ---
 
 ## ![Blended Learningpng](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/17-00-24-28-Blended%20Learning.png) Học thêm (*tuỳ bạn*)
+
+comming soon
 
 ---
 
