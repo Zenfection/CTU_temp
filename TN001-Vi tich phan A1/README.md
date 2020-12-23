@@ -20,9 +20,11 @@
 
 ---
 
-## Nếu góp ý của bạn đều giúp ích cho cộng đồng của mình rất nhiều
+## ![Community.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/16-23-32-26-Community.png) Nếu góp ý của bạn đều giúp ích cho cộng đồng của mình rất nhiều
 
-#### ![24 Support.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-20-55-28-24%20Support.png)|[Báo lỗi sai](https://forms.gle/pSEXEHXYFkAjRXDSA) || [Đóng góp tài nguyên](https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSPFqzlSXfwlPbNMlhrXBNDcckJQlXDrTBrLDFXKxSlpTPHKrRvhvZmLWdLHtLfXWcNWGNPC) || [Liên hệ góp ý trực tiếp](https://www.messenger.com/t/zenfection)|
+| ![googleformslogo2BA8295903seeklogocom  01png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-21-03-42-google-forms-logo-2BA8295903-seeklogo.com%20-%2001.png) Báo lỗi sai | ![icons8newcontactpng](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-21-05-27-icons8-new_contact.png) Đóng góp tài nguyên | ![24 Supportpng](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-20-55-28-24%20Support.png) Liên hệ trực tiếp |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
+| [Google Form](https://forms.gle/pSEXEHXYFkAjRXDSA)                                                                                                                                               | Gửi Email : `kietgolx65234@gmail.com`                                                                                                            | [Messenger](https://www.messenger.com/t/zenfection)                                                                                |
 
 > **`Báo lỗi sai`** : 🦈 Nếu bạn cảm thấy những lỗi sai nào đó của mình, thì hãy báo cho mình mà đừng ngại, nếu được thì cứ trực tiếp nhắn
 > 
