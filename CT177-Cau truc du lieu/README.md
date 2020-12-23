@@ -27,7 +27,11 @@
 
        **CHƯƠNG 1: CÁC KIỂU DỮ LIỆU CƠ BẢN**
 
-- ![icons8-list.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/16-23-16-31-icons8-list.png) Danh sách đặc (*Array List*) : [source code](https://github.com/Zenfection/CTU/tree/main/CT177-Cau%20truc%20du%20lieu/ArrayList) 
+- ![icons8-list.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/16-23-16-31-icons8-list.png) Danh sách đặc (*Array List*) : [source code](https://github.com/Zenfection/CTU/tree/main/CT177-Cau%20truc%20du%20lieu/ArrayList) ![icons8-laptop_coding.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-20-08-09-icons8-laptop_coding.png)
+  
+  
+  
+  
 - ![icons8-link.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/16-23-16-51-icons8-link.png) Danh sách liên kết (*Linked List*) : [source code](https://github.com/Zenfection/CTU/tree/main/CT177-Cau%20truc%20du%20lieu/Linked%20List)
 - ![icons8-pancake.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/16-23-17-18-icons8-pancake.png) Ngăn Xếp (*Stack*) : [source code](https://github.com/Zenfection/CTU/tree/main/CT177-Cau%20truc%20du%20lieu/Stack)
 - ![icons8-joining_queue.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/16-23-17-32-icons8-joining_queue.png) Hàng đợi (*Queue*) : [source code](https://github.com/Zenfection/CTU/tree/main/CT177-Cau%20truc%20du%20lieu/Queue)

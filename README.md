@@ -21,9 +21,9 @@
 
 ## ![Math.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-03-58-Math.png) Toán
 
-- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-17-34-FI_839897809_asaArtwork_featured1.jpg" title="" alt="FI_839897809_asaArtwork_featured1.jpg" width="50"> [TN001- Vi - Tích phân A1](https://zenfection.github.io/CTU/TN001-Vi%20tich%20phan%20A1/)
+- ![gt1.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-19-55-49-gt1.png)[TN001- Vi - Tích phân A1](https://zenfection.github.io/CTU/TN001-Vi%20tich%20phan%20A1/)
 
-- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-17-43-multivariable_calculus.png-ac2283-128c.png" title="" alt="multivariable_calculus.png-ac2283-128c.png" width="50"> [TN002 - Vi - Tích phân A2](https://zenfection.github.io/CTU/TN002-Vi%20tich%20phan%20A2/)
+- ![gt2 - 01.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-20-05-50-gt2%20-%2001.png) [TN002 - Vi - Tích phân A2](https://zenfection.github.io/CTU/TN002-Vi%20tich%20phan%20A2/)
 
 - ![icons8-histogram.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-18-20-icons8-histogram.png) [TN010 - Xác suất thống kê](https://zenfection.github.io/CTU/TN010-Xac%20suat%20thong%20ke/)
 
