@@ -2,9 +2,9 @@
 
 # Đây là Project về các tài nguyên cho từng học phần trong ngành Công nghệ thông tin trong Đại học Cần Thơ (CTU)
 
-| Ý tưởng | Người làm    | Cộng tác                |
-| ------- | ------------ | ----------------------- |
-| Kiệt    | cũng là Kiệt | Kiệt và những người bạn |
+| Ý tưởng | Người làm       | Cộng tác                |
+| ------- | --------------- | ----------------------- |
+| Kiệt    | cũng là Kiệt nè | Kiệt và những người bạn |
 
 ---
 
