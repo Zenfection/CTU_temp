@@ -55,19 +55,19 @@
 
 - <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-13-42-OOP-01.png" title="" alt="OOP-01.png" width="60"> CT176 - Lập trình hướng đối tượng
 
-- CT179 - Quản trị hệ thống
+- ![Scramble System.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-15-40-Scramble%20System.png) CT179 - Quản trị hệ thống
 
-- CT180 - Cơ sở dữ liệu
+- ![Database AS A Service.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-14-24-Database%20AS%20A%20Service.png) CT180 - Cơ sở dữ liệu
 
 - CT182 - Ngôn ngữ mô hình hóa
 
 - CT189 - Nhập môn mô phỏng
 
-- CT190 - Nhập môn trí tuệ nhân tạo
+- ![AI Knowledge.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-16-52-AI%20Knowledge.png) CT190 - Nhập môn trí tuệ nhân tạo
 
-- CT200 - Nền tảng công nghệ thông tin
+- ![Basic Knowledge.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-16-14-Basic%20Knowledge.png)CT200 - Nền tảng công nghệ thông tin
 
-- CT223 - Quản lý dự án phần mềm
+- ![Software Developer.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-29-05-Software%20Developer.png) CT223 - Quản lý dự án phần mềm
 
 - CT239 - Niên luận cơ sở ngành KTPM
 
@@ -75,23 +75,23 @@
 
 - CT241- Phân tích yêu cầu phần mềm
 
-- CT242 - Kiến trúc và Thiết kế phần mềm
+- ![Design Tablet.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-34-38-Design%20Tablet.png) CT242 - Kiến trúc và Thiết kế phần mềm
 
-- CT243 - Đảm bảo chất lượng và Kiểm thử phần mềm
+- ![TURING TEST.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-33-36-TURING%20TEST.png) CT243 - Đảm bảo chất lượng và Kiểm thử phần mềm
 
-- CT244 - Bảo trì phần mềm
+- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-32-33-baotriphanmem.png" title="" alt="baotriphanmem.png" width="50"> CT244 - Bảo trì phần mềm
 
 - CT246 - Lập trình .NET
 
-- CT276 - Lập trình Java
+- ![icons8_java_48px.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/08/23-23-56-37-icons8_java_48px.png) CT276 - Lập trình Java
 
 - CT296 - Phân tích và thiết kế hệ thống thông tin
 
-- CT316 - Xử lý ảnh
+- ![Object Based Image Analysis.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-30-57-Object%20Based%20Image%20Analysis.png) CT316 - Xử lý ảnh
 
 - CT446 - Ngôn ngữ lập trình mô phỏng
 
-- CT449 - Phát triển ứng dụng Web
+- ![Web Application Security.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-30-24-Web%20Application%20Security.png) CT449 - Phát triển ứng dụng Web
 
 - CT456 - Phát triển phần mềm mô phỏng
 
