@@ -144,8 +144,7 @@ void deleteList_byValue(int x,List *L){
             i++;
         }
         temp = temp->Next;
-    }
-    
+    }  
 }
 void deleteList_byNode(Node* newNode,List *L){
     int i = 0;

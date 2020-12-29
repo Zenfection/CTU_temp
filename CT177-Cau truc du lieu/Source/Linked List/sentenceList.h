@@ -12,19 +12,20 @@ typedef struct{
     int Size;
 }Sentence;
 
-void makeNullSentence(Sentence *S);                        //* tạo rỗng câu
-void displaySentence(Sentence S);                          //* hiển thị câu
+void makeNullSentence(Sentence *S);                         //* tạo rỗng câu
+void displaySentence(Sentence S);                           //* hiển thị câu
 Node *createNode(char c);                                   //* tạo một node với word
 void insertSentence_Frist(Node *newNode,Sentence *S);       //* thêm một node vào đầu danh sách
 void insertSentence_End(Node *newNode,Sentence *S);         //* thêm một node vào cuối danh sách
 void insertSentence_byPos(int p,Node *newNode,Sentence *S); //* chèn một node vào vị trí p trong danh sách
-void inputSentence(Sentence *S);                           //* hàm thêm n node vào trong danh sách
-int memberSentence(int x,Sentence S);                      //* kiểm tra x có trong danh sách 
-int locateSentence(int x,Sentence S);                      //* tìm vị trí node chứa x         
-void deleteSentence_byValue(int x,Sentence *S);             //* xoá node chứa x trong danh sách
+void inputSentence(Sentence *S);                            //* hàm thêm n node vào trong danh sách
+int memberSentence(char x,Sentence S);                      //* kiểm tra x có trong danh sách 
+int locateSentence(char x,Sentence S);                      //* tìm vị trí node chứa x         
+void deleteSentence_byValue(char x,Sentence *S);            //* xoá node chứa x trong danh sách
 void deleteSentence_byPos(int p,Sentence *S);               //* xoá node vị trí  p trong danh sách
 void deleteSentence_byNode(Node *newNode,Sentence *S);      //* xoá một node trong danh sách
-void normalizeSentence(Sentence *S);                       //* chuẩn hoá câu
+void deleteWhiteSpace(Sentence *S);                         //* xoá khoảng trắng dư thừa
+void normalizeSentence(Sentence *S);                        //* chuẩn hoá câu
 
 
 void makeNullSentence(Sentence *S){
@@ -102,7 +103,7 @@ void inputSentence(Sentence *S){
         insertSentence_byPos(i,temp,S);
     }
 }                               
-int memberSentence(int x,Sentence S){
+int memberSentence(char x,Sentence S){
     Node *temp = S.Head;
     while (temp != NULL){
         if(temp->Word == x){
@@ -112,7 +113,7 @@ int memberSentence(int x,Sentence S){
     }
     return 0;
 }                             
-int locateSentence(int x,Sentence S){
+int locateSentence(char x,Sentence S){
     Node *temp = S.Head;
     int i = 0;
     while (temp != NULL){
@@ -146,9 +147,9 @@ void deleteSentence_byPos(int p,Sentence *S){
         }
         prev = temp;
         temp = temp->Next;
-    }   
+    }     
 }                                 
-void deleteSentence_byValue(int x,Sentence *S){
+void deleteSentence_byValue(char x,Sentence *S){
     Node *temp = S->Head;
     int i = 0;
     while (temp != NULL){
@@ -173,25 +174,42 @@ void deleteSentence_byNode(Node *newNode,Sentence *S){
         }
         temp = temp->Next;
     }
-}      
-void normalizeSentence(Sentence *S){
+}
+void deleteWhiteSpace(Sentence *S){
     Node *temp = S->Head;
-    if(temp->Word >= 'a' || temp->Word <= 'z'){
-        temp->Word -= 32;
+    while(isspace(temp->Word)){
+        deleteSentence_byNode(temp,S);
         temp = temp->Next;
     }
+    while(temp != NULL){
+        if(isspace(temp->Word) && temp->Next != NULL){
+            if(isspace(temp->Next->Word)){
+                deleteSentence_byNode(temp,S);
+            }
+        }
+        temp = temp->Next;
+    }
+}      
+void normalizeSentence(Sentence *S){
+    deleteWhiteSpace(S);
+    Node *temp = S->Head;
+    if(islower(temp->Word)){
+        temp->Word -= 32;
+    }
+    temp = temp->Next;
     while (temp != NULL){
         while(!isspace(temp->Word)){
-            if(!islower(temp->Word)){
+            if(isupper(temp->Word)){
                 temp->Word += 32;
             }
             temp = temp->Next;
         }
-        if(temp->Word == ' '){
-            temp->Next->Word -= 32;
+        if(isspace(temp->Word) && temp->Next != NULL){
             temp = temp->Next;
+            if(islower(temp->Word)){
+                temp->Word -= 32;
+            }
         }
         temp = temp->Next;
     }
-
 }
