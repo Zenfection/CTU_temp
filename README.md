@@ -12,14 +12,19 @@
 
 - [![E Book.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-32-56-E%20Book.png)](https://zenfection.github.io/CTU/Programing%20Book/) [**Programing Book**](https://zenfection.github.io/CTU/Programing%20Book/): Đây là nguồn sách hỗ trợ mọi ngôn ngữ và hầu như mọi thứ trong IT, tất cả đều cập nhật ở mức độ hiện đại dễ hiểu đầy đủ và dĩ nhiên là tiếng anh (Hỗ trợ bởi [**GoalKicker**](https://goalkicker.com) )
 - [![Browse Courses.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-35-55-Browse%20Courses.png)](https://zenfection.github.io/Course/) [**Zen Course**](https://zenfection.github.io/Course/) : Tổng hợp các khoá học tiếng việt về lập trình cho các bạn có đầy đủ mọi thứ căn bản cho các bạn trong suốt quá trình học, để chi tiết hơn vui lòng chọn học phần cụ thể mà bạn muốn, **DÙNG TRONG MỤC ĐÍCH HỌC TẬP**
-- [![icons8-linux.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-45-10-icons8-linux.png)](https://github.com/Zenfection/Linux-for-babies) [**Linux for babies**](https://github.com/Zenfection/Linux-for-babies) : Đây là Series do chính tay mình viết về học Linux, các bạn hoàn toàn có thể tham khảo cũng như ủng hộ mình để hoàn thành series này sớm nhất
-- [<img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/08/23-23-46-55-icons8_android_os_64px.png" title="" alt="a" width="50">](https://github.com/Zenfection/Source/tree/master/Android#learning-code) [**App học Code**](https://github.com/Zenfection/Source/tree/master/Android#learning-code) : Nguồn app Android Premium dành để học code do mình chọn lọc
 
 ---
 
 ## <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/11/06-20-18-29-icons8-list.png" title="" alt="icons8-list.png" width="50"> Danh sách học phần
 
-## ![Math.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-03-58-Math.png) Toán
+
+
+<details>
+<summary style="font-size:20px"> <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-03-58-Math.png"> <b>Toán <b></summary>
+
+
+
+</details>
 
 - [![gt1.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-19-55-49-gt1.png)](https://zenfection.github.io/CTU/TN001-Vi%20tich%20phan%20A1/) [TN001- Vi - Tích phân A1](https://zenfection.github.io/CTU/TN001-Vi%20tich%20phan%20A1/)
 
