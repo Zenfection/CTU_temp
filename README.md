@@ -24,9 +24,9 @@
 
 <br>
 
-- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-19-55-49-gt1.png"> [TN001- Vi - Tích phân A1](https://github.com/Zenfection/CTU/tree/main/HocPhan/TN001-Vi_tich_phan_a2)
+- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-19-55-49-gt1.png"> [TN001- Vi - Tích phân A1](https://github.com/Zenfection/CTU/tree/main/HocPhan/TN001-Vi_tich_phan_a1)
 
-- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-20-05-50-gt2%20-%2001.png" width="40"> [TN002 - Vi - Tích phân A2](https://github.com/Zenfection/CTU/tree/main/HocPhan/TN001-Vi_tich_phan_a2)
+- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-20-05-50-gt2%20-%2001.png" width="40"> [TN002 - Vi - Tích phân A2](https://github.com/Zenfection/CTU/tree/main/HocPhan/TN002-Vi_tich_phan_a2)
 
 - <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-18-20-icons8-histogram.png" width="40"> [TN010 - Xác suất thống kê](https://github.com/Zenfection/CTU/tree/main/HocPhan/TN010-Xac_suat_thong_ke)
 
