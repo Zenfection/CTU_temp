@@ -34,6 +34,8 @@
 
 - <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-13-07-toanroirac%20-%2001.png" width="40"> [CT172-Toán rời rạc](https://github.com/Zenfection/CTU/tree/main/HocPhan/CT172-Toan_roi_rac)
 
+<br>
+
 </details>
 
 <details style="font-size:20px">
