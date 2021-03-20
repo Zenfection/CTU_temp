@@ -22,6 +22,8 @@
 <details style="font-size:20px">
 <summary> <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-03-58-Math.png"> <b>Toán <b></summary>
 
+<br>
+
 - [![gt1.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-19-55-49-gt1.png)](https://zenfection.github.io/CTU/TN001-Vi%20tich%20phan%20A1/) [TN001- Vi - Tích phân A1](https://zenfection.github.io/CTU/TN001-Vi%20tich%20phan%20A1/)
 
 - [![gt2 - 01.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-20-05-50-gt2%20-%2001.png)](https://zenfection.github.io/CTU/TN002-Vi%20tich%20phan%20A2/) [TN002 - Vi - Tích phân A2](https://zenfection.github.io/CTU/TN002-Vi%20tich%20phan%20A2/)
@@ -34,9 +36,10 @@
 
 </details>
 
+<details style="font-size:20px">
+<summary> <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-04-39-Code%20Learning.png"> <b>Lập trình <b></summary>
 
-
-## ![Code Learning.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-04-39-Code%20Learning.png)Lập trình căn bản
+<br>
 
 - [![icons8-c_programming.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-40-39-icons8-c_programming.png)](https://zenfection.github.io/CTU/CT101-Lap%20trinh%20can%20ban%20A/) [CT101 - Lập trình căn bản A](https://zenfection.github.io/CTU/CT101-Lap%20trinh%20can%20ban%20A/)
 
@@ -46,7 +49,12 @@
 
 - [<img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-22-31-building_website.png" title="" alt="building_website.png" width="60">](https://zenfection.github.io/CTU/CT188-Nhap%20Mon%20lap%20trinh%20Web/) [CT188-Nhập môn lập trình Web](https://zenfection.github.io/CTU/CT188-Nhap%20Mon%20lap%20trinh%20Web/)
 
-## ![Browse Courses.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-05-50-Browse%20Courses.png) Lý thuyết IT
+</details>
+
+<details style="font-size:20px">
+<summary> <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-05-50-Browse%20Courses.png"> <b>Lý thuyết IT <b></summary>
+
+<br>
 
 - ![Network.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-08-48-Network.png) CT112 - Mạng máy tính
 
@@ -64,21 +72,11 @@
 
 - ![Database AS A Service.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-14-24-Database%20AS%20A%20Service.png) CT180 - Cơ sở dữ liệu
 
-- CT182 - Ngôn ngữ mô hình hóa
-
-- CT189 - Nhập môn mô phỏng
-
 - ![AI Knowledge.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-16-52-AI%20Knowledge.png) CT190 - Nhập môn trí tuệ nhân tạo
 
 - ![Basic Knowledge.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-16-14-Basic%20Knowledge.png)CT200 - Nền tảng công nghệ thông tin
 
 - ![Software Developer.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-29-05-Software%20Developer.png) CT223 - Quản lý dự án phần mềm
-
-- CT239 - Niên luận cơ sở ngành KTPM
-
-- CT240 - Nguyên lý xây dựng phần mềm
-
-- CT241- Phân tích yêu cầu phần mềm
 
 - ![Design Tablet.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-34-38-Design%20Tablet.png) CT242 - Kiến trúc và Thiết kế phần mềm
 
@@ -86,28 +84,22 @@
 
 - <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-32-33-baotriphanmem.png" title="" alt="baotriphanmem.png" width="50"> CT244 - Bảo trì phần mềm
 
-- CT246 - Lập trình .NET
-
 - ![icons8_java_48px.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/08/23-23-56-37-icons8_java_48px.png) CT276 - Lập trình Java
-
-- CT296 - Phân tích và thiết kế hệ thống thông tin
 
 - ![Object Based Image Analysis.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-30-57-Object%20Based%20Image%20Analysis.png) CT316 - Xử lý ảnh
 
-- CT446 - Ngôn ngữ lập trình mô phỏng
-
 - ![Web Application Security.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-30-24-Web%20Application%20Security.png) CT449 - Phát triển ứng dụng Web
 
-- CT456 - Phát triển phần mềm mô phỏng
+</details>
 
-- CT474 - Thực tập thực tế - KTPM
-
-- CT505 - Tiểu luận tốt nghiệp - KTPM
-
-## <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/21-15-43-11-Support.png" title="" alt="Support.png" width="50"> Nguồn app hỗ trợ
+<details>
+<summary><b> <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/21-15-43-11-Support.png" width="50"> Nguồn app hỗ trợ</b></summary>
 
 Đây là các App mà mình đang xài hiện tại và rất thích thú với nó, hiện mình sẽ hỗ trợ gồm Android, Window, MacOS... (`Linux is opensourse`)
 
 - [![Big_Sur.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/11/25-19-33-36-Big_Sur.png)](https://zenfection.github.io/Source/MacOS/) [MacOS](https://zenfection.github.io/Source/MacOS/)
 - [![window.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/21-15-46-50-window.png)](https://zenfection.github.io/Source/Window/) [Window](https://zenfection.github.io/Source/Window/)
 - [![android_q_logo.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/11/27-08-55-37-android_q_logo.png)](https://zenfection.github.io/Source/Android/) [Android](https://zenfection.github.io/Source/Android/)
+
+
+</details>
