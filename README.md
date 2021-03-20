@@ -20,11 +20,7 @@
 
 
 <details>
-<summary style="font-size:20px"> <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-03-58-Math.png"> <b>Toán <b></summary>
-
-
-
-</details>
+<summary> <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-03-58-Math.png"> <b>Toán <b></summary>
 
 - [![gt1.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-19-55-49-gt1.png)](https://zenfection.github.io/CTU/TN001-Vi%20tich%20phan%20A1/) [TN001- Vi - Tích phân A1](https://zenfection.github.io/CTU/TN001-Vi%20tich%20phan%20A1/)
 
@@ -32,9 +28,13 @@
 
 - [![icons8-histogram.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-18-20-icons8-histogram.png)](https://zenfection.github.io/CTU/TN010-Xac%20suat%20thong%20ke/) [TN010 - Xác suất thống kê](https://zenfection.github.io/CTU/TN010-Xac%20suat%20thong%20ke/)
 
-- [<img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-20-36-08-dstt.png" alt="dstt.png" width="50">](https://zenfection.github.io/CTU/TN012-Đai%20ss%20tuyen%20tinh%20va%20hinh%20hoc/) [TN012 - Đại số tuyến tính và hình học](https://zenfection.github.io/CTU/TN012-Đai%20ss%20tuyen%20tinh%20va%20hinh%20hoc/)
+- [<img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-20-36-08-dstt.png" alt="dstt.png" width="50">](https://zenfection.github.io/CTU/TN012-Đai%20ss%20tuyen%20tinh%20va%20hinh%20hoc/) [TN012 - Đại số tuyến tính và hình học](https://zenfection.github.io/CTU/TN012-Đai%20ss%20tuyen%20tinh%20va%20hinh%20hoc/)
 
 - [![toanroirac - 01.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-13-07-toanroirac%20-%2001.png)](https://zenfection.github.io/CTU/CT172-Toàn%20roi%20rac/)   [CT172-Toán rời rạc](https://zenfection.github.io/CTU/CT172-Toàn%20roi%20rac/)
+
+</details>
+
+
 
 ## ![Code Learning.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-04-39-Code%20Learning.png)Lập trình căn bản
 
