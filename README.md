@@ -49,7 +49,15 @@
 
 - <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-16-57-os.png" width="40"> [CT178-Nguyên lý hệ điều hành](https://zenfection.github.io/CTU/CT178-Nguyen%20ly%20he%20đieu%20hanh/)
 
-- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-22-31-building_website.png" width="50"> [CT188-Nhập môn lập trình Web](https://zenfection.github.io/CTU/CT188-Nhap%20Mon%20lap%20trinh%20Web/)
+- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-22-31-building_website.png" width="40"> [CT188-Nhập môn lập trình Web](https://zenfection.github.io/CTU/CT188-Nhap%20Mon%20lap%20trinh%20Web/)
+
+- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-13-42-OOP-01.png" title="" alt="OOP-01.png" width="50"> [CT176 - Lập trình hướng đối tượng](https://github.com/Zenfection/CTU/tree/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong)
+
+- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-16-00-Logo-Design-Services%20-%2001%20-%2001.png"> CT174 - Phân tích và thiết kế thuật toán
+
+- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-15-40-Scramble%20System.png" width="40"> CT179 - Quản trị hệ thống
+
+- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-14-24-Database%20AS%20A%20Service.png"> CT180 - Cơ sở dữ liệu
 
 ---
 
@@ -66,15 +74,9 @@
 
 - ![Programmable Circuit Board.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-09-47-Programmable%20Circuit%20Board.png) CT173 - Kiến trúc máy tính
 
-- ![Logo-Design-Services - 01 - 01.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-16-00-Logo-Design-Services%20-%2001%20-%2001.png) CT174 - Phân tích và thiết kế thuật toán
 
 - ![Vector Graphics Rendering.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-12-24-Vector%20Graphics%20Rendering.png) CT175 - Lý thuyết đồ thị
 
-- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-13-42-OOP-01.png" title="" alt="OOP-01.png" width="60"> CT176 - Lập trình hướng đối tượng
-
-- ![Scramble System.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-15-40-Scramble%20System.png) CT179 - Quản trị hệ thống
-
-- ![Database AS A Service.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-14-24-Database%20AS%20A%20Service.png) CT180 - Cơ sở dữ liệu
 
 - ![AI Knowledge.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-16-52-AI%20Knowledge.png) CT190 - Nhập môn trí tuệ nhân tạo
 
