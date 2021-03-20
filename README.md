@@ -19,7 +19,7 @@
 
 
 
-<details>
+<details style="font-size:20px">
 <summary> <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-03-58-Math.png"> <b>Toán <b></summary>
 
 - [![gt1.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-19-55-49-gt1.png)](https://zenfection.github.io/CTU/TN001-Vi%20tich%20phan%20A1/) [TN001- Vi - Tích phân A1](https://zenfection.github.io/CTU/TN001-Vi%20tich%20phan%20A1/)
