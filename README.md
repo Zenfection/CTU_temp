@@ -28,11 +28,11 @@
 
 - <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-20-05-50-gt2%20-%2001.png" width="40"> [TN002 - Vi - Tích phân A2](https://github.com/Zenfection/CTU/tree/main/HocPhan/TN001-Vi_tich_phan_a2)
 
-- <img src="(https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-18-20-icons8-histogram.png" width="40"> [TN010 - Xác suất thống kê](https://github.com/Zenfection/CTU/tree/main/HocPhan/TN010-Xac_suat_thong_ke)
+- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-18-20-icons8-histogram.png" width="40"> [TN010 - Xác suất thống kê](https://github.com/Zenfection/CTU/tree/main/HocPhan/TN010-Xac_suat_thong_ke)
 
 - <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-20-36-08-dstt.png" alt="dstt.png" width="40"> [TN012 - Đại số tuyến tính và hình học](https://github.com/Zenfection/CTU/tree/main/HocPhan/TN012-Dai_so_tuyen_tinh_va_hinh_hoc)
 
-- <img src="https://github.com/Zenfection/CTU/tree/main/HocPhan/CT172-Toan_roi_rac" width="40"> [CT172-Toán rời rạc](https://github.com/Zenfection/CTU/tree/main/HocPhan/CT172-Toan_roi_rac)
+- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-13-07-toanroirac%20-%2001.png" width="40"> [CT172-Toán rời rạc](https://github.com/Zenfection/CTU/tree/main/HocPhan/CT172-Toan_roi_rac)
 
 </details>
 
