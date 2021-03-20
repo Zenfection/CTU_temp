@@ -2,9 +2,9 @@
 
 # Đây là Project về các tài nguyên cho từng học phần trong ngành Công nghệ thông tin trong Đại học Cần Thơ (CTU)
 
-| Ý tưởng | Người làm       | Cộng tác                |
-| ------- | --------------- | ----------------------- |
-| Kiệt    | cũng là Kiệt nè | Kiệt và những người bạn |
+| <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/20-14-36-27-logo%20cat.png" title="" alt="logo cat.png" width="40"> Tác giả | <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/20-14-38-42-logo-ctu.png" title="" alt="logo-ctu.png" width="40"> Bổ trợ tài liệu | <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/20-13-59-20-icons8-new_year's_eve.png" title="" alt="icons8-new_year's_eve.png" width="40"> Năm |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Zenfection](https://facebook.com/Zenfection)                                                                                                           | [Can Tho University](http://www.cit.ctu.edu.vn/)                                                                                                              | 2021                                                                                                                                                                        |
 
 ---
 
