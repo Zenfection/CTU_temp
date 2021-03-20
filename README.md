@@ -24,15 +24,15 @@
 
 <br>
 
-- [![gt1.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-19-55-49-gt1.png)](https://zenfection.github.io/CTU/TN001-Vi%20tich%20phan%20A1/) [TN001- Vi - Tích phân A1](https://zenfection.github.io/CTU/TN001-Vi%20tich%20phan%20A1/)
+- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-19-55-49-gt1.png"> [TN001- Vi - Tích phân A1](https://github.com/Zenfection/CTU/tree/main/HocPhan/TN001-Vi_tich_phan_a2)
 
-- [![gt2 - 01.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-20-05-50-gt2%20-%2001.png)](https://zenfection.github.io/CTU/TN002-Vi%20tich%20phan%20A2/) [TN002 - Vi - Tích phân A2](https://zenfection.github.io/CTU/TN002-Vi%20tich%20phan%20A2/)
+- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-20-05-50-gt2%20-%2001.png" width="40"> [TN002 - Vi - Tích phân A2](https://github.com/Zenfection/CTU/tree/main/HocPhan/TN001-Vi_tich_phan_a2)
 
-- [![icons8-histogram.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-18-20-icons8-histogram.png)](https://zenfection.github.io/CTU/TN010-Xac%20suat%20thong%20ke/) [TN010 - Xác suất thống kê](https://zenfection.github.io/CTU/TN010-Xac%20suat%20thong%20ke/)
+- <img src="(https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-18-20-icons8-histogram.png" width="40"> [TN010 - Xác suất thống kê](https://github.com/Zenfection/CTU/tree/main/HocPhan/TN010-Xac_suat_thong_ke)
 
-- [<img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-20-36-08-dstt.png" alt="dstt.png" width="50">](https://zenfection.github.io/CTU/TN012-Đai%20ss%20tuyen%20tinh%20va%20hinh%20hoc/) [TN012 - Đại số tuyến tính và hình học](https://zenfection.github.io/CTU/TN012-Đai%20ss%20tuyen%20tinh%20va%20hinh%20hoc/)
+- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-20-36-08-dstt.png" alt="dstt.png" width="40"> [TN012 - Đại số tuyến tính và hình học](https://github.com/Zenfection/CTU/tree/main/HocPhan/TN012-Dai_so_tuyen_tinh_va_hinh_hoc)
 
-- [![toanroirac - 01.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-13-07-toanroirac%20-%2001.png)](https://zenfection.github.io/CTU/CT172-Toàn%20roi%20rac/)   [CT172-Toán rời rạc](https://zenfection.github.io/CTU/CT172-Toàn%20roi%20rac/)
+- <img src="https://github.com/Zenfection/CTU/tree/main/HocPhan/CT172-Toan_roi_rac" width="40"> [CT172-Toán rời rạc](https://github.com/Zenfection/CTU/tree/main/HocPhan/CT172-Toan_roi_rac)
 
 </details>
 
