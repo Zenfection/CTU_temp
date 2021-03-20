@@ -43,9 +43,9 @@
 
 <br>
 
-- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-40-39-icons8-c_programming.png" width="40"> [CT101 - Lập trình căn bản A](https://zenfection.github.io/CTU/CT101-Lap%20trinh%20can%20ban%20A/)
+- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-40-39-icons8-c_programming.png" width="40"> [CT101 - Lập trình căn bản A](https://github.com/Zenfection/CTU/tree/main/HocPhan/CT101-Lap_Trinh_Can_Ban_A)
 
-- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-15-54-cautrucdulieu.png" width="40"> [CT177-Cấu trúc dữ liệu](https://zenfection.github.io/CTU/CT177-Cau%20truc%20du%20lieu/)
+- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-15-54-cautrucdulieu.png" width="40"> [CT177-Cấu trúc dữ liệu](https://github.com/Zenfection/CTU/tree/main/HocPhan/CT177-Cau_truc_du_lieu)
 
 - <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-16-57-os.png" width="40"> [CT178-Nguyên lý hệ điều hành](https://zenfection.github.io/CTU/CT178-Nguyen%20ly%20he%20đieu%20hanh/)
 
