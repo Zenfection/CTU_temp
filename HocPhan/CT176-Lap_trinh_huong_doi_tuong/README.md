@@ -6,7 +6,8 @@
 
 ## ![sd](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-22-00-06-icons8-user_manual.png) 1. Kiến thức cần có
 
-- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-40-39-icons8-c_programming.png" title="" alt="asd" width="35"> [CT101-Lập trình căn bản A]()
+- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-40-39-icons8-c_programming.png" title="" alt="asd" width="35"> [CT101-Lập trình căn bản A](https://github.com/Zenfection/CTU/tree/main/HocPhan/CT101-Lap_Trinh_Can_Ban_A)
+- 
 - <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/17-00-22-00-icons8-bug.png" title="" alt="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/17-00-22-00-icons8-bug.png" width="35"> Biết các kỹ năng [debug](https://viblo.asia/p/gioi-thieu-ve-debug-DzVkpoKZenW) (`khuyên dùng Vscode`) ---  <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/20-16-48-59-23-20-22-50-History.png" title="" alt="23-20-22-50-History.png" width="35"> [Guide](https://zenfection.github.io/Source/Vscode/)
 
 ---
@@ -19,9 +20,9 @@
 
 ---
 
-## 3. Quá trình học tập
+## <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/20-22-42-23-icons8-sand_timer.png" title="" alt="icons8-sand_timer.png" width="40"> 3. Quá trình học tập
 
-### <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/20-16-32-00-icons8-papers.png" title="" alt="icons8-papers.png" width="50"> Lý thuyết
+### <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/20-16-32-00-icons8-papers.png" title="" alt="icons8-papers.png" width="35"> Lý thuyết
 
 - [Phần 1. Mảng, Chuỗi,Ngoại lệ](https://github.com/Zenfection/CTU/raw/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/Tailieu/1.Mang_Chuoi_NgoaiLe.pdf)
 - [Phần 2. Lý thuyết OOP](https://github.com/Zenfection/CTU/raw/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/Tailieu/2.LyThuyet_OOP.pdf)
@@ -32,7 +33,7 @@
 
 > Bạn cũng có thể chỉ cần theo sát Guide của mình : ![icons8-java.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/20-16-26-09-icons8-java.png) [Guide Java OOP](https://github.com/Zenfection/Java)
 
-### ![icons8-hologram.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/20-16-32-35-icons8-hologram.png)Thực hành
+### <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/20-16-32-35-icons8-hologram.png" title="" alt="icons8-hologram.png" width="35">Thực hành
 
 - [Buổi 1. Làm quen Java](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/ThucHanh/buoi1.md)
 - [Buổi 2.Lập trình OOP cơ bản](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/ThucHanh/buoi2.md)
