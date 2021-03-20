@@ -16,7 +16,7 @@
 
 ## <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-31-38-Cloud%20Library.png" title="" alt="S" width="40"> 2. Tài liệu học tập<img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/20-16-12-51-book_ctu_uit.png" title="" alt="book_ctu_uit.png" width="50">
 
-- [Chương 1.Kỹ thuật phân tích thuật toán]((https://github.com/Zenfection/CTU/blob/main/HocPhan/CT174-Phan_tich_va_thiet_ke_thuat_toan/Tailieu/1.KyThuat_PTTKTT.md)
+- [Chương 1.Kỹ thuật phân tích thuật toán](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT174-Phan_tich_va_thiet_ke_thuat_toan/Tailieu/1.KyThuat_PTTKTT.md)
 - Chương 2.Kỹ thuật sắp xếp
 - Chương 3.Kỹ thuật thiết kế thuật toán
 - Chương 4.Cấu trúc dữ liệu và thuật toán lưu trữ ngoài
