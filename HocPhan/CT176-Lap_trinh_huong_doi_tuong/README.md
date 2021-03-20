@@ -19,3 +19,22 @@
 ---
 
 ## 3. Quá trình học tập
+
+Lý thuyết : 
+
+- [Phần 1. Mảng, Chuỗi,Ngoại lệ](https://github.com/Zenfection/CTU/raw/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/Tailieu/1.Mang_Chuoi_NgoaiLe.pdf)
+- [Phần 2. Lý thuyết OOP](https://github.com/Zenfection/CTU/raw/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/Tailieu/2.LyThuyet_OOP.pdf)
+- [Phần 3.Lớp đối tượng và hàm xây dưng](https://github.com/Zenfection/CTU/raw/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/Tailieu/3.LopDoiTuong_HamXayDung.pdf)
+- [Phần 4.Hàm xây dựng và Tái định nghĩa](https://github.com/Zenfection/CTU/raw/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/Tailieu/4.HamXayDung_TaiDinhNghia.pdf)
+- [Phần 5.Thuộc tính đối tượng và sao chép sâu](https://github.com/Zenfection/CTU/raw/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/Tailieu/5.%20ThuocTinhDoiTuong_SaochepSau.pdf)
+- [Phần 6.Thứa kế, Đa hình và Trừu tượng hoá](https://github.com/Zenfection/CTU/raw/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/Tailieu/6.ThuaKe.pdf)
+
+> Bạn cũng có thể chỉ cần theo sát Guide của mình : ![icons8-java.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/20-16-26-09-icons8-java.png) [Guide Java OOP](github.com/Zenfection/Java)
+
+Thực hành: 
+
+- [Buổi 1](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/ThucHanh/buoi1.md)
+- [Buổi 2](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/ThucHanh/buoi2.md)
+- [Buổi 3](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/ThucHanh/buoi3.md)
+- [Buổi 4](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/ThucHanh/buoi4.md)
+- [Buổi 5](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/ThucHanh/buoi5.md)
