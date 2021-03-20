@@ -43,13 +43,13 @@
 
 <br>
 
-- <img src="(https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-40-39-icons8-c_programming.png" width="40"> [CT101 - Lập trình căn bản A](https://zenfection.github.io/CTU/CT101-Lap%20trinh%20can%20ban%20A/)
+- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-40-39-icons8-c_programming.png" width="40"> [CT101 - Lập trình căn bản A](https://zenfection.github.io/CTU/CT101-Lap%20trinh%20can%20ban%20A/)
 
 - <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-15-54-cautrucdulieu.png" width="40"> [CT177-Cấu trúc dữ liệu](https://zenfection.github.io/CTU/CT177-Cau%20truc%20du%20lieu/)
 
 - <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-16-57-os.png" width="40"> [CT178-Nguyên lý hệ điều hành](https://zenfection.github.io/CTU/CT178-Nguyen%20ly%20he%20đieu%20hanh/)
 
-- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-22-31-building_website.png" width="50> [CT188-Nhập môn lập trình Web](https://zenfection.github.io/CTU/CT188-Nhap%20Mon%20lap%20trinh%20Web/)
+- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-22-31-building_website.png" width="50"> [CT188-Nhập môn lập trình Web](https://zenfection.github.io/CTU/CT188-Nhap%20Mon%20lap%20trinh%20Web/)
 
 ---
 
