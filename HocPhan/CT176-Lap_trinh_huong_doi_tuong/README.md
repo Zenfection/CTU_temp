@@ -7,7 +7,6 @@
 ## ![sd](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-22-00-06-icons8-user_manual.png) 1. Kiến thức cần có
 
 - <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-40-39-icons8-c_programming.png" title="" alt="asd" width="35"> [CT101-Lập trình căn bản A](https://github.com/Zenfection/CTU/tree/main/HocPhan/CT101-Lap_Trinh_Can_Ban_A)
-- 
 - <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/17-00-22-00-icons8-bug.png" title="" alt="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/17-00-22-00-icons8-bug.png" width="35"> Biết các kỹ năng [debug](https://viblo.asia/p/gioi-thieu-ve-debug-DzVkpoKZenW) (`khuyên dùng Vscode`) ---  <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/20-16-48-59-23-20-22-50-History.png" title="" alt="23-20-22-50-History.png" width="35"> [Guide](https://zenfection.github.io/Source/Vscode/)
 
 ---

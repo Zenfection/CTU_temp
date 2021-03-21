@@ -17,8 +17,6 @@
 
 ## <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/11/06-20-18-29-icons8-list.png" title="" alt="icons8-list.png" width="50"> Danh sách học phần
 
-
-
 <details style="font-size:20px">
 <summary> <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-03-58-Math.png"> <b>Toán <b></summary>
 
@@ -35,6 +33,16 @@
 - <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-13-07-toanroirac%20-%2001.png" width="40"> [CT172-Toán rời rạc](https://github.com/Zenfection/CTU/tree/main/HocPhan/CT172-Toan_roi_rac)
 
 ---
+
+|                                                                                                                                                                                                  | Mã HP | [Elcit](https://elcit.ctu.edu.vn/course/search.php?search=CT173) |     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----- | ---------------------------------------------------------------- | --- |
+| <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-40-39-icons8-c_programming.png" alt="" width="40"> Lập trình căn bản A                                | CT101 |                                                                  |     |
+| <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-15-54-cautrucdulieu.png" alt="" width="40"> Cấu trúc dữ liệu                                          | CT177 |                                                                  |     |
+| <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-16-57-os.png" alt="" width="40">  Nguyên lý hệ điều hành                                              | CT178 |                                                                  |     |
+| <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-22-31-building_website.png" alt="" width="50"> Nhập môn lập trình Web                                 | CT188 |                                                                  |     |
+| <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-13-42-OOP-01.png" alt="OOP-01.png" width="55"> Lập trình hướng đối tượng                              | CT176 |                                                                  |     |
+| <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-16-00-Logo-Design-Services%20-%2001%20-%2001.png" alt="" width="40"> Phân tích và thiết kế thuật toán | CT179 |                                                                  |     |
+| <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-14-24-Database%20AS%20A%20Service.png" alt="" width="40"> Cơ sở dữ liệu                               | CT180 |                                                                  |     |
 
 </details>
 
@@ -74,9 +82,7 @@
 
 - ![Programmable Circuit Board.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-09-47-Programmable%20Circuit%20Board.png) CT173 - Kiến trúc máy tính
 
-
 - ![Vector Graphics Rendering.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-12-24-Vector%20Graphics%20Rendering.png) CT175 - Lý thuyết đồ thị
-
 
 - ![AI Knowledge.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-16-52-AI%20Knowledge.png) CT190 - Nhập môn trí tuệ nhân tạo
 
@@ -106,6 +112,5 @@
 - [![Big_Sur.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/11/25-19-33-36-Big_Sur.png)](https://zenfection.github.io/Source/MacOS/) [MacOS](https://zenfection.github.io/Source/MacOS/)
 - [![window.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/21-15-46-50-window.png)](https://zenfection.github.io/Source/Window/) [Window](https://zenfection.github.io/Source/Window/)
 - [![android_q_logo.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/11/27-08-55-37-android_q_logo.png)](https://zenfection.github.io/Source/Android/) [Android](https://zenfection.github.io/Source/Android/)
-
 
 </details>
