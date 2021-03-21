@@ -26,8 +26,6 @@
 | <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-18-20-icons8-histogram.png" width="40"> [Xác suất thống kê](https://github.com/Zenfection/CTU/tree/main/HocPhan/TN010-Xac_suat_thong_ke)                | TN010 |
 | <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-20-36-08-dstt.png" alt="dstt.png" width="40"> [Đại số tuyến tính](https://github.com/Zenfection/CTU/tree/main/HocPhan/TN012-Dai_so_tuyen_tinh_va_hinh_hoc) | TN012 |
 
-- 
-
 </details>
 
 ---
