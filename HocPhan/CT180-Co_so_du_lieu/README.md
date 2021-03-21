@@ -22,3 +22,8 @@
 ---
 
 ## <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/20-22-42-23-icons8-sand_timer.png" width="40"> 3. Quá trình học tập
+
+| <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/20-16-32-00-icons8-papers.png" width="35"> Lý thuyết | ![icons8-markdown.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/21-14-02-19-icons8-markdown.png) Bài học | ![icons8-triceps.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/21-14-02-59-icons8-triceps.png) Bài tập |
+| -------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| 1. Đại số quan hệ                                                                                                                | [Nhấn vào đây](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT180-Co_so_du_lieu/Tailieu/1.daisoquanhe.md)                  | [Nhấn vào đây](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT180-Co_so_du_lieu/Baitap/1.daisoquanhe.md)                 |
+|                                                                                                                                  |                                                                                                                                   |                                                                                                                                 |
