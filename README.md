@@ -32,40 +32,23 @@
 
 - <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-13-07-toanroirac%20-%2001.png" width="40"> [CT172-Toán rời rạc](https://github.com/Zenfection/CTU/tree/main/HocPhan/CT172-Toan_roi_rac)
 
+</details>
+
 ---
 
-| Môn học                                                                                                                                                                                                                                            | Mã HP | [Elcit](https://elcit.ctu.edu.vn/course/search.php?search=CT173) |     |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- | ---------------------------------------------------------------- | --- |
-| <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-40-39-icons8-c_programming.png" alt="" width="40"> [Lập trình căn bản A](https://github.com/Zenfection/CTU/tree/main/HocPhan/CT101-Lap_Trinh_Can_Ban_A) | CT101 |                                                                  |     |
-| <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-15-54-cautrucdulieu.png" alt="" width="40"> [Cấu trúc dữ liệu](https://github.com/Zenfection/CTU/tree/main/HocPhan/CT177-Cau_truc_du_lieu)              | CT177 |                                                                  |     |
-| <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-16-57-os.png" alt="" width="40">  [Nguyên lý hệ điều hành](https://zenfection.github.io/CTU/CT178-Nguyen%20ly%20he%20đieu%20hanh/)                      | CT178 |                                                                  |     |
-| <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-22-31-building_website.png" alt="" width="50"> Nhập môn lập trình Web                                                                                   | CT188 |                                                                  |     |
-| <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-13-42-OOP-01.png" alt="OOP-01.png" width="55"> Lập trình hướng đối tượng                                                                                | CT176 |                                                                  |     |
-| <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-16-00-Logo-Design-Services%20-%2001%20-%2001.png" alt="" width="40"> Phân tích và thiết kế thuật toán                                                   | CT179 |                                                                  |     |
-| <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-14-24-Database%20AS%20A%20Service.png" alt="" width="40"> Cơ sở dữ liệu                                                                                 | CT180 |                                                                  |     |
+| Môn học                                                                                                                                                                                                                                            | Mã HP                                                            | Quan trọng |     |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ---------- | --- |
+| <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-40-39-icons8-c_programming.png" alt="" width="40"> [Lập trình căn bản A](https://github.com/Zenfection/CTU/tree/main/HocPhan/CT101-Lap_Trinh_Can_Ban_A) | [CT101](https://elcit.ctu.edu.vn/course/search.php?search=CT101) |            |     |
+| <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-15-54-cautrucdulieu.png" alt="" width="40"> [Cấu trúc dữ liệu](https://github.com/Zenfection/CTU/tree/main/HocPhan/CT177-Cau_truc_du_lieu)              | [CT177](https://elcit.ctu.edu.vn/course/search.php?search=CT177) |            |     |
+| <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-16-57-os.png" alt="" width="40">  [Nguyên lý hệ điều hành](https://zenfection.github.io/CTU/CT178-Nguyen%20ly%20he%20đieu%20hanh/)                      | [CT178](https://elcit.ctu.edu.vn/course/search.php?search=CT178) |            |     |
+| <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-22-31-building_website.png" alt="" width="50"> Nhập môn lập trình Web                                                                                   | [CT188](https://elcit.ctu.edu.vn/course/search.php?search=CT188) |            |     |
+| <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-13-42-OOP-01.png" alt="OOP-01.png" width="55"> Lập trình hướng đối tượng                                                                                | [CT176](https://elcit.ctu.edu.vn/course/search.php?search=CT176) |            |     |
+| <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-16-00-Logo-Design-Services%20-%2001%20-%2001.png" alt="" width="40"> Phân tích và thiết kế thuật toán                                                   | [CT179](https://elcit.ctu.edu.vn/course/search.php?search=CT179) |            |     |
+| <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-14-24-Database%20AS%20A%20Service.png" alt="" width="40"> Cơ sở dữ liệu                                                                                 | [CT180](https://elcit.ctu.edu.vn/course/search.php?search=CT180) |            |     |
 
-</details>
 
 <details style="font-size:20px">
 <summary> <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-04-39-Code%20Learning.png"> <b>Lập trình <b></summary>
-
-<br>
-
-- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-40-39-icons8-c_programming.png" width="40"> [CT101 - Lập trình căn bản A](https://github.com/Zenfection/CTU/tree/main/HocPhan/CT101-Lap_Trinh_Can_Ban_A)
-
-- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-15-54-cautrucdulieu.png" width="40"> [CT177-Cấu trúc dữ liệu](https://github.com/Zenfection/CTU/tree/main/HocPhan/CT177-Cau_truc_du_lieu)
-
-- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-16-57-os.png" width="40"> [CT178-Nguyên lý hệ điều hành](https://zenfection.github.io/CTU/CT178-Nguyen%20ly%20he%20đieu%20hanh/)
-
-- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-22-31-building_website.png" width="40"> [CT188-Nhập môn lập trình Web](https://zenfection.github.io/CTU/CT188-Nhap%20Mon%20lap%20trinh%20Web/)
-
-- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-13-42-OOP-01.png" title="" alt="OOP-01.png" width="50"> [CT176 - Lập trình hướng đối tượng](https://github.com/Zenfection/CTU/tree/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong)
-
-- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-16-00-Logo-Design-Services%20-%2001%20-%2001.png"> CT174 - Phân tích và thiết kế thuật toán
-
-- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-15-40-Scramble%20System.png" width="40"> CT179 - Quản trị hệ thống
-
-- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-14-24-Database%20AS%20A%20Service.png"> CT180 - Cơ sở dữ liệu
 
 ---
 
