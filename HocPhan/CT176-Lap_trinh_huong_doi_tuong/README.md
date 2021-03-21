@@ -6,7 +6,9 @@
 
 ## ![sd](https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-22-00-06-icons8-user_manual.png) 1. Kiến thức cần có
 
-- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-40-39-icons8-c_programming.png" title="" alt="asd" width="35"> [CT101-Lập trình căn bản A](https://github.com/Zenfection/CTU/tree/main/HocPhan/CT101-Lap_Trinh_Can_Ban_A)
+- | Môn học                                                                                                                                                                                                                                            | Mã HP                                                            | Hỗ trợ [else](https://else.ctu.edu.vn/course/index.php)                                                                     | Kế hoạch dạy                                            |
+  | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+  | <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-40-39-icons8-c_programming.png" alt="" width="40"> [Lập trình căn bản A](https://github.com/Zenfection/CTU/tree/main/HocPhan/CT101-Lap_Trinh_Can_Ban_A) | [CT101](https://elcit.ctu.edu.vn/course/search.php?search=CT101) | ![icons8-checkmark.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/21-10-51-08-icons8-checkmark.png) | [Link PDF](http://www.cit.ctu.edu.vn/decuong/CT101.pdf) |
 - <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/17-00-22-00-icons8-bug.png" title="" alt="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/17-00-22-00-icons8-bug.png" width="35"> Biết các kỹ năng [debug](https://viblo.asia/p/gioi-thieu-ve-debug-DzVkpoKZenW) (`khuyên dùng Vscode`) ---  <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/20-16-48-59-23-20-22-50-History.png" title="" alt="23-20-22-50-History.png" width="35"> [Guide](https://zenfection.github.io/Source/Vscode/)
 
 ---
@@ -23,19 +25,23 @@
 
 ### <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/20-16-32-00-icons8-papers.png" title="" alt="icons8-papers.png" width="35"> Lý thuyết
 
-- [Phần 1. Mảng, Chuỗi,Ngoại lệ](https://github.com/Zenfection/CTU/raw/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/Tailieu/1.Mang_Chuoi_NgoaiLe.pdf)
-- [Phần 2. Lý thuyết OOP](https://github.com/Zenfection/CTU/raw/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/Tailieu/2.LyThuyet_OOP.pdf)
-- [Phần 3.Lớp đối tượng và hàm xây dưng](https://github.com/Zenfection/CTU/raw/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/Tailieu/3.LopDoiTuong_HamXayDung.pdf)
-- [Phần 4.Hàm xây dựng và Tái định nghĩa](https://github.com/Zenfection/CTU/raw/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/Tailieu/4.HamXayDung_TaiDinhNghia.pdf)
-- [Phần 5.Thuộc tính đối tượng và sao chép sâu](https://github.com/Zenfection/CTU/raw/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/Tailieu/5.%20ThuocTinhDoiTuong_SaochepSau.pdf)
-- [Phần 6.Thứa kế, Đa hình và Trừu tượng hoá](https://github.com/Zenfection/CTU/raw/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/Tailieu/6.ThuaKe.pdf)
+| ![icons8-course.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/21-13-30-30-icons8-course.png) Bài học | ![icons8-download.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/21-13-30-45-icons8-download.png) Link Download      |
+| ----------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Mảng,Chuỗi,Ngoại lệ                                                                                                           | [file PDF](https://github.com/Zenfection/CTU/raw/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/Tailieu/1.Mang_Chuoi_NgoaiLe.pdf)              |
+| Lý thuyết OOP                                                                                                                 | [file PDF](https://github.com/Zenfection/CTU/raw/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/Tailieu/2.LyThuyet_OOP.pdf)                    |
+| Lớp đối tượng và hàm xây dựng                                                                                                 | [file PDF](https://github.com/Zenfection/CTU/raw/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/Tailieu/3.LopDoiTuong_HamXayDung.pdf)          |
+| Hàm xây dựng và tái định nghĩa                                                                                                | [file PDF](https://github.com/Zenfection/CTU/raw/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/Tailieu/4.HamXayDung_TaiDinhNghia.pdf)         |
+| Thuộc tính đối tượng và sao chép sâu                                                                                          | [file PDF](https://github.com/Zenfection/CTU/raw/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/Tailieu/5.%20ThuocTinhDoiTuong_SaochepSau.pdf) |
+| Thừa kế, Đa hình và Trừu tượng hoá                                                                                            | [file PDF](https://github.com/Zenfection/CTU/raw/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/Tailieu/6.ThuaKe.pdf)                          |
 
 > Bạn cũng có thể chỉ cần theo sát Guide của mình : ![icons8-java.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/20-16-26-09-icons8-java.png) [Guide Java OOP](https://github.com/Zenfection/Java)
 
 ### <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/20-16-32-35-icons8-hologram.png" title="" alt="icons8-hologram.png" width="35">Thực hành
 
-- [Buổi 1. Làm quen Java](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/ThucHanh/buoi1.md)
-- [Buổi 2.Lập trình OOP cơ bản](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/ThucHanh/buoi2.md)
-- [Buổi 3.Lập trình OOP nâng cao](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/ThucHanh/buoi3.md)
-- [Buổi 4.Thứa kế OOP](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/ThucHanh/buoi4.md)
-- [Buổi 5.Quản lí sinh viên OOP](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/ThucHanh/buoi5.md)
+| Buổi thực hành              | Câu hỏi và đáp án                                                                                                     |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| 1. Làm quen `Java OOP`      | [Nhấn vào đây](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/ThucHanh/buoi1.md) |
+| 2. Lập trình `OOP` căn bản  | [Nhấn vào đây](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/ThucHanh/buoi2.md) |
+| 3. Lập trình `OOP` nâng cao | [Nhấn vào đây](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/ThucHanh/buoi3.md) |
+| 4. Thừa kế `OOP`            | [Nhấn vào đây](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/ThucHanh/buoi4.md) |
+| 5. Quản lí sinh viên `OOP`  | [Nhấn vào đây](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/ThucHanh/buoi5.md) |
