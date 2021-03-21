@@ -1,0 +1,106 @@
+
+
+## Bài tập ví dụ :
+
+### Ta có bảng danh sách như sau :
+
+| HANG  | KHACH  | HOADON | CHITIETHD |
+| ----- | ------ | ------ | --------- |
+| MaH   | MaK    | SoHD   | SoHD      |
+| TenH  | TenK   | ngayHD | MaH       |
+| SLTon | Diachi | MaK    | SLBan     |
+|       |        |        | DGia      |
+
+> ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-08-59-15-icons8-questions.png) **Câu 1.** Đưa ra danh sách địa chỉ của các khách hàng
+
+Giải
+
+> ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-08-59-15-icons8-questions.png) **Câu 2**. Đưa ra tên hàng và số lượng tồn của những mặt hàng
+
+Giải
+
+> ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-08-59-15-icons8-questions.png) **Câu 3**. Đưa ra thông tin của các mặt hàng có số lượng tồn > 5
+
+Giải
+
+> ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-08-59-15-icons8-questions.png) **Câu 4**. Đưa ra thông tin khác hàng có địa chỉ ở **Hà nội**
+
+Giải
+
+> ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-08-59-15-icons8-questions.png) **Câu 5**. Đưa ra tên khách hàng mua hàng ngày `1/1/2013`
+
+Giải
+
+> ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-08-59-15-icons8-questions.png) **Câu 6**. Đưa ra Mã hàng, Tên hàng có đơn giá > `200.000`
+
+Giải
+
+> ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-08-59-15-icons8-questions.png) **Câu 7**. Đưa ra tên khách hàng ở Hải Phòng mua hàng ngày `2/2/2013`
+
+Giải
+
+> ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-08-59-15-icons8-questions.png) **Câu 8**. Đưa ra tên hàng được bán trong ngày `2/2/2013`
+
+Giải
+
+> ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-08-59-15-icons8-questions.png) **Câu 9**. Đưa ra cá mã hàng chưa từng được bán
+
+Giải
+
+> ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-08-59-15-icons8-questions.png) **Câu 10**. Đưa ra các mã khách chưa từng mua hàng từ ngày `12/12/2012`
+
+Giải
+
+### Ta có bảng danh sách sau :
+
+| THISINH  | TRUONG    | MONTHI | KETQUA  |
+| -------- | --------- | ------ | ------- |
+| sbd      | matruong  | maMT   | sbd     |
+| hoten    | tentruong | tenMT  | maMT    |
+| ngaysinh |           |        | diemthi |
+| noisinh  |           |        |         |
+| namduthi |           |        |         |
+| matruong |           |        |         |
+
+> ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-08-59-15-icons8-questions.png) **Câu 1**. Cho biết điểm thi các môn của thi sinh có số báo danh là `b1909935`
+
+Giải
+
+> ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-08-59-15-icons8-questions.png) **Câu 2**. Cho biết các thi sinh có ít nhất một môn thi nào đó bị điểm 0 ở kỳ thi năm `2010`
+
+Giải
+
+> ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-08-59-15-icons8-questions.png) **Câu 3**. Choi biết các thí sinh có điểm tất cả các môn thi đều lớn hơn hoặc bằng 8 trong kỳ thi năm `2010`
+
+Giải
+
+> ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-08-59-15-icons8-questions.png) **Câu 4**. Cho biết các thí sinh cùng trường với thí sinh có số báo danh là `b1909935`
+
+Giải
+
+### Ta có bảng danh sách sau :
+
+| KHACH   | NHANVIEN | SANPHAM | HOADON | CTHD |
+| ------- | -------- | ------- | ------ | ---- |
+| maKH    | maNV     | maSP    | soHD   | soHD |
+| hoten   | hoten    | tenSP   | ngayHD | maSP |
+| dchi    | ngsinh   | DVT     | maKH   | SL   |
+| sdt     | heso     | nuocSX  | maNV   |      |
+| ngsinh  | mucluong | gia     | trigia |      |
+| doanhso |          |         |        |      |
+
+> ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-08-59-15-icons8-questions.png) **Câu 1**. In ra số hoá đơn cùng trị giá của các hoá đơn do nhân viên có tên `Nguyễn Văn A` lập trong ngày `10/10/2005`
+
+Giải
+
+> ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-08-59-15-icons8-questions.png) **Câu 2**. In ra danh sách các sản phẩm (*mã sản phẩm, tên sản phẩm*) được khách hàng có tên `Nguyễn Vặn A` mua.
+
+Giải
+
+> ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-08-59-15-icons8-questions.png) **Câu 3**. Tìm các số hoá đơn đã mua cùng lúc 2 sản phẩm có mã số `SP01` và `SP02`
+
+Giải
+
+> ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-08-59-15-icons8-questions.png) **Câu 4**. In ra danh sách các sản phẩm không bán được trong năm `2005`
+
+Giải
