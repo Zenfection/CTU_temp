@@ -30,7 +30,7 @@
 
 - <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-20-36-08-dstt.png" alt="dstt.png" width="40"> [TN012 - Đại số tuyến tính và hình học](https://github.com/Zenfection/CTU/tree/main/HocPhan/TN012-Dai_so_tuyen_tinh_va_hinh_hoc)
 
-- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-13-07-toanroirac%20-%2001.png" width="40"> [CT172-Toán rời rạc](https://github.com/Zenfection/CTU/tree/main/HocPhan/CT172-Toan_roi_rac)
+- <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-13-13-07-toanroirac%20-%2001.png" width="40"> [CT172-Toán rời rạc](https://github.com/Zenfection/CTU/tree/main/HocPhan/CT172-Toan_roi_rac){:target="_blank"}
 
 </details>
 
@@ -45,7 +45,6 @@
 | <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-13-42-OOP-01.png" alt="OOP-01.png" width="55"> Lập trình hướng đối tượng                                                                                | [CT176](https://elcit.ctu.edu.vn/course/search.php?search=CT176) |            |     |
 | <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-16-00-Logo-Design-Services%20-%2001%20-%2001.png" alt="" width="40"> Phân tích và thiết kế thuật toán                                                   | [CT179](https://elcit.ctu.edu.vn/course/search.php?search=CT179) |            |     |
 | <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/27-16-14-24-Database%20AS%20A%20Service.png" alt="" width="40"> Cơ sở dữ liệu                                                                                 | [CT180](https://elcit.ctu.edu.vn/course/search.php?search=CT180) |            |     |
-
 
 <details style="font-size:20px">
 <summary> <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-04-39-Code%20Learning.png"> <b>Lập trình <b></summary>
