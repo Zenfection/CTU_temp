@@ -135,6 +135,7 @@ Sử dụng (*yêu cầu tài khoản `root`*) :
   ![53535b7a3013c24d9b02.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-16-57-45-53535b7a3013c24d9b02.jpg)
   
   > ⚠️ Sau khi  **mớ khoá**, chuỗi mật khẩu sẽ xoá đi `!` trước nó ==> trở lại như xưa
+
 - Sử dụng lệnh `su` để chuyển đổi tài khoản (*từ tài khoản thường*) : 
   
   ![0dc2abebc08232dc6b93.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-16-59-02-0dc2abebc08232dc6b93.jpg)
@@ -142,7 +143,7 @@ Sử dụng (*yêu cầu tài khoản `root`*) :
   > ⚠️ Màn hình đăng nhập đã hiện thị tài khoản 
   > 
   > <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-16-59-32-8ad527cc4aa5b8fbe1b4.jpg" alt="8ad527cc4aa5b8fbe1b4.jpg" width="292">
-  
+
 </details>
 
 ---
@@ -151,19 +152,79 @@ Sử dụng (*yêu cầu tài khoản `root`*) :
 
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 3.1**. Quyền `root` là gì > 
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
+
+Quyền `root` là quyền thực thi cao dưới người quản trị cao nhất.
+
+</details>
 
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 3.2**. Nêu các ưu điểm của việc dùng `sudo` so vời dùng `su` (*chuyển sang tài khoản `root`*)
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
+
+Có sự khác biệt lớn giữa các lệnh **`su`** và **`sudo`**:
+
+- **`su`** chuyển bạn sang **tài khoản người dùng `root`**.
+- **`sudo`** chạy lệnh với **đặc quyền `root`**.
+
+Về cơ bản, **`sudo`** là một **binary setuid** là thực hiện lệnh **`root`** thay mặt người dùng uỷ quyền khác.
+
+</details>
 
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 3.3**. Mô tả các bước (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png)) để cấp quyền `sudo` cho tài khoản ở `2.1`. Sau đó cho một ví dụ để kiểm chứng xem tài khoản này đã thực sự được cấp quyền hay chưa (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
+
+Để cho riêng người dùng quyền truy cập **`root`**, bạn cần thêm người dùng vào nhóm quyền truy cập **`root`**.
+
+- **B1** : Gõ lệnh `visudo` dưới tài khoản `root` 
+  
+  ![7cf08edccfb43dea64a5.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-17-05-59-7cf08edccfb43dea64a5.jpg)
+
+- **B2** : Kéo xuống tìm và chỉnh sửa như sau : 
+  
+  ![cf8f86a2c7ca35946cdb.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-17-08-32-cf8f86a2c7ca35946cdb.jpg) 
+  
+  > 💡 Tuy nhiên tôi khuyên bạn nên cấp quyền `root` cho `group`, vì ta có thể dễ dàng quản lí nó, `CentOS 8` đã tạo cho ta sẵn nhóm `wheel`
+
+- **B3**: Thêm tài khoản vào nhóm `wheel` : 
+  
+  ![d57f9451d53927677e28.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-17-09-44-d57f9451d53927677e28.jpg)
+
+==> Vậy là đã xong các bước cấp quyền `root` cho tài khoản , thử như sau : 
+
+> ![eca6a488e5e017be4ef1.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-17-14-26-eca6a488e5e017be4ef1.jpg)
+> 
+> ![dd1c8732c65a34046d4b.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-17-14-33-dd1c8732c65a34046d4b.jpg)
+> 
+> ==> Vậy là chúng ta không cần tài khoản `root` vẫn có thể vào file `/etc/shadow`
+
+</details>
 
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 3.4**. Thu hồi quyền `root` của một tài khoản ở `2.1` (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
 Giải
+
+Sử dụng `gpasswd -d &lt;user&gt; &lt;group&gt;` : Xoá người dùng ra khỏi nhóm
+
+![6458a4abefc31d9d44d2.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-17-17-33-6458a4abefc31d9d44d2.jpg)
+
+==> Vậy là đã thu hồi quyền `root` cho tài khoản, thử như sau : 
+
+> ![51cca93fe25710094946.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-17-17-37-51cca93fe25710094946.jpg)
+> 
+> ==> Vậy là tài khoản `B1909935_CTU` không thể truy cập vào file `/etc/shadow`
+
+
 
 ---
 
