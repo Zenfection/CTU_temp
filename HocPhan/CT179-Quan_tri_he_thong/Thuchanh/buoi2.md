@@ -4,7 +4,14 @@
 
 > <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-06-29-icons8-questions.png" title="" alt="icons8-questions.png" width="30"> **Câu 1.** Thực hiện cài đặt `CentOS 6` (*hoặc `CentOS 7`, `8`*) vào máy tính cá nhân (*hoặc máy ảo*) của bạn (*KHÔNG cần chụp màn hình minh hoạ*)
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
+
+Link file ISO [CentOS 8](https://www.centos.org/download/)
+
+</details>
 
 ---
 
@@ -16,11 +23,31 @@ Tìm hiểu và thực hiện các yêu cầu sau :
 > 
 > Quan sát để thấy rằng khi một tài khoản mới được tạo, thư mục cá nhân trong `/home` và nhóm cá nhân trong `/etc/group` ứng với tài khoản đó cũng được tạo theo.
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
+
+- Sử dụng tài khoản `root` để tạo người dùng mới như sau : 
+
+![8c66dc280146f318aa571.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-16-00-36-8c66dc280146f318aa571.jpg)
+
+- Sử dụng lệnh `ls` hiển thị danh sách các file trong thư mục : 
+  
+  ![9a13345ce9321b6c42232.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-16-00-41-9a13345ce9321b6c42232.jpg)
+- Sử dụng lệnh `cat` để xem nội dung bên trong file : 
+  
+  ![8c6c7d23a04d52130b5c4.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-16-00-34-8c6c7d23a04d52130b5c4.jpg)
+  
+  ![fd15315aec341e6a47253.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-16-29-14-fd15315aec341e6a47253.jpg)
+
+</details>
 
 > ![icons8-questions.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 2.2**. Mở file `/etc/shadow` và cho biết **mật khẩu** bạn vừa tạo cho tài khoản mới sử dụng giải thuật mã hoá nào ? Dựa vào đâu để biết điều đó ? (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
 Giải
+
+![2a04a263790d8b53d21c.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-16-01-12-2a04a263790d8b53d21c.jpg)
 
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 2.3**. Thiết lập **ngày hết hạn** cho **tài khoản** ở `2.1` là ngày `31/12/2020` (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
@@ -87,8 +114,6 @@ Giải
 Giải
 
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 5.2**. Chuyển nhóm **chủ sỡ hữu** của thư mục `/data` sang `quantri`. Phân quyền cho thư mục `/data` là chủ sở hữu có toàn quyền `read`, `write` và `execute`, nhóm chủ sở hữu có quyền `read` và `execute`, những người khác không có quyền gì (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
-> 
-> 
 
 Giải
 
@@ -107,5 +132,3 @@ Giải
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 5.6**. Tạo thêm một tài khoản **mới**, dùng tài khoản này mở tập tin `/data/file1.txt`, cho biết quả kết quả (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
 Giải
-
-
