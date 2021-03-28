@@ -333,7 +333,26 @@ Làm theo câu [2.4](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT179-Q
 
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 5.2**. Chuyển nhóm **chủ sỡ hữu** của thư mục `/data` sang `quantri`. Phân quyền cho thư mục `/data` là chủ sở hữu có toàn quyền `read`, `write` và `execute`, nhóm chủ sở hữu có quyền `read` và `execute`, những người khác không có quyền gì (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
+
+- Sử dụng lệnh `chgrp <group> <đưỡng dẫn>` : thay đổi nhóm sử dụng cho thư mục cụ thể 
+  
+  ![8225745b5d30af6ef621.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-21-37-16-8225745b5d30af6ef621.png)
+  
+  > 💡 Như bạn đã thấy quyền sở hữu nhóm đổi qua `quantri`
+- Sử dụng lệnh `chmod <option> <đưỡng dẫn thư mục>` : thay đổi quyền cho thư mục
+  
+  ![4243ac3d855677082e47.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-21-37-15-4243ac3d855677082e47.png)
+  
+  > 💡 Như bạn đã thấy  : 
+  > - `drwxr` là toàn quyền cho `user`
+  > - `x` là quyền thực thi cho `group` 
+  > - `---` là không có quyền gì cho `other`
+
+</details>
 
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 5.3**. Dùng tài khoản `root` tạo tập tin `/data/file1.txt`. Sau đó dùng tài khoản ở `2.1` tạo tập tin `/data/file2.txt`. Quan sát và cho biết kết quả trong **2** trường hợp (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
