@@ -235,9 +235,22 @@ Sử dụng `gpasswd -d &lt;user&gt; &lt;group&gt;` : Xoá người dùng ra kh�
 
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 4.1**. Thêm một ổ cứng vào máy ảo ![icons8-centos.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/18-20-45-54-icons8-centos.png) `CentOS`. Nếu đã cài ![icons8-centos.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/18-20-45-54-icons8-centos.png) `CentOS` trực tiếp vào máy tính cá nhân thì có thể sử dụng  1 ![icons8-usb_memory_stick.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/18-20-45-37-icons8-usb_memory_stick.png)`USB` để thay thế.
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
 
-> ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 4.2**. Sử dụng lệnh `fdisk` và `mkfs` để tạo và **format** một phân vùng trên ổ cứng vừa mới thêm ở `4.1` (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
+<br>
+
+Cắm ![icons8usbmemorystickpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/18-20-45-37-icons8-usb_memory_stick.png)`USB` vào máy và gõ lệnh `sudo fdisk -l` để xem thiết bị : 
+
+![196b4ebaa3d2518c08c3.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-17-21-45-196b4ebaa3d2518c08c3.jpg)
+
+![78247bb4b6dc44821dcd.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-17-22-30-78247bb4b6dc44821dcd.jpg)
+
+==> Vậy ![icons8usbmemorystickpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/18-20-45-37-icons8-usb_memory_stick.png)`USB` của ta là `/dev/sde` và có dung lượng `14.3GB` 
+
+</details>
+
+![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 4.2**. Sử dụng lệnh `fdisk` và `mkfs` để tạo và **format** một phân vùng trên ổ cứng vừa mới thêm ở `4.1` (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
 Giải
 
