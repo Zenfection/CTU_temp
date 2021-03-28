@@ -68,7 +68,10 @@ Sử dụng lệnh `cat` để xem nội dung bên trong file :
 
 <br>
 
-Sử dụng `usermod -e` để đặt ngày hết hạn cho tài khoản và `chage -l` để hiển thị thông tin hết hạn tài khoản như sau : 
+Sử dụng (Yêu cầu người dùng `root`) : 
+
+- `usermod -e <date> <user>` : đặt ngày hết hạn cho tài khoản cụ thể
+- `chage -l <user>` : Hiển thị thông tin hết hạn tài khoản cụ thể
 
 ![f58088d2acbb5ee507aa.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-16-43-22-f58088d2acbb5ee507aa.jpg)
 
@@ -81,7 +84,7 @@ Sử dụng `usermod -e` để đặt ngày hết hạn cho tài khoản và `ch
 
 <br>
 
-Sử dụng  : 
+Sử dụng  (*yêu cầu người dùng `root`*) : 
 
 - `groupadd <group>` : thêm nhóm người dùng
 - `usermod -a -G <group> <user>`  : thêm người dùng vào nhóm
@@ -93,7 +96,30 @@ Sử dụng  :
 
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 2.5**. Thực hiện khoá tài khoản ở `2.1`, sau đó đăng nhập thử và quan sát (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
+
+Sử dụng (*yêu cầu người dùng `root`*) : 
+
+- `usermod -L <user>` : khoá tài khoản người dùng
+  
+  ![a308236c4805ba5be314.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-16-49-24-a308236c4805ba5be314.jpg)
+  
+  > ⚠️ Sau khi **khoá tài khoản**, chuỗi mật khẩu mã hoá sẽ thêm `!` vào trước.
+  > 
+  > ![b5dac547ca2e3870613f.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-16-51-20-b5dac547ca2e3870613f.jpg)
+
+- Sử dụng lệnh `su` để chuyển tài khoản : 
+  
+  ![465051cd5ea4acfaf5b5.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-16-53-13-465051cd5ea4acfaf5b5.jpg)
+  
+  > ⚠️ Ở ![icons8-centos.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-16-40-46-icons8-centos.png) `CentOS 8` khi ta **khoá tài khoản**, màn hình đăng nhập sẽ không có tài khoản đã khoá  
+  > 
+  > <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-16-54-32-499567e10988fbd6a299.jpg" title="" alt="499567e10988fbd6a299.jpg" width="243">
+
+</details>
 
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 2.6**. Mở khoá tài khoản ở `2.1` (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
