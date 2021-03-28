@@ -343,11 +343,13 @@ Làm theo câu [2.4](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT179-Q
   ![8225745b5d30af6ef621.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-21-37-16-8225745b5d30af6ef621.png)
   
   > 💡 Như bạn đã thấy quyền sở hữu nhóm đổi qua `quantri`
+
 - Sử dụng lệnh `chmod <option> <đưỡng dẫn thư mục>` : thay đổi quyền cho thư mục
   
   ![4243ac3d855677082e47.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-21-37-15-4243ac3d855677082e47.png)
   
   > 💡 Như bạn đã thấy  : 
+  > 
   > - `drwxr` là toàn quyền cho `user`
   > - `x` là quyền thực thi cho `group` 
   > - `---` là không có quyền gì cho `other`
@@ -356,16 +358,83 @@ Làm theo câu [2.4](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT179-Q
 
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 5.3**. Dùng tài khoản `root` tạo tập tin `/data/file1.txt`. Sau đó dùng tài khoản ở `2.1` tạo tập tin `/data/file2.txt`. Quan sát và cho biết kết quả trong **2** trường hợp (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
+
+🤔 Sử dụng lệnh `nano` hoặc `gedit` để tạo file và ghi :
+
+- Người dùng `root`  :
+  
+  ![af4067354e5ebc00e54f.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-22-29-04-af4067354e5ebc00e54f.jpg)
+
+- Người dùng `B1909935_CTU` : 
+  
+  ![a2ea37821ee9ecb7b5f8.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-22-28-51-a2ea37821ee9ecb7b5f8.jpg)
+  
+  > ⚠️ Ngay lập tức sẽ lỗi vì `B1909935_CTU` nằm trong group `quantri` chỉ có quyền `x` (*thực thi*), không có quyền `w` (*ghi*)
+  > 
+  > ![f1c525b10cdafe84a7cb.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-22-33-06-f1c525b10cdafe84a7cb.jpg)
+
+</details>
 
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 5.4**. Dùng tài khoản `2.1` *mở* và *thay đổi* nội dung tập tin `/data/file1.txt`, cho biết kết quả (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
+
+Sử dụng lệnh `nano` ở  tài khoản `B1909935_CTU` : 
+
+![4922ca4ae321117f4830.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-22-35-14-4922ca4ae321117f4830.jpg)
+
+> ⚠️ Sẽ phát sinh ra lỗi không có quyền ghi 
+> 
+> ![c731b25d9b3669683027.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-22-36-50-c731b25d9b3669683027.jpg)
+> 
+> ==> Vì chủ sở hữu của `file1.txt` là `root`, và người dùng khác chỉ có quyền `r` (*đọc*) ==> `B1909935_CTU` không thể **ghi**
+> 
+> ![6f608306aa6d5833017c.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-22-37-05-6f608306aa6d5833017c.png)
+
+</details>
 
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 5.5**. cấp quyền cho tài khoản `2.1` có thể thay đổi nội dung tập tin `/data/file1.txt` (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
+
+Sử dụng lệnh `chmod <option> <đường dẫn thư mục>` để cấp quyền cho thư mục
+
+![4d648802a16953370a78.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-22-40-18-4d648802a16953370a78.jpg)
+
+</details>
 
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 5.6**. Tạo thêm một tài khoản **mới**, dùng tài khoản này mở tập tin `/data/file1.txt`, cho biết quả kết quả (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
+
+Làm theo câu [2.1](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT179-Quan_tri_he_thong/Thuchanh/buoi2.md#2-quản-lí-tài-khoản-) để tạo người dùng mới 
+
+![6e3cd55afc310e6f5720.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-22-41-52-6e3cd55afc310e6f5720.jpg)
+
+Sử dụng lệnh sau để mở thư mục `/data/file1.txt`
+
+```bash
+$ nano /data/file1.txt 
+# Thực thi lệnh ở người dùng newStudent vừa tạo
+```
+
+> ⚠️ Sẽ đưa ra lỗi không thể truy cập vào `/data` 
+> 
+> ![86dfe2bacbd1398f60c0.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-22-44-59-86dfe2bacbd1398f60c0.jpg)
+> 
+> 🤔 Vì trong câu `5.2`, chúng ta thiết lập `/data`, người khác không có quyền gì cả và nhóm sở hữu là `quantri`, tài khoản `newStudent` không thuộc nhóm đó.
+
+</details>
