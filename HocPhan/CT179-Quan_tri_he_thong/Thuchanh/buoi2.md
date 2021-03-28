@@ -212,7 +212,10 @@ Về cơ bản, **`sudo`** là một **binary setuid** là thực hiện l�
 
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 3.4**. Thu hồi quyền `root` của một tài khoản ở `2.1` (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
 
 Sử dụng `gpasswd -d &lt;user&gt; &lt;group&gt;` : Xoá người dùng ra khỏi nhóm
 
@@ -224,7 +227,7 @@ Sử dụng `gpasswd -d &lt;user&gt; &lt;group&gt;` : Xoá người dùng ra kh�
 > 
 > ==> Vậy là tài khoản `B1909935_CTU` không thể truy cập vào file `/etc/shadow`
 
-
+</details>
 
 ---
 
