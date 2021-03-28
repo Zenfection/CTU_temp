@@ -250,17 +250,64 @@ Cắm ![icons8usbmemorystickpng](https://raw.githubusercontent.com/Zenfection/Im
 
 </details>
 
-![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 4.2**. Sử dụng lệnh `fdisk` và `mkfs` để tạo và **format** một phân vùng trên ổ cứng vừa mới thêm ở `4.1` (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
+>  ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 4.2**. Sử dụng lệnh `fdisk` và `mkfs` để tạo và **format** một phân vùng trên ổ cứng vừa mới thêm ở `4.1` (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
+
+**B1** : Gõ lệnh `fdisk <đưỡng dẫn ổ cứng>`
+
+![b80fcc8201eaf3b4aafb.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-21-25-57-b80fcc8201eaf3b4aafb.jpg)
+
+> 💡 Gõ `m` để đọc hướng dẫn 
+> 
+> ==> Nếu ố cứng có dữ liệu hãy gõ `d` để xoá ổ cứng
+
+**B2** : Gõ `n` để tạo phân vùng mới
+
+![00371ca1d1c923977ad8 (1).jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-20-16-12-00371ca1d1c923977ad8%20(1).jpg)
+
+**B3:** Gõ `w` để ghi phân vùng 
+
+![bb709fe6528ea0d0f99f.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-20-16-35-bb709fe6528ea0d0f99f.jpg)
+
+==> Đã tạo xong phân vùng cần thiết  ![icons8-checkmark.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-20-19-20-icons8-checkmark.png)
+
+> 💡 Kiểm tra bằng cách gõ `fdisk -l <đường dẫn ổ cứng>`
+> 
+> ![97f5187ed51627487e07.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-20-16-09-97f5187ed51627487e07.jpg)
+
+Sử dụng lệnh `mkfs.<chuẩn file system> <đưỡng dẫn ổ cứng>` để **format** ổ cứng theo chuẩn `file system` mình muốn : 
+
+![37b6493a8452760c2f43.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-20-16-05-37b6493a8452760c2f43.jpg)
+
+</details>
 
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 4.3**. Tạo thư mục mới có tên `/data` bằng tài khoản `root`. **Mount** phân vùng ổ cứng ở `4.2` tới thư mục `/data` (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
+
+Sử dụng (*yêu cầu tài khoản `root`*)
+
+- `mkdir` : tạo thư mục
+- `mount <đưỡng dẫn ổ cứng> <đưỡng dẫn thư mục>` : Gắn ổ cứng vào đường dẫn cụ thể
+
+![c3d6965b5b33a96df022.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-21-15-12-c3d6965b5b33a96df022.jpg)
 
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 4.4**. Thực hiện lệnh `df -h` để xem kết quả (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
 Giải
+
+![8942f4cf39a7cbf992b6.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-21-27-18-8942f4cf39a7cbf992b6.jpg)
+
+> 💡Ổ cứng `/dev/sde` có `15G`, khả dụng `14G` và đã sử dụng `41M(1%)` đã được mount vào trong `/data`
+
+</details>
 
 ---
 
