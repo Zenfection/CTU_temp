@@ -35,6 +35,7 @@ Tìm hiểu và thực hiện các yêu cầu sau :
 - Sử dụng lệnh `ls` hiển thị danh sách các file trong thư mục : 
   
   ![9a13345ce9321b6c42232.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-16-00-41-9a13345ce9321b6c42232.jpg)
+
 - Sử dụng lệnh `cat` để xem nội dung bên trong file : 
   
   ![8c6c7d23a04d52130b5c4.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-16-00-34-8c6c7d23a04d52130b5c4.jpg)
@@ -45,13 +46,33 @@ Tìm hiểu và thực hiện các yêu cầu sau :
 
 > ![icons8-questions.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 2.2**. Mở file `/etc/shadow` và cho biết **mật khẩu** bạn vừa tạo cho tài khoản mới sử dụng giải thuật mã hoá nào ? Dựa vào đâu để biết điều đó ? (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
+
+Sử dụng lệnh `cat` để xem nội dung bên trong file : 
 
 ![2a04a263790d8b53d21c.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-16-01-12-2a04a263790d8b53d21c.jpg)
 
+![078991ee4a80b8dee191.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-16-32-01-078991ee4a80b8dee191.png)
+
+==> ![icons8-centos.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-16-40-46-icons8-centos.png)`CentOS` sử dụng <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-16-40-55-sha512.png" title="" alt="sha512.png" width="30">`SHA512` để mã hoá mật khẩu, vì có ký hiệu `$6` trước dãy mật khẩu đã mã hoá 
+
+</details>
+
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 2.3**. Thiết lập **ngày hết hạn** cho **tài khoản** ở `2.1` là ngày `31/12/2020` (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
+
+Sử dụng `usermod -e` để đặt ngày hết hạn cho tài khoản và `chage -l` để hiển thị thông tin hết hạn tài khoản như sau : 
+
+![f58088d2acbb5ee507aa.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-16-43-22-f58088d2acbb5ee507aa.jpg)
+
+</details>
 
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 2.4**. Tạo một nhóm **người dùng** với tên nhóm là **mã lớp** của bạn. Thêm **tài khoản** ở `2.1` vào nhóm vừa tạo (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
