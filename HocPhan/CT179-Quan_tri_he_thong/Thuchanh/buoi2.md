@@ -320,13 +320,16 @@ Sử dụng (*yêu cầu tài khoản `root`*)
 
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 5.1**. Tạo nhóm người dùng `quantri`, thêm người dùng ở `2.1` vào nhóm `quantri`
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
 
 Làm theo câu [2.4](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT179-Quan_tri_he_thong/Thuchanh/buoi2.md#2-quản-lí-tài-khoản-) trên : 
 
 ![d0e5c2e90b81f9dfa090.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-21-30-11-d0e5c2e90b81f9dfa090.png)
 
-
+</details>
 
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 5.2**. Chuyển nhóm **chủ sỡ hữu** của thư mục `/data` sang `quantri`. Phân quyền cho thư mục `/data` là chủ sở hữu có toàn quyền `read`, `write` và `execute`, nhóm chủ sở hữu có quyền `read` và `execute`, những người khác không có quyền gì (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
