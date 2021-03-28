@@ -76,7 +76,20 @@ Sử dụng `usermod -e` để đặt ngày hết hạn cho tài khoản và `ch
 
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 2.4**. Tạo một nhóm **người dùng** với tên nhóm là **mã lớp** của bạn. Thêm **tài khoản** ở `2.1` vào nhóm vừa tạo (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
+
+Sử dụng  : 
+
+- `groupadd <group>` : thêm nhóm người dùng
+- `usermod -a -G <group> <user>`  : thêm người dùng vào nhóm
+- `groups <user>` : Kiểm tra người dùng thuộc tất cả nhóm nào
+
+![473b60074d6ebf30e67f.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-16-44-59-473b60074d6ebf30e67f.jpg) 
+
+</details>
 
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 2.5**. Thực hiện khoá tài khoản ở `2.1`, sau đó đăng nhập thử và quan sát (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
