@@ -123,7 +123,27 @@ Sử dụng (*yêu cầu người dùng `root`*) :
 
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-14-01-icons8-questions.png) **Câu 2.6**. Mở khoá tài khoản ở `2.1` (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
+
+Sử dụng (*yêu cầu tài khoản `root`*) : 
+
+- `usermod -U <user>` : Mở khoá tài khoản
+  
+  ![53535b7a3013c24d9b02.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-16-57-45-53535b7a3013c24d9b02.jpg)
+  
+  > ⚠️ Sau khi  **mớ khoá**, chuỗi mật khẩu sẽ xoá đi `!` trước nó ==> trở lại như xưa
+- Sử dụng lệnh `su` để chuyển đổi tài khoản (*từ tài khoản thường*) : 
+  
+  ![0dc2abebc08232dc6b93.jpg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-16-59-02-0dc2abebc08232dc6b93.jpg)
+  
+  > ⚠️ Màn hình đăng nhập đã hiện thị tài khoản 
+  > 
+  > <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/28-16-59-32-8ad527cc4aa5b8fbe1b4.jpg" alt="8ad527cc4aa5b8fbe1b4.jpg" width="292">
+  
+</details>
 
 ---
 
