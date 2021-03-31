@@ -19,12 +19,12 @@
 
 ### <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-03-58-Math.png" width="40"> Toán
 
-| Môn học                                                                                                                                                                                                                                   | Mã HP |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- |
-| <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-19-55-49-gt1.png" width="40"> [Vi tích phân A1](https://github.com/Zenfection/CTU/tree/main/HocPhan/TN001-Vi_tich_phan_a1)                                 | TN001 |
-| <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-20-05-50-gt2%20-%2001.png" width="40"> [Vi tích phân A2](https://github.com/Zenfection/CTU/tree/main/HocPhan/TN002-Vi_tich_phan_a2)                        | TN002 |
-| <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-18-20-icons8-histogram.png" width="40"> [Xác suất thống kê](https://github.com/Zenfection/CTU/tree/main/HocPhan/TN010-Xac_suat_thong_ke)                | TN010 |
-| <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-20-36-08-dstt.png" alt="dstt.png" width="40"> [Đại số tuyến tính](https://github.com/Zenfection/CTU/tree/main/HocPhan/TN012-Dai_so_tuyen_tinh_va_hinh_hoc) | TN012 |
+| Môn học                                                                                                                                                                                                                                   | Mã HP | Kế hoạch dạy                                                              |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- | ------------------------------------------------------------------------- |
+| <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-19-55-49-gt1.png" width="40"> [Vi tích phân A1](https://github.com/Zenfection/CTU/tree/main/HocPhan/TN001-Vi_tich_phan_a1)                                 | TN001 | [Link PDF](https://cns.ctu.edu.vn/images/upload/daotao/decuong/TN001.pdf) |
+| <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-20-05-50-gt2%20-%2001.png" width="40"> [Vi tích phân A2](https://github.com/Zenfection/CTU/tree/main/HocPhan/TN002-Vi_tich_phan_a2)                        | TN002 | [Link PDF](https://cns.ctu.edu.vn/images/upload/daotao/decuong/TN002.pdf) |
+| <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-22-18-20-icons8-histogram.png" width="40"> [Xác suất thống kê](https://github.com/Zenfection/CTU/tree/main/HocPhan/TN010-Xac_suat_thong_ke)                | TN010 | [Link PDF](https://cns.ctu.edu.vn/images/upload/daotao/decuong/TN010.pdf) |
+| <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-20-36-08-dstt.png" alt="dstt.png" width="40"> [Đại số tuyến tính](https://github.com/Zenfection/CTU/tree/main/HocPhan/TN012-Dai_so_tuyen_tinh_va_hinh_hoc) | TN012 | [Link PDF](https://cns.ctu.edu.vn/images/upload/daotao/decuong/TN012.pdf) |
 
 </details>
 

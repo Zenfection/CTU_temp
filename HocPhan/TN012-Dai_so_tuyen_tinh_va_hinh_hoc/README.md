@@ -1,1 +1,42 @@
-# Comming Soon
+# <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-20-36-08-dstt.png" title="" alt="as" width="52"> Đại số tuyến tính
+
+| <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/20-14-36-27-logo%20cat.png" title="" alt="logo cat.png" width="40"> Tác giả | <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/20-14-38-42-logo-ctu.png" title="" alt="logo-ctu.png" width="40"> Bổ trợ tài liệu | <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/20-13-59-20-icons8-new_year's_eve.png" title="" alt="icons8-new_year's_eve.png" width="40"> Năm |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Zenfection](https://facebook.com/Zenfection)                                                                                                           | [Can Tho University](http://www.cit.ctu.edu.vn/)                                                                                                              | 2021                                                                                                                                                                        |
+
+---
+
+## <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/23-22-00-06-icons8-user_manual.png" title="" alt="sd" width="40"> 1. Kiến thức cần có
+
+- Kỹ năng xài `máy tính` cơ bản<img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/31-08-10-52-fx-580VN_X_F_CY-298A%20copy.png" title="" alt="fx-580VN_X_F_CY-298A copy.png" width="40"> 
+
+---
+
+## <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/12/15-14-31-38-Cloud%20Library.png" title="" alt="S" width="40"> 2. Tài liệu học tập
+
+| Khoá học                                                                                                                                                                                                                                                                                        | Web tính toán                                                                                                                                                                                     |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/20-16-12-37-icons8-google_drive.png" title="" alt="icons8-google_drive.png" width="40"> [Đại số tuyến tính-Lê Bá Trần Phương](https://drive.google.com/drive/folders/1s55CcmM3XX_F0oA5l-73Q5Xm1B4B9vX1?usp=sharing) | <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/31-08-16-48-matrixLogo.png" title="" alt="matrixLogo.png" width="109"> [Matrix Calculate](https://matrixcalc.org/vi/) |
+
+---
+
+## ![icons8sandtimerpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/20-22-42-23-icons8-sand_timer.png) 3. Quá trình học tập
+
+| Bài..                                         | Tài liệu | Video | Bài tập |
+| --------------------------------------------- | -------- | ----- | ------- |
+| 1. Ma trận                                    |          |       |         |
+| 2. Định thức                                  |          |       |         |
+| 3. Ma trận nghịch đảo                         |          |       |         |
+| 4. Hạng của ma trận                           |          |       |         |
+| 5. Hệ Phương trình tuyến tính                 |          |       |         |
+| 6. Không gian vector                          |          |       |         |
+| 7. Không gian con và hệ sinh                  |          |       |         |
+| 8. Họ vector độc lập-phụ thuộc tuyến tính     |          |       |         |
+| 9. Số chiều và cơ sở không gian vector        |          |       |         |
+| 10. Toạ độ không gian n chiều                 |          |       |         |
+| 11. Ma trận chuyển cơ sở                      |          |       |         |
+| 12. Giá trị riêng và vector riêng của ma trận |          |       |         |
+| 13. Ánh xạ tuyến tính                         |          |       |         |
+| 14. Hạt nhân và ảnh                           |          |       |         |
+| 15. Ma trận ánh xạ tuyến tính                 |          |       |         |
+| 16. Dạng toàn phương của không gian vector    |          |       |         |
