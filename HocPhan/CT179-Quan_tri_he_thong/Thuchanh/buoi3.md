@@ -27,7 +27,50 @@ Link file ISO [CentOS 8](https://www.centos.org/download/)
 > $ ps -eo pid,%mem,%cpu,comm --sort -rss
 > ```
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
+
+- `hostname` : Kiểm tra host hiện tại
+  
+  ![db0997500f9efdc0a48f.jpeg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/11-19-51-06-db0997500f9efdc0a48f.jpeg)
+
+- `hostname -I` : Hiển thị tất cả địa chỉ `IPv4` mạng của host ()
+  
+  ![91cff89660589206cb49.jpeg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/11-19-51-01-91cff89660589206cb49.jpeg)
+
+- `whoami` (*Who Am I*): hiển thị ra người dùng đang thao tác 
+  
+  ![c9aa14fc8c327e6c2723.jpeg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/11-19-51-04-c9aa14fc8c327e6c2723.jpeg)
+
+- `df -H` : Kiểm tra thông tin tất cả ổ cứng 
+  
+  ![57c59f93075df503ac4c.jpeg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/11-19-50-56-57c59f93075df503ac4c.jpeg)
+
+- `ps -eo pid,%mem,%cpu,comm --sort -rss | head -n 3` : *Giải thích bên dưới*
+  
+  ![36faeaac7262803cd973.jpeg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/11-19-50-50-36faeaac7262803cd973.jpeg)
+  
+  > 💡 Giải thích chi tiết : 
+  > 
+  > - `ps` (*Process Status*) : công cụ quản lí tiến trình
+  > 
+  > - `-eo` : Hiển thị tất cả tiến trình có chọn lọc 
+  > 
+  > - `pid` (*Process ID*) : Mã tiến trình
+  > 
+  > - `%mem,%cpu` : Sử dụng bộ nhớ và vi xử lý tiến trình (*`%`*) 
+  > 
+  > - `comm` : đường dẫn của tiến trình 
+  > 
+  > - `--sort` : sắp xếp tiến trình 
+  > 
+  > - `-rss` (*resident set size*) : đi chung với `vsz`, hiển thị **dung lượng bộ nhớ** được **phân bổ** cho tiến trình trong `RAM`
+  > 
+  > - `| head -n 3` : sử dụng **ống dẫn** (`pipe`) để hiển thị 3 dòng đầu tiên  
+  
+</details>
 
 > ![icons8-questions.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/08-22-03-47-icons8-questions.png) **Câu 2.2**. Viết `shell script` có tên `info.sh` thực hiện tất cả lệnh ở `2.1` (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
