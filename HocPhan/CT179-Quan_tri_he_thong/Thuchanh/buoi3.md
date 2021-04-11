@@ -1,16 +1,21 @@
-# Sử dụng `Shell Scripting`, quản lí tiến trình, tập tin nhật ký hệ thống
+# ![AMBIENT USER EXPERIENCE.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/11-13-29-20-AMBIENT%20USER%20EXPERIENCE.png) Sử dụng `Shell Scripting`, quản lí tiến trình, tập tin nhật ký hệ thống ![MULTI AGENT SYSTEM.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/11-13-28-49-MULTI%20AGENT%20SYSTEM.png)
 
-## 1. Cài đặt CentOS
+## <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/11-13-29-34-icons8-centos.png" alt="icons8-centos.png" width="40"> 1.Cài đặt CentOS
 
 > ![icons8-questions.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/08-22-03-47-icons8-questions.png) **Câu 1.** Thực hiện cài đặt `CentOS 6` (*hoặc `CentOS 7`, `8`*) vào máy tính cá nhân (*hoặc máy ảo*) của bạn (*KHÔNG cần chụp màn hình minh hoạ*)
 
- Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
 
 Link file ISO [CentOS 8](https://www.centos.org/download/)
 
+</details>
+
 ---
 
-## 2. Quản trị với `shell scripting`
+## <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/11-13-32-09-icons8-source_code.png" title="" alt="icons8-source_code.png" width="40"> 2. Quản trị với `shell scripting`
 
 > ![icons8-questions.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/08-22-03-47-icons8-questions.png) **Câu 2.1**. Thực hiện các lệnh bên dưới và cho biết kết quả của chúng (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 > 
@@ -42,7 +47,7 @@ Giải
 
 ---
 
-## 3. Lên lịch công việc định kỳ với `cron`
+## <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/11-13-33-09-crontab.png" title="" alt="crontab.png" width="98">3. Lên lịch công việc định kỳ với `cron`
 
 `Cron` là một tiện ích trong `Linux` cho phép máy tính thiết lập thời gian biểu để thực hiện công việc một cách định kỳ. Một **file**  `crontab` chứa danh sách các lệnh sẽ được thực thi, kèm theo thông tin về thời điểm lặp lại việc thực thi. Để hiệu chỉnh **file** `crontab` với trình soạn thảo `nano`, ta dùng lệnh sau : 
 
@@ -63,7 +68,7 @@ Giải
 
 ---
 
-## 4. Thao tác với tiến trình
+## <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/11-13-34-27-icons8-processor.png" title="" alt="icons8-processor.png" width="40"> 4. Thao tác với tiến trình
 
 Tìm hiểu và thực hiện các yêu cầu sau : 
 
@@ -83,7 +88,7 @@ Giải
 
 ---
 
-## 5. Tập tin log
+## <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/11-13-35-02-icons8-file.png" alt="icons8-file.png" width="40"> 5. Tập tin log
 
 Tìm hiểu và thực hiện yê cầu sau : 
 
@@ -98,5 +103,3 @@ Giải
 > ![icons8-questions.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/08-22-03-47-icons8-questions.png) **Câu 5.3**. Tìm **thời gian** người dùng ở `5.2` được tạo ra (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
 Giải
-
-
