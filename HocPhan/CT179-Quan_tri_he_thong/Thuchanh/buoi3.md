@@ -69,12 +69,22 @@ Link file ISO [CentOS 8](https://www.centos.org/download/)
   > - `-rss` (*resident set size*) : đi chung với `vsz`, hiển thị **dung lượng bộ nhớ** được **phân bổ** cho tiến trình trong `RAM`
   > 
   > - `| head -n 3` : sử dụng **ống dẫn** (`pipe`) để hiển thị 3 dòng đầu tiên  
-  
+
 </details>
 
 > ![icons8-questions.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/08-22-03-47-icons8-questions.png) **Câu 2.2**. Viết `shell script` có tên `info.sh` thực hiện tất cả lệnh ở `2.1` (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
 Giải
+
+- Sử dụng `gedit + <file>` để tạo file như sau : 
+  
+  ![e0a0ab1c42d2b08ce9c3.jpeg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/11-21-00-51-e0a0ab1c42d2b08ce9c3.jpeg)
+
+- Sử dụng lệnh `bash + <file>` để thực thi file :  
+  
+  
+  
+  ![7113cbae2260d03e8971.jpeg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/11-21-00-56-7113cbae2260d03e8971.jpeg)
 
 > ![icons8-questions.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/08-22-03-47-icons8-questions.png) **Câu 2.3**. Viết `shell script` có tên `backup.sh` thực hiện :
 > 
@@ -87,6 +97,10 @@ Giải
 > - In ra thông tin thông báo `"Sao lưu thành công!!!!"`
 > 
 > - Thực thi `backup.sh` để kiểm tra (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
+
+Giải
+
+Sử dụng `gedit`
 
 ---
 
