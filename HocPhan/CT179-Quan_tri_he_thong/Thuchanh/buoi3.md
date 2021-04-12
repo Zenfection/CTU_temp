@@ -74,7 +74,10 @@ Link file ISO [CentOS 8](https://www.centos.org/download/)
 
 > ![icons8-questions.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/08-22-03-47-icons8-questions.png) **Câu 2.2**. Viết `shell script` có tên `info.sh` thực hiện tất cả lệnh ở `2.1` (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
 
 - Sử dụng `gedit + <file>` để tạo file như sau : 
   
@@ -83,6 +86,8 @@ Giải
 - Sử dụng lệnh `bash + <file>` để thực thi file :  
 
   ![7113cbae2260d03e8971.jpeg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/11-21-00-56-7113cbae2260d03e8971.jpeg)
+
+</details>
 
 > ![icons8-questions.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/08-22-03-47-icons8-questions.png) **Câu 2.3**. Viết `shell script` có tên `backup.sh` thực hiện :
 > 
@@ -96,7 +101,10 @@ Giải
 > 
 > - Thực thi `backup.sh` để kiểm tra (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
 
 - Sử dụng `gedit + <file>` để tạo file như sau :
   
@@ -105,6 +113,8 @@ Giải
 - Sử dụng lệnh `bash + <file>` để thực thi file :
   
   ![56752abb1b72e92cb063.jpeg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/12-12-01-08-56752abb1b72e92cb063.jpeg)
+
+</details>
 
 ---
 
@@ -121,7 +131,10 @@ $ crontab -e
 
 > ![icons8-questions.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/08-22-03-47-icons8-questions.png) **Câu 3.1**. Chạy lệnh `date` mỗi phút một lần, sau đó khi kết quả vào cuối tập tin `/tmp/date.txt` (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
 
 Dùng lệnh `export EDITOR=<tên editor>`, để thay đổi trình chỉnh sửa mặc định 
 
@@ -143,13 +156,20 @@ Dùng lệnh `export EDITOR=<tên editor>`, để thay đổi trình chỉnh s�
 
 ![121d92d4811d73432a0c.jpeg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/12-12-15-16-121d92d4811d73432a0c.jpeg)
 
+</details>
+
 > ![icons8-questions.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/08-22-03-47-icons8-questions.png) **Câu 3.2**. Thực thi `backup.sh` ở `2.3` vào `23:00 giờ ngày 10,20 và 30` **hằng tháng** (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
 
 ![c93589fd9a34686a3125.jpeg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/12-12-15-26-c93589fd9a34686a3125.jpeg)
 
 ==> Cứ mỗi `23h ngày 10,20,30` hằng tháng tự động sẽ thực thi file `backup.sh`
+
+</details>
 
 ---
 
@@ -161,7 +181,10 @@ Tìm hiểu và thực hiện các yêu cầu sau :
 > 
 > Tiếp theo, dùng lệnh `kill` để tạm dừng tiến trình `Firefox` (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png)). Điều gì xảy ra khi bạn dịch chuyển cửa sổ `Firefox` *hoặc* nhấn chọn **menu** của nó ngay lúc này ?
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
 
 - Sử dụng lệnh `pgrep` để tìm ID tiến trình : 
   
@@ -173,9 +196,14 @@ Giải
   
   > 💡 Ngay lập tức ta không thể thao tác được gì từ `Firefox`
 
+</details>
+
 > ![icons8-questions.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/08-22-03-47-icons8-questions.png) **Câu 4.2**. Dùng lệnh `kill` để phục hồi trạng thái trước đó của `Firefox` và quan sát kết quả (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
 
 Sử dụng lệnh sau đây để khôi phục tiến trình vừa dùng : 
 
@@ -187,9 +215,14 @@ $ kill -s CONT <PID>
 
 > 💡 Ngay lập tức ta có thể thao tác `Firefox` lại bình thường 
 
+</details>
+
 > ![icons8-questions.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/08-22-03-47-icons8-questions.png) **Câu 4.3**. Dùng lệnh `kill` để huỷ tiến trình `Firefox` (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
 
 Sử dụng lênh sau đây để thoát tiến trình ngay lập tức : 
 
@@ -203,6 +236,8 @@ $ kill -s KILL <PID>
 
 > 💡 Tiến trình `Firefox` ngay lập tức sẽ bị tắt đi.
 
+</details>
+
 ---
 
 ## <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/11-13-35-02-icons8-file.png" alt="icons8-file.png" width="40"> 5. Tập tin log
@@ -211,7 +246,10 @@ Tìm hiểu và thực hiện yê cầu sau :
 
 > ![icons8-questions.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/08-22-03-47-icons8-questions.png) **Câu 5.1**. Tìm thông tin về người dùng, thời gian của lần **đăng nhập** sau cùng vào **hệ thống** (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
 
 Sử dụng lệnh `last` để hiển thị thông tin nhật ký đăng nhập trên máy:
 
@@ -221,18 +259,30 @@ Sử dụng lệnh `last` để hiển thị thông tin nhật ký đăng nhập
 > 
 > ![6c47c620b3e941b718f8.jpeg](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/12-12-53-40-6c47c620b3e941b718f8.jpeg)
 
+</details>
+
 > ![icons8-questions.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/08-22-03-47-icons8-questions.png) **Câu 5.2**. Tạo một người dùng mới
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
 
 Sử dụng lệnh `adduser` hoặc `useradd` để tạo người dùng mới (*dùng tài khoản root*) (*Mình tạo tên `newUser`*) 
 
+</details>
+
 > ![icons8-questions.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/08-22-03-47-icons8-questions.png) **Câu 5.3**. Tìm **thời gian** người dùng ở `5.2` được tạo ra (*Chụp màn hình minh hoạ*![icons8screenshotpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/17-20-16-22-icons8-screenshot.png))
 
-Giải
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/08-16-44-05-icons8-consultation.png" width ="40"> Giải</b></summary>
+
+<br>
 
 Thông tin tạo người dùng nằm trong file `/var/log/secure`, sử dụng lệnh `cat` để in ra (*dùng tài khoản `root`*)
 
 > 💡 Ta nên kèm theo **ống dẫn** để tìm kiếm nhanh hơn như sau : 
 > 
 > ![b2ad08ca7d038f5dd612.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/12-13-00-09-b2ad08ca7d038f5dd612.png)
+
+</details>
