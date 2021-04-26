@@ -100,11 +100,13 @@ Giải
 
 ---
 
+## 2. Hình thức bài báo cáo bài tập nhóm (*20%*)
 
+Viết báo cáo trình bày các bước thực hiện công việc `1.1` đến `1.10` 
 
+- Trình bày rõ ràng cụ thể đầy đủ **từng** bước thực hiện và có cả hình ảnh minh hoạ. Báo cáo ít lỗi chính tả, trình bày đẹp, có hình ảnh minh hoạ rõ, chi tiết, có mục lục...
 
-
-
+- Có sự phối hợp, thảo luận, hợp tác giữa các thành viên trong nhóm để thực hiện bài tập nhóm. Có sự phân chia công việc cụ thể giữa các thành viên trong nhóm.
 
 
 
