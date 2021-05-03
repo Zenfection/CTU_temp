@@ -6,6 +6,12 @@
 
 Giải
 
+Link file ISO [CentOS 8](https://www.centos.org/download/)
+
+![Screenshot from 2021-05-03 17-24-28.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/05/03-22-26-45-Screenshot%20from%202021-05-03%2017-24-28.png)
+
+![Screenshot from 2021-05-03 17-24-37.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/05/03-22-27-08-Screenshot%20from%202021-05-03%2017-24-37.png)
+
 ---
 
 ## <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/26-12-12-58-icons8-wired_network.png" title="" alt="icons8-wired_network.png" width="40">2.Cấu hình mạng
@@ -21,6 +27,8 @@ Một máy tính được kết nối tới mạng cần phải được thiết
 >   <img src="https://lh5.googleusercontent.com/fG-BULssU2BjjHpdtCNQ2CJMxp2LKr556uvdybQ7FK-XwSSLjfjuRakjMgRXNCsc3_L2fbgsxC7ZSsN3fQXu0m2GG1nWxKSSAxU89mUyLqHIbPdQzv5PdoJ0jdYN_Af9jSJ7T8i8" title="" alt="" width="332">
 
 Giải
+
+Sử dụng máy thật nên không làm câu này.
 
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/08-22-03-47-icons8-questions.png) **Câu 2.2**: Cầu hình kết nối `Ethernet` (*IP,net mask...*)
 > 
@@ -40,6 +48,26 @@ Giải
 
 Giải
 
+`Ethernet` đang sử dụng có device là `eno1` gõ lệnh : 
+
+```bash
+$ nano /etc/sysconfig/network-scripts/ifcfg-eno1
+```
+
+![Screenshot from 2021-05-03 17-36-52.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/05/03-22-30-54-Screenshot%20from%202021-05-03%2017-36-52.png)
+
+> 💡 Kiến thức thêm : 
+> 
+> - Tìm `IP` đang sử dụng ==> Sử dụng lệnh `curl ifconfig.me`
+>   
+>   <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/05/03-22-32-57-Screenshot%20from%202021-05-03%2017-40-18.png" title="" alt="Screenshot from 2021-05-03 17-40-18.png" width="297">
+> 
+> - Tìm `Default Gateway` đang sử dụng ==> Gõ lệnh `route -n`
+>   
+>   ![Screenshot from 2021-05-03 17-40-39.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/05/03-22-43-12-Screenshot%20from%202021-05-03%2017-40-39.png)
+
+
+
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/08-22-03-47-icons8-questions.png) Câu **2.3**: Để khởi động lại dịch vụ mạng, thực hiện lệnh:
 > 
 > ```shell
@@ -47,6 +75,8 @@ Giải
 > ```
 
 Giải
+
+![Screenshot from 2021-05-03 17-42-36.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/05/03-22-27-43-Screenshot%20from%202021-05-03%2017-42-36.png)
 
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/08-22-03-47-icons8-questions.png) **Câu 2.4**: Để kiểm tra kết nối mạng, sử dụng lệnh:
 > 
@@ -56,6 +86,10 @@ Giải
 > ```
 
 Giải
+
+<img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/05/03-23-03-34-Screenshot%20from%202021-05-03%2017-44-33.png" title="" alt="Screenshot from 2021-05-03 17-44-33.png" width="525">
+
+![Screenshot from 2021-05-03 17-48-46.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/05/03-23-03-37-Screenshot%20from%202021-05-03%2017-48-46.png)
 
 ---
 
@@ -67,9 +101,18 @@ Thực hiện lệnh `ifconfig -a` (*Chụp màn hình minh hoạ*![icons8screen
 
 Giải
 
+![Screenshot from 2021-05-03 18-37-12.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/05/03-23-04-09-Screenshot%20from%202021-05-03%2018-37-12.png)
+
+<img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/05/03-23-04-37-Screenshot%20from%202021-05-03%2018-37-32.png" title="" alt="Screenshot from 2021-05-03 18-37-32.png" width="632">
+
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/08-22-03-47-icons8-questions.png) **Câu 3.2**: Nối kết `eth0` đã gửi và nhận bao nhiêu gói tin ? 
 
 Giải
+Do máy cá nhân sử dụng `card wifi`  nên device là `wlp1s0`
+
+- `TX` (Transmit) : đã gửi đi `11.4MB` dữ liệu `packets`
+
+- `RX` (Receiver) : đã nhận `367.5MB` dữ liệu `packets`
 
 ---
 
@@ -97,6 +140,10 @@ Có thể chọn một thiếp lập `SSH` trong hai lựa chọn sau:
 
 Giải
 
+<img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/05/03-23-10-08-Screenshot%20from%202021-05-03%2018-44-45.png" title="" alt="Screenshot from 2021-05-03 18-44-45.png" width="442">
+
+![Screenshot from 2021-05-03 18-45-06.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/05/03-23-11-40-Screenshot%20from%202021-05-03%2018-45-06.png)
+
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/08-22-03-47-icons8-questions.png) **Câu 4.2** Cài đặt `SSH Server` trên **máy vật lý**
 > 
 > - Nếu sử dụng ![icons8-windows8.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/26-12-36-59-icons8-windows8.png) `Window 10` : Cài đặt [**PuTTY**](https://putty.org/), nhập các thông số và thực hiện **kết nối**
@@ -110,6 +157,10 @@ Giải
 >   ==> Sử dụng lệnh `ifconfig -a` để kiểm tra và quản sát.
 
 Giải
+
+Tài khoản đang sử dụng là `b19909935` và địa chỉ `server`
+
+> 
 
 ---
 
@@ -210,5 +261,3 @@ Giải
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/08-22-03-47-icons8-questions.png) **Câu 6.3**: **Trên máy vật lý**, mở trình duyệt `web` và truy cập vào địa chỉ `http://<Địa chỉ IP máy CentOS>/myweb` để kiểm chứng trang web vừa tạo.
 
 Giải
-
- 
