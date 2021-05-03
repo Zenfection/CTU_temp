@@ -72,7 +72,7 @@ $ nano /etc/sysconfig/network-scripts/ifcfg-eno1
 >   
 >   ![Screenshot from 2021-05-03 17-40-39.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/05/03-22-43-12-Screenshot%20from%202021-05-03%2017-40-39.png)
 
-<details>
+</details>
 
 > ![icons8questionspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/04/08-22-03-47-icons8-questions.png) Câu **2.3**: Để khởi động lại dịch vụ mạng, thực hiện lệnh:
 > 
