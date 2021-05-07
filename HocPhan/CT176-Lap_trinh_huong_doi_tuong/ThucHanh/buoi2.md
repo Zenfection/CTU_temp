@@ -118,5 +118,5 @@
 
 | ![05123526E Learningpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/05/07-11-21-11-05-12-35-26-E%20Learning.png) Giải |
 | ----------------------------------------------------------------------------------------------------------------------------------------- |
-|                                                                                                                                           |
-|                                                                                                                                           |
+| [PhanSo.java](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/SourceCode/Buoi2/BT_3/PhanSo.java)      |
+| [SDPhanSo.java](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/SourceCode/Buoi2/BT_3/SDPhanSo.java)  |
