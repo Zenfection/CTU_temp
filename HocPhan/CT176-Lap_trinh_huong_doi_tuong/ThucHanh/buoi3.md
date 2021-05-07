@@ -77,7 +77,7 @@ public class Gach{
                 int widthGach = Integer.parseInt(sc.nextLine());
                 System.out.print("Nhập giá bán : ");
                 long price = Long.parseLong(sc.nextLine());
-    
+
                 this.maso = id;
                 this.mau = color;
                 this.soluong = amount;
@@ -90,7 +90,7 @@ public class Gach{
             }
         }
     }
-    
+
     public void hienThiGach(){
         System.out.println("Mã số : " + this.maso);
         System.out.println("Màu : " + this.mau);
@@ -153,7 +153,6 @@ public class SDGach {
         sc.close();
     }
 }
-
 ```
 
 </details>
@@ -323,168 +322,7 @@ public class SDDoanThang {
 > ![icons8-hand_with_pen.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/05-23-26-35-icons8-hand_with_pen.png) Viết lớp `SDSinhVien` có chứa hàm `main()` gồm : 
 > 
 > - Tạo sinh viên `a`. Nhập thông tin sinh viên `a`. Đăng ký thêm cho sinh viên `a` 1 học phần là `LTHDT`. Hiển thị thông tin của `a`.
+> - Tạo một danh sách sinh viên, nhập thông tin cho danh sách trên
 > - Tìm các sinh viên bị cảnh cáo học vụ
 > - Tìm sinh viên có điểm trung bình cao nhất lớp.
 > - Hiển thị danh sách sinh viên theo thứ tự `Alphabet` của Tên
-
-<details>
-<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/05-12-35-26-E%20Learning.png"> Giải</b></summary>
-
-<br>
-
-```java
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
-import java.util.Scanner;
-
-public class SinhVien{
-    private String maSV;
-    private String hoTen;
-    private Date ngaySinh;
-    private int hpDangKy;
-    private String[] tenHPDangKy;
-    private String[] diemHP;
-    
-    public SinhVien(){}
-    public SinhVien(String maSV,String hoTen,Date ngaySinh,int hpDangKy,String[] tenHPDangKy,String[] diemHP){
-        this.maSV = maSV;
-        this.hoTen = hoTen;
-        this.ngaySinh = ngaySinh;
-        this.hpDangKy = hpDangKy;
-        this.tenHPDangKy = tenHPDangKy;
-        this.diemHP = diemHP;
-    }
-    //--Start : Getter/Setter --
-    public String[] getDiemHP() {return diemHP;}
-    public String getHoTen() {return hoTen;}
-    public int getHpDangKy() {return hpDangKy;}
-    public String getMaSV() {return maSV;}
-    public Date getNgaySinh() {return ngaySinh;}
-    public String[] getTenHPDangKy() {return tenHPDangKy;}
-
-    public void setDiemHP(String[] diemHP) {this.diemHP = diemHP;}
-    public void setHoTen(String hoTen) {this.hoTen = hoTen;}
-    public void setHpDangKy(int hpDangKy) {this.hpDangKy = hpDangKy;}
-    public void setMaSV(String maSV) {this.maSV = maSV;}
-    public void setNgaySinh(Date ngaySinh) {this.ngaySinh = ngaySinh;}
-    public void setTenHPDangKy(String[] tenHPDangKy) {this.tenHPDangKy = tenHPDangKy;}
-    //--End: Getter/Setter --
-
-    public void nhapSinhVien(){
-        Scanner sc = new Scanner(System.in);
-        boolean done = true;
-        while (done) {
-            try {
-                System.out.print("Nhập mã Sinh Viên : ");
-                String id = sc.nextLine();
-                System.out.print("Nhập họ tên : ");
-                String name = sc.nextLine();
-                System.out.print("Nhập ngày sinh (cách nhau bởi /) : ");
-                String d = sc.nextLine();
-                SimpleDateFormat dfm = new SimpleDateFormat("dd/MM/yyyy");
-                Date date = dfm.parse(d);
-                System.out.print("Số lượng học phần đăng ký : ");
-                int amountHP = Integer.parseInt(sc.nextLine());
-
-                String[] nameHP = new String[amountHP];
-                for (int i = 0; i < amountHP; i++) {
-                    System.out.print("Nhập tên học phần " + (i+1) +" : ");
-                    String temp = sc.nextLine();
-                    nameHP[i] = temp;
-                }
-
-                String[] scoreHP = new String[amountHP];
-                for (int i = 0; i < amountHP; i++) {
-                    System.out.print("Nhập điểm học phần " + nameHP[i] + " : ");
-                    String temp = sc.nextLine();
-                    scoreHP[i] = temp;
-                }
-
-                this.maSV = id;
-                this.hoTen = name;
-                this.ngaySinh = date;
-                this.hpDangKy = amountHP;
-                this.tenHPDangKy = nameHP;
-                this.diemHP = scoreHP;
-                done = false;
-            } catch (Exception e) {
-                System.out.println("Sai định dạng, mời bạn nhập lại");
-            }
-        }
-    }
-
-    public void inThongTinSV(){
-        System.out.println("MSSV : " + this.maSV);
-        System.out.println("Họ và Tên : " + this.hoTen);
-        SimpleDateFormat dfm = new SimpleDateFormat("dd/MM/yyyy");
-        System.out.println("Ngày sinh : " + dfm.format(this.ngaySinh));
-        System.out.println("Đã đăng ký " + this.hpDangKy + " học phần gồm : ");
-        for (int i = 0; i < this.hpDangKy; i++) {
-            System.out.println(this.tenHPDangKy[i] + " ==> điểm  " + this.diemHP[i]);
-        }
-    }
-
-    // public float diemTB(){
-        
-    // }
-
-    public void dangkyHP(){
-        Scanner sc = new Scanner(System.in);
-        List<String> nameHP = new ArrayList<String>(Arrays.asList(this.tenHPDangKy));
-        List<String> scoreHP = new ArrayList<String>(Arrays.asList(this.diemHP));
-        boolean done = true;
-        while (done) {
-            try {
-                System.out.print("Nhập tên học phần cần thêm : ");
-                String tenHP = sc.nextLine();
-                System.out.print("Nhập điểm học phần : ");
-                String diem = sc.nextLine();
-
-                nameHP.add(tenHP);
-                scoreHP.add(diem);
-
-                this.tenHPDangKy = nameHP.toArray(new String[0]);
-                this.diemHP = scoreHP.toArray(new String[0]);
-                this.hpDangKy++;
-                done = false;
-            } catch (Exception e) {
-                System.out.println("Sai định dạng");
-            }
-        }
-    }
-
-    public void xoaHP(){
-        Scanner sc = new Scanner(System.in);
-        List<String> nameHP = new ArrayList<String>(Arrays.asList(this.tenHPDangKy));
-        List<String> scoreHP = new ArrayList<String>(Arrays.asList(this.diemHP));
-        boolean done = true;
-        while (done) {
-            try {
-                System.out.print("Nhập thứ tự học phần muốn xoá (bắt đầu từ 0) : ");
-                int n = Integer.parseInt(sc.nextLine());
-                nameHP.remove(n);
-                scoreHP.remove(n);
-
-                this.tenHPDangKy = nameHP.toArray(new String[0]);
-                this.diemHP = scoreHP.toArray(new String[0]);
-                this.hpDangKy--;
-                done = false;
-            } catch (Exception e) {
-                System.out.println("Sai định dạng, mời bạn nhập lại");
-            }
-        }
-    }
-}
-```
-
-```java
-
-```
-
-</details>
-
-| 🔙  [Bài thực hành 2](https://github.com/Zenfection/HPCTU/blob/main/LTHDT/buoi2.md) | [Bài thực hành 4](https://github.com/Zenfection/HPCTU/blob/main/LTHDT/buoi4.md) 🔜 |
-| ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |

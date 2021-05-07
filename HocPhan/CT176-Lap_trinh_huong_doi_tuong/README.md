@@ -38,10 +38,10 @@
 
 ### <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/20-16-32-35-icons8-hologram.png" title="" alt="icons8-hologram.png" width="35">Thực hành
 
-| Buổi thực hành              | Câu hỏi và đáp án                                                                                                     |
-| --------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| 1. Làm quen `Java OOP`      | [Nhấn vào đây](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/ThucHanh/buoi1.md) |
-| 2. Lập trình `OOP` căn bản  | [Nhấn vào đây](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/ThucHanh/buoi2.md) |
-| 3. Lập trình `OOP` nâng cao | [Nhấn vào đây](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/ThucHanh/buoi3.md) |
-| 4. Thừa kế `OOP`            | [Nhấn vào đây](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/ThucHanh/buoi4.md) |
-| 5. Quản lí sinh viên `OOP`  | [Nhấn vào đây](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/ThucHanh/buoi5.md) |
+| Buổi thực hành              | Câu hỏi                                                                                                               | Source Code |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 1. Làm quen `Java OOP`      | [Nhấn vào đây](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/ThucHanh/buoi1.md) |             |
+| 2. Lập trình `OOP` căn bản  | [Nhấn vào đây](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/ThucHanh/buoi2.md) |             |
+| 3. Lập trình `OOP` nâng cao | [Nhấn vào đây](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/ThucHanh/buoi3.md) |             |
+| 4. Thừa kế `OOP`            | [Nhấn vào đây](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/ThucHanh/buoi4.md) |             |
+| 5. Quản lí sinh viên `OOP`  | [Nhấn vào đây](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/ThucHanh/buoi5.md) |             |
