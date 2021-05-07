@@ -31,131 +31,10 @@
 > - Hiển thị ra màn hình loại gạch có chi phí thấp nhất (*giá tiền/đơn vị diện tích*)
 > - Tính ra chi phí mua gạch khi ta lót 1 diện tích có chiều ngang là `5m` và chiều dài là `20m`, khi ta dùng từng loại gạch trong danh sách trên.
 
-<details>
-<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/05-12-35-26-E%20Learning.png"> Giải</b></summary>
-
-<br>
-
-```java
-import java.util.Scanner;
-
-public class Gach{
-    private String maso;
-    private String mau;
-    private int soluong;
-    private int chieudaiGach;
-    private int chieurongGach;
-    private long giaBan;
-
-    public Gach(){}
-    public Gach(String maso,String mau,int soluong,int chieudaiGach,int chieurongGach,long giaBan){
-        this.maso = maso;
-        this.mau = mau;
-        this.soluong = soluong;
-        this.chieudaiGach = chieudaiGach;
-        this.chieurongGach = chieurongGach;
-        this.giaBan = giaBan;
-    }
-
-    public long getGiaBan() {
-        return giaBan;
-    }
-    public void nhapGach(){
-        Scanner sc = new Scanner(System.in);
-        boolean done = true;
-        while (done) {
-            try {
-                System.out.print("Nhập mã số : ");
-                String id = sc.nextLine();
-                System.out.print("Nhập màu : ");
-                String color = sc.nextLine();
-                System.out.print("Nhập số lượng : ");
-                int amount = Integer.parseInt(sc.nextLine());
-                System.out.print("Nhập chiều dài Gạch : ");
-                int longGach = Integer.parseInt(sc.nextLine());
-                System.out.print("Nhập chiều rộng Gạch: ");
-                int widthGach = Integer.parseInt(sc.nextLine());
-                System.out.print("Nhập giá bán : ");
-                long price = Long.parseLong(sc.nextLine());
-
-                this.maso = id;
-                this.mau = color;
-                this.soluong = amount;
-                this.chieudaiGach = longGach;
-                this.chieurongGach = widthGach;
-                this.giaBan = price;
-                done = false;
-            } catch (Exception e) {
-                System.out.println("Nhập sai định dạng, mời nhập lại");
-            }
-        }
-    }
-
-    public void hienThiGach(){
-        System.out.println("Mã số : " + this.maso);
-        System.out.println("Màu : " + this.mau);
-        System.out.println("Số lượng : " + this.soluong + " cái");
-        System.out.println("Chiều dài : " + this.chieudaiGach + "cm");
-        System.out.println("Chiều rộng : " + this.chieurongGach + "cm");
-        System.out.println("Giá bán : " + this.giaBan + "đ");
-    }
-
-    public float giaBanLe(){
-        return (float) (this.giaBan * 120) / 100;
-    }
-
-    public float dienTichNen(){
-        return (float) this.chieudaiGach * this.chieurongGach * this.soluong;
-    }
-
-    public int soLuongHop(int D,int N){
-        int vienDai = (int) Math.ceil((double) D / this.chieudaiGach);
-        int vienRong = (int) Math.ceil((double) N / this.chieurongGach);
-
-        return (int) Math.ceil((double) vienDai * vienRong / this.soluong);
-    }
-}
-```
-
-```java
-import java.util.ArrayList;
-import java.util.Scanner;
-
-public class SDGach {
-    public static void main(String[] args) throws Exception {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Nhập n = ");
-        int n = sc.nextInt();
-        ArrayList<Gach> dsGach = new ArrayList<>();
-        for (int i = 0; i < n; i++) {
-            Gach g = new Gach();
-            g.nhapGach();
-            dsGach.add(g);
-        }
-
-        for (Gach gach : dsGach) {
-            System.out.print("\n");
-            gach.hienThiGach();
-        }
-
-        int min = 0;
-        for (int i = 1; i < dsGach.size(); i++) {
-            float price1 = dsGach.get(min).getGiaBan() / dsGach.get(min).dienTichNen();
-            float price2 = dsGach.get(i).getGiaBan() / dsGach.get(i).dienTichNen();
-            if(price1 > price2){
-                min = i;
-            }
-        }
-        System.out.println("--- Gạch rẻ nhất là ---");
-        dsGach.get(min).hienThiGach();
-
-        // thiếu câu 4
-        sc.close();
-    }
-}
-```
-
-</details>
+| ![05123526E Learningpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/05/07-11-21-11-05-12-35-26-E%20Learning.png) Giải |
+| ----------------------------------------------------------------------------------------------------------------------------------------- |
+| [Gach.java](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/SourceCode/Buoi3/BT_1/Gach.java)          |
+| [SDGach.java](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/SourceCode/Buoi3/BT_1/SDGach.java)      |
 
 ---
 
@@ -186,111 +65,10 @@ public class SDGach {
 > - Tạo một đoạn thẳng bất kỳ `CD`. Nhập giá trị cho đoạn `CD` đó.
 > - Hiển thị ra màn hình độ dài `CD`, góc `CD` với trục hoành
 
-<details>
-<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/05-12-35-26-E%20Learning.png"> Giải</b></summary>
-
-<br>
-
-```java
-public class Diem {
-    private int x;
-    private int y;
-
-    public Diem(){}
-    public Diem(int x,int y){
-        this.x = x;
-        this.y = y;
-    }
-
-    public int getX() {
-        return x;
-    }
-    public int getY() {
-        return y;
-    }
-}
-```
-
-```java
-import java.util.Scanner;
-
-public class DoanThang{
-    private int d1;
-    private int d2;
-
-    public DoanThang(){}
-    public DoanThang(Diem a,Diem b){
-        //vector(AB) = (xB - xA; yB-yA)
-        this.d1 = b.getX() - a.getX();
-        this.d2 = b.getY() - a.getY();
-    }
-    public DoanThang(int ax,int ay,int bx,int by){
-        // vector(AB) = (xB - xA; yB-yA)
-        this.d1 = bx - ax;
-        this.d2 = by - ay;
-    }
-
-    public void nhapDoanThang(){
-        Scanner sc= new Scanner(System.in);
-        boolean done = true;
-        while (done) {
-            try {
-                System.out.print("Nhập toạ độ điểm 1 : ");
-                int diem1 = Integer.parseInt(sc.nextLine());
-                System.out.print("Nhập toạ độ điểm 1 : ");
-                int diem2 = Integer.parseInt(sc.nextLine());
-
-                this.d1 = diem1;
-                this.d2 = diem2;
-                done = false;
-            } catch (Exception e) {
-                System.out.println("Nhập sai định dạng, mời nhập lại");
-            }
-        }
-    }
-
-    public void hienThiDoanThang(){
-        System.out.println("(" + this.d1 + "," + this.d2 + ")");
-    }
-
-    public void tinhTien(int dx,int dy){
-        this.d1 += dx;
-        this.d2 += dy;
-    }
-
-    public float doDaiDoanThang(){
-        // AB(x,y) = sqrt(x^2 + y^2)
-        return (float) Math.sqrt(Math.pow(this.d1, 2) + Math.pow(this.d2, 2));
-    }
-    public double gocDoanThang(){
-        double OA = Math.abs(this.d1);
-        double OB = Math.abs(this.d2);
-        double tanA = OB/OA;
-        double arctanA = Math.atan(tanA);
-        return 180 - Math.toDegrees(arctanA);
-    }    
-}
-```
-
-```java
-public class SDDoanThang {
-    public static void main(String[] args) throws Exception {
-        Diem A = new Diem(3,0);
-        Diem B = new Diem(0, 3);
-
-        DoanThang AB = new DoanThang(A, B);
-        AB.hienThiDoanThang();
-        AB.tinhTien(5, 3);
-
-        DoanThang CD = new DoanThang();
-        CD.nhapDoanThang();
-        System.out.println("Độ dài đoạn CD = " + CD.doDaiDoanThang());
-        System.out.println("Góc CD với trục hoành = " + CD.gocDoanThang() + " độ");
-    }
-}
-```
-
-</details>
+| ![05123526E Learningpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/05/07-11-21-11-05-12-35-26-E%20Learning.png) Giải      |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| [DoanThang.java](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/SourceCode/Buoi3/BT_2/DoanThang.java)     |
+| [SDDoanThang.java](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/SourceCode/Buoi3/BT_2/SDDoanThang.java) |
 
 ---
 
@@ -326,3 +104,8 @@ public class SDDoanThang {
 > - Tìm các sinh viên bị cảnh cáo học vụ
 > - Tìm sinh viên có điểm trung bình cao nhất lớp.
 > - Hiển thị danh sách sinh viên theo thứ tự `Alphabet` của Tên
+
+| ![05123526E Learningpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/05/07-11-21-11-05-12-35-26-E%20Learning.png) Giải    |
+| -------------------------------------------------------------------------------------------------------------------------------------------- |
+| [SinhVien.java](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/SourceCode/Buoi3/BT_3/SinhVien.java)     |
+| [SDSinhVien.java](https://github.com/Zenfection/CTU/blob/main/HocPhan/CT176-Lap_trinh_huong_doi_tuong/SourceCode/Buoi3/BT_3/SDSinhVien.java) |
