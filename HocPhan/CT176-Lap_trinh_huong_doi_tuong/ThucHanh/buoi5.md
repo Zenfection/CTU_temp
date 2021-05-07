@@ -7,6 +7,3 @@
 > Sau đó, sinh viên viết một lớp có chứa hàm `main()` để thực thi một chương trình quản lý hoá đơn hàng hàng trên.
 
 Giải
-
-| 🔙 [Bài thực hành 4](https://github.com/Zenfection/HPCTU/blob/main/LTHDT/buoi4.md) | [Mục lục](https://github.com/Zenfection/HPCTU) 🏠 |
-| ------------------------------------------------- | -------------------------------------------------------------------------------------- |
