@@ -20,6 +20,7 @@ public class SDSinhVien {
             temp.nhapSinhVien();
             dsSinhVien.add(temp);
         }
+
         // + Tìm các sinh viên bị cảnh báo học vụ.
         for (SinhVien sv : dsSinhVien) {
             float diemTB = sv.diemTB();
@@ -29,13 +30,14 @@ public class SDSinhVien {
                 sv.inThongTinSV();
             }
         }
+
         // + Tìm sinh viên có điểm trung bình cao nhất lớp.
         float maxDiem = dsSinhVien.get(0).diemTB();
         int maxPos = 0;
         int lengthSV = dsSinhVien.size();
         for (int i = 1; i < lengthSV; i++) {
-            float temp_diemTB = dsSinhVien.get(i).diemTB();
-            if (maxDiem < temp_diemTB) {
+            float temp = dsSinhVien.get(i).diemTB();
+            if (maxDiem < temp) {
                 maxPos = i;
             }
         }
@@ -54,7 +56,5 @@ public class SDSinhVien {
                 }
             }
         }
-
     }
-
 }
