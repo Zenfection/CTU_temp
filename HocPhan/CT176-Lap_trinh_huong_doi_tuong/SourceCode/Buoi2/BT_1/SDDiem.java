@@ -1,4 +1,3 @@
-package BT_1;
 public class SDDiem {
     public static void main(String[] args) {
         //Tạo A có giá trị 3,4 và in ra màn hình

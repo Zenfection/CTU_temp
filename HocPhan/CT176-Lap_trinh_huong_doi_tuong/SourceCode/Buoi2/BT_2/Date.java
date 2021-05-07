@@ -1,5 +1,3 @@
-package BT_2;
-
 import java.time.Year;
 import java.util.Arrays;
 import java.util.Scanner;
