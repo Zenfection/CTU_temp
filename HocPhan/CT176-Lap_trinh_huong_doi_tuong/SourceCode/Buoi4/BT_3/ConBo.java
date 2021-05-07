@@ -1,5 +1,3 @@
-package use.buoi4.nongtrai;
-
 public class ConBo extends ConVat{
 	 @Override
 	 public void tiengKeu() {

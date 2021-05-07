@@ -1,10 +1,9 @@
-package use.buoi4.nongtrai;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class SDConVat {
 	public static class SDDongVat{
+		//hàm nhập n con vật trong danh sách
 	    public static void nhapdsConVat(int n,ArrayList<ConVat> dsCVat){
 	        Scanner sc = new Scanner(System.in);
 	        int i = 1;
@@ -37,6 +36,7 @@ public class SDConVat {
 	        }
 	    }
 	public static void main(String[] args) {
+		//Tạo ra n con vật bất kỳ gồm 3 loại trên. Nhập thông tin cho các con vật.
 		Scanner sc = new Scanner(System.in);
         ArrayList<ConVat> dsConVat = new ArrayList<ConVat>();
         System.out.print("Nhập số con vật : ");
@@ -44,6 +44,7 @@ public class SDConVat {
     
         nhapdsConVat(n, dsConVat);
 
+        //cho n con vật đó kêu
         for (ConVat cVat : dsConVat) {
             cVat.tiengKeu();
         }

@@ -1,5 +1,3 @@
-package use.buoi4.nongtrai;
-
 import java.util.Scanner;
 
 public abstract class ConVat {
